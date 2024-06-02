@@ -1,0 +1,23 @@
+Circuit: * W:\iMX6ULL-Demo-Board\ltspice\boost\boost.asc
+
+WARNING: Less than two connections to node nc_01.  This node is used by r7.
+Direct Newton iteration for .op point succeeded.
+
+Date: Sun Mar  3 10:57:55 2024
+Total elapsed time: 2.419 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 997963
+traniter = 997947
+tranpoints = 337239
+accept = 238978
+rejected = 98261
+matrix size = 41
+fillins = 0
+solver = Normal
+Avg thread counts: 1.0/1.0/1.0/1.0
+Matrix Compiler1: 2.05 KB object code size  0.6/0.4/[0.2]
+Matrix Compiler2: 2.88 KB object code size  0.3/0.4/[0.2]
+

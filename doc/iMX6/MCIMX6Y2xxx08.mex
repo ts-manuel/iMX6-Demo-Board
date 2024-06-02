@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding= "UTF-8" ?>
+<configuration name="MCIMX6Y2xxx08" xsi:schemaLocation="http://mcuxpresso.nxp.com/XSD/mex_configuration_15 http://mcuxpresso.nxp.com/XSD/mex_configuration_15.xsd" uuid="08117930-ebd8-4c38-bee3-be2d39d106f5" version="15" xmlns="http://mcuxpresso.nxp.com/XSD/mex_configuration_15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <common>
+      <processor>MCIMX6Y2xxx08</processor>
+      <package>MCIMX6Y2CVM08</package>
+      <mcu_data>i_mx_2_0</mcu_data>
+      <cores selected="ca7">
+         <core name="Cortex-A7" id="ca7" description="A7 core"/>
+      </cores>
+      <description></description>
+   </common>
+   <preferences>
+      <validate_boot_init_only>true</validate_boot_init_only>
+      <generate_extended_information>false</generate_extended_information>
+      <generate_code_modified_registers_only>false</generate_code_modified_registers_only>
+      <update_include_paths>true</update_include_paths>
+      <generate_registers_defines>false</generate_registers_defines>
+   </preferences>
+   <tools>
+      <pins name="Pins" version="15.0" enabled="true" update_project_code="true">
+         <pins_profile>
+            <processor_version>13.0.0</processor_version>
+            <power_domains>
+               <power_domain name="NVCC_CSI" value="1.8"/>
+               <power_domain name="NVCC_DRAM" value="1.35"/>
+               <power_domain name="NVCC_ENET" value="3.3"/>
+               <power_domain name="NVCC_GPIO" value="3.3"/>
+               <power_domain name="NVCC_LCD" value="3.3"/>
+               <power_domain name="NVCC_NAND" value="1.8"/>
+               <power_domain name="NVCC_SD" value="3.3"/>
+               <power_domain name="NVCC_UART" value="3.3"/>
+               <power_domain name="USB_VBUS" value="5.0"/>
+               <power_domain name="VDD_HIGH_CAP" value="2.5"/>
+               <power_domain name="VDD_HIGH_IN" value="3.3"/>
+               <power_domain name="VDD_SNVS_IN" value="3.3"/>
+               <power_domain name="VDD_USB_CAP" value="3.0"/>
+            </power_domains>
+         </pins_profile>
+         <functions_list>
+            <function name="BOARD_InitPins">
+               <description>Configures pin routing and optionally pin electrical features.</description>
+               <options>
+                  <callFromInitBoot>false</callFromInitBoot>
+                  <coreID>ca7</coreID>
+               </options>
+               <dependencies/>
+               <pins/>
+            </function>
+            <function name="ENET1">
+               <description>Configures pin routing and optionally pin electrical features.</description>
+               <options>
+                  <callFromInitBoot>true</callFromInitBoot>
+                  <coreID>ca7</coreID>
+               </options>
+               <dependencies/>
+               <pins>
+                  <pin peripheral="ENET1" signal="enet_rdata, 0" pin_num="F16" pin_signal="ENET1_RX_DATA0"/>
+                  <pin peripheral="ENET1" signal="enet_rdata, 1" pin_num="E17" pin_signal="ENET1_RX_DATA1"/>
+                  <pin peripheral="ENET1" signal="enet_rx_er" pin_num="D15" pin_signal="ENET1_RX_ER"/>
+                  <pin peripheral="ENET1" signal="enet_tdata, 0" pin_num="E15" pin_signal="ENET1_TX_DATA0"/>
+                  <pin peripheral="ENET1" signal="enet_tdata, 1" pin_num="E14" pin_signal="ENET1_TX_DATA1"/>
+                  <pin peripheral="ENET1" signal="enet_tx_clk" pin_num="F14" pin_signal="ENET1_TX_CLK"/>
+                  <pin peripheral="ENET1" signal="enet_tx_en" pin_num="F15" pin_signal="ENET1_TX_EN"/>
+                  <pin peripheral="ENET1" signal="enet_mdc" pin_num="C16" pin_signal="ENET2_RX_DATA1"/>
+                  <pin peripheral="ENET1" signal="enet_mdio" pin_num="C17" pin_signal="ENET2_RX_DATA0"/>
+                  <pin peripheral="ENET1" signal="enet_rx_en" pin_num="E16" pin_signal="ENET1_RX_EN"/>
+                  <pin peripheral="GPIO1" signal="gpio_io, 8" pin_num="N17" pin_signal="GPIO1_IO08"/>
+               </pins>
+            </function>
+            <function name="QSPI">
+               <description>Configures pin routing and optionally pin electrical features.</description>
+               <options>
+                  <callFromInitBoot>true</callFromInitBoot>
+                  <coreID>ca7</coreID>
+               </options>
+               <dependencies/>
+               <pins>
+                  <pin peripheral="QSPI" signal="qspi_a_data, 0" pin_num="A3" pin_signal="NAND_READY_B"/>
+                  <pin peripheral="QSPI" signal="qspi_a_data, 1" pin_num="C5" pin_signal="NAND_CE0_B"/>
+                  <pin peripheral="QSPI" signal="qspi_a_data, 2" pin_num="B5" pin_signal="NAND_CE1_B"/>
+                  <pin peripheral="QSPI" signal="qspi_a_data, 3" pin_num="A4" pin_signal="NAND_CLE"/>
+                  <pin peripheral="QSPI" signal="qspi_a_sclk" pin_num="D5" pin_signal="NAND_WP_B"/>
+                  <pin peripheral="QSPI" signal="qspi_a_ss0_b" pin_num="E6" pin_signal="NAND_DQS"/>
+               </pins>
+            </function>
+            <function name="eMMC">
+               <description>Configures pin routing and optionally pin electrical features.</description>
+               <options>
+                  <callFromInitBoot>true</callFromInitBoot>
+                  <coreID>ca7</coreID>
+               </options>
+               <dependencies/>
+               <pins>
+                  <pin peripheral="uSDHC2" signal="usdhc_clk" pin_num="D8" pin_signal="NAND_RE_B"/>
+                  <pin peripheral="uSDHC2" signal="usdhc_cmd" pin_num="C8" pin_signal="NAND_WE_B"/>
+                  <pin peripheral="uSDHC2" signal="usdhc_data, 0" pin_num="D7" pin_signal="NAND_DATA00"/>
+                  <pin peripheral="uSDHC2" signal="usdhc_data, 1" pin_num="B7" pin_signal="NAND_DATA01"/>
+                  <pin peripheral="uSDHC2" signal="usdhc_data, 2" pin_num="A7" pin_signal="NAND_DATA02"/>
+                  <pin peripheral="uSDHC2" signal="usdhc_data, 3" pin_num="D6" pin_signal="NAND_DATA03"/>
+                  <pin peripheral="uSDHC2" signal="usdhc_data, 4" pin_num="C6" pin_signal="NAND_DATA04"/>
+                  <pin peripheral="uSDHC2" signal="usdhc_data, 5" pin_num="B6" pin_signal="NAND_DATA05"/>
+                  <pin peripheral="uSDHC2" signal="usdhc_data, 6" pin_num="A6" pin_signal="NAND_DATA06"/>
+                  <pin peripheral="uSDHC2" signal="usdhc_data, 7" pin_num="A5" pin_signal="NAND_DATA07"/>
+                  <pin peripheral="uSDHC2" signal="usdhc_reset_b" pin_num="B4" pin_signal="NAND_ALE"/>
+               </pins>
+            </function>
+            <function name="SD">
+               <description>Configures pin routing and optionally pin electrical features.</description>
+               <options>
+                  <callFromInitBoot>true</callFromInitBoot>
+                  <coreID>ca7</coreID>
+               </options>
+               <dependencies/>
+               <pins>
+                  <pin peripheral="uSDHC1" signal="usdhc_clk" pin_num="C1" pin_signal="SD1_CLK"/>
+                  <pin peripheral="uSDHC1" signal="usdhc_data, 0" pin_num="B3" pin_signal="SD1_DATA0"/>
+                  <pin peripheral="uSDHC1" signal="usdhc_data, 1" pin_num="B2" pin_signal="SD1_DATA1"/>
+                  <pin peripheral="uSDHC1" signal="usdhc_data, 2" pin_num="B1" pin_signal="SD1_DATA2"/>
+                  <pin peripheral="uSDHC1" signal="usdhc_data, 3" pin_num="A2" pin_signal="SD1_DATA3"/>
+                  <pin peripheral="uSDHC1" signal="usdhc_cmd" pin_num="C2" pin_signal="SD1_CMD"/>
+                  <pin peripheral="uSDHC1" signal="usdhc_vselect" pin_num="M17" pin_signal="GPIO1_IO05"/>
+                  <pin peripheral="uSDHC1" signal="usdhc_cd_b" pin_num="J14" pin_signal="UART1_RTS_B"/>
+               </pins>
+            </function>
+            <function name="LCD">
+               <description>Configures pin routing and optionally pin electrical features.</description>
+               <options>
+                  <callFromInitBoot>true</callFromInitBoot>
+                  <coreID>ca7</coreID>
+               </options>
+               <dependencies/>
+               <pins>
+                  <pin peripheral="LCDIF" signal="lcdif_data, 0" pin_num="B9" pin_signal="LCD_DATA00"/>
+                  <pin peripheral="LCDIF" signal="lcdif_data, 1" pin_num="A9" pin_signal="LCD_DATA01"/>
+                  <pin peripheral="LCDIF" signal="lcdif_data, 2" pin_num="E10" pin_signal="LCD_DATA02"/>
+                  <pin peripheral="LCDIF" signal="lcdif_data, 3" pin_num="D10" pin_signal="LCD_DATA03"/>
+                  <pin peripheral="LCDIF" signal="lcdif_data, 4" pin_num="C10" pin_signal="LCD_DATA04"/>
+                  <pin peripheral="LCDIF" signal="lcdif_data, 5" pin_num="B10" pin_signal="LCD_DATA05"/>
+                  <pin peripheral="LCDIF" signal="lcdif_data, 6" pin_num="A10" pin_signal="LCD_DATA06"/>
+                  <pin peripheral="LCDIF" signal="lcdif_data, 7" pin_num="D11" pin_signal="LCD_DATA07"/>
+                  <pin peripheral="LCDIF" signal="lcdif_data, 8" pin_num="B11" pin_signal="LCD_DATA08"/>
+                  <pin peripheral="LCDIF" signal="lcdif_data, 9" pin_num="A11" pin_signal="LCD_DATA09"/>
+                  <pin peripheral="LCDIF" signal="lcdif_data, 10" pin_num="E12" pin_signal="LCD_DATA10"/>
+                  <pin peripheral="LCDIF" signal="lcdif_data, 11" pin_num="D12" pin_signal="LCD_DATA11"/>
+                  <pin peripheral="LCDIF" signal="lcdif_data, 12" pin_num="C12" pin_signal="LCD_DATA12"/>
+                  <pin peripheral="LCDIF" signal="lcdif_data, 13" pin_num="B12" pin_signal="LCD_DATA13"/>
+                  <pin peripheral="LCDIF" signal="lcdif_data, 14" pin_num="A12" pin_signal="LCD_DATA14"/>
+                  <pin peripheral="LCDIF" signal="lcdif_data, 15" pin_num="D13" pin_signal="LCD_DATA15"/>
+                  <pin peripheral="LCDIF" signal="lcdif_data, 17" pin_num="B13" pin_signal="LCD_DATA17"/>
+                  <pin peripheral="LCDIF" signal="lcdif_data, 16" pin_num="C13" pin_signal="LCD_DATA16"/>
+                  <pin peripheral="LCDIF" signal="lcdif_data, 20" pin_num="C14" pin_signal="LCD_DATA20"/>
+                  <pin peripheral="LCDIF" signal="lcdif_data, 19" pin_num="D14" pin_signal="LCD_DATA19"/>
+                  <pin peripheral="LCDIF" signal="lcdif_data, 18" pin_num="A13" pin_signal="LCD_DATA18"/>
+                  <pin peripheral="LCDIF" signal="lcdif_data, 23" pin_num="B16" pin_signal="LCD_DATA23"/>
+                  <pin peripheral="LCDIF" signal="lcdif_data, 22" pin_num="A14" pin_signal="LCD_DATA22"/>
+                  <pin peripheral="LCDIF" signal="lcdif_data, 21" pin_num="B14" pin_signal="LCD_DATA21"/>
+                  <pin peripheral="LCDIF" signal="lcdif_enable" pin_num="B8" pin_signal="LCD_ENABLE"/>
+                  <pin peripheral="LCDIF" signal="lcdif_hsync" pin_num="D9" pin_signal="LCD_HSYNC"/>
+                  <pin peripheral="LCDIF" signal="lcdif_vsync" pin_num="C9" pin_signal="LCD_VSYNC"/>
+                  <pin peripheral="LCDIF" signal="lcdif_reset" pin_num="E9" pin_signal="LCD_RESET"/>
+                  <pin peripheral="LCDIF" signal="lcdif_clk" pin_num="A8" pin_signal="LCD_CLK"/>
+               </pins>
+            </function>
+            <function name="I2S">
+               <description>Configures pin routing and optionally pin electrical features.</description>
+               <options>
+                  <callFromInitBoot>true</callFromInitBoot>
+                  <coreID>ca7</coreID>
+               </options>
+               <dependencies/>
+               <pins>
+                  <pin peripheral="SAI1" signal="sai_mclk" pin_num="E3" pin_signal="CSI_DATA01"/>
+                  <pin peripheral="SAI1" signal="sai_rx_data" pin_num="D2" pin_signal="CSI_DATA06"/>
+                  <pin peripheral="SAI1" signal="sai_tx_bclk" pin_num="D3" pin_signal="CSI_DATA05"/>
+                  <pin peripheral="SAI1" signal="sai_tx_data" pin_num="D1" pin_signal="CSI_DATA07"/>
+                  <pin peripheral="SAI1" signal="sai_tx_sync" pin_num="D4" pin_signal="CSI_DATA04"/>
+               </pins>
+            </function>
+            <function name="I2C1">
+               <description>Configures pin routing and optionally pin electrical features.</description>
+               <options>
+                  <callFromInitBoot>true</callFromInitBoot>
+                  <coreID>ca7</coreID>
+               </options>
+               <dependencies/>
+               <pins>
+                  <pin peripheral="I2C1" signal="i2c_scl" pin_num="E5" pin_signal="CSI_PIXCLK"/>
+                  <pin peripheral="I2C1" signal="i2c_sda" pin_num="F5" pin_signal="CSI_MCLK"/>
+               </pins>
+            </function>
+            <function name="UART1">
+               <description>Configures pin routing and optionally pin electrical features.</description>
+               <options>
+                  <callFromInitBoot>true</callFromInitBoot>
+                  <coreID>ca7</coreID>
+               </options>
+               <dependencies/>
+               <pins>
+                  <pin peripheral="UART1" signal="uart_rx" pin_num="K16" pin_signal="UART1_RX_DATA"/>
+                  <pin peripheral="UART1" signal="uart_tx" pin_num="K14" pin_signal="UART1_TX_DATA"/>
+               </pins>
+            </function>
+            <function name="JTAG">
+               <description>Configures pin routing and optionally pin electrical features.</description>
+               <options>
+                  <callFromInitBoot>true</callFromInitBoot>
+                  <coreID>ca7</coreID>
+               </options>
+               <dependencies/>
+               <pins>
+                  <pin peripheral="SJC" signal="sjc_trstb" pin_num="N14" pin_signal="JTAG_TRST_B"/>
+                  <pin peripheral="SJC" signal="sjc_tdi" pin_num="N16" pin_signal="JTAG_TDI"/>
+                  <pin peripheral="SJC" signal="sjc_tms" pin_num="P14" pin_signal="JTAG_TMS"/>
+                  <pin peripheral="SJC" signal="sjc_tck" pin_num="M14" pin_signal="JTAG_TCK"/>
+                  <pin peripheral="SJC" signal="sjc_tdo" pin_num="N15" pin_signal="JTAG_TDO"/>
+               </pins>
+            </function>
+            <function name="USB1">
+               <description>Configures pin routing and optionally pin electrical features.</description>
+               <options>
+                  <callFromInitBoot>true</callFromInitBoot>
+                  <coreID>ca7</coreID>
+               </options>
+               <dependencies/>
+               <pins/>
+            </function>
+            <function name="USB2">
+               <description>Configures pin routing and optionally pin electrical features.</description>
+               <options>
+                  <callFromInitBoot>true</callFromInitBoot>
+                  <coreID>ca7</coreID>
+               </options>
+               <dependencies/>
+               <pins/>
+            </function>
+            <function name="TOUCH">
+               <description>Configures pin routing and optionally pin electrical features.</description>
+               <options>
+                  <callFromInitBoot>true</callFromInitBoot>
+                  <coreID>ca7</coreID>
+               </options>
+               <dependencies/>
+               <pins>
+                  <pin peripheral="ADC1" signal="adc_in1" pin_num="L15" pin_signal="GPIO1_IO01"/>
+                  <pin peripheral="ADC1" signal="adc_in2" pin_num="L14" pin_signal="GPIO1_IO02"/>
+                  <pin peripheral="ADC1" signal="adc_in3" pin_num="L17" pin_signal="GPIO1_IO03"/>
+                  <pin peripheral="ADC1" signal="adc_in4" pin_num="M16" pin_signal="GPIO1_IO04"/>
+               </pins>
+            </function>
+            <function name="LCD_BK_PWM">
+               <description>Configures pin routing and optionally pin electrical features.</description>
+               <options>
+                  <callFromInitBoot>true</callFromInitBoot>
+                  <coreID>ca7</coreID>
+               </options>
+               <dependencies/>
+               <pins>
+                  <pin peripheral="PWM7" signal="pwm_out" pin_num="F2" pin_signal="CSI_VSYNC"/>
+               </pins>
+            </function>
+            <function name="LCD_SPI">
+               <description>Configures pin routing and optionally pin electrical features.</description>
+               <options>
+                  <callFromInitBoot>true</callFromInitBoot>
+                  <coreID>ca7</coreID>
+               </options>
+               <dependencies/>
+               <pins>
+                  <pin peripheral="ECSPI4" signal="ecspi_sclk" pin_num="A16" pin_signal="ENET2_TX_DATA1"/>
+                  <pin peripheral="ECSPI4" signal="ecspi_mosi" pin_num="B15" pin_signal="ENET2_TX_EN"/>
+                  <pin peripheral="ECSPI4" signal="ecspi_ss, 0" pin_num="D16" pin_signal="ENET2_RX_ER"/>
+               </pins>
+            </function>
+            <function name="LEDS">
+               <description>Configures pin routing and optionally pin electrical features.</description>
+               <options>
+                  <callFromInitBoot>true</callFromInitBoot>
+                  <coreID>ca7</coreID>
+               </options>
+               <dependencies/>
+               <pins>
+                  <pin peripheral="GPIO1" signal="gpio_io, 22" pin_num="J15" pin_signal="UART2_CTS_B"/>
+                  <pin peripheral="GPIO1" signal="gpio_io, 24" pin_num="H17" pin_signal="UART3_TX_DATA"/>
+                  <pin peripheral="GPIO1" signal="gpio_io, 25" pin_num="H16" pin_signal="UART3_RX_DATA"/>
+                  <pin peripheral="GPIO1" signal="gpio_io, 27" pin_num="G14" pin_signal="UART3_RTS_B"/>
+                  <pin peripheral="GPIO1" signal="gpio_io, 26" pin_num="H15" pin_signal="UART3_CTS_B"/>
+                  <pin peripheral="GPIO1" signal="gpio_io, 28" pin_num="G17" pin_signal="UART4_TX_DATA"/>
+                  <pin peripheral="GPIO1" signal="gpio_io, 29" pin_num="G16" pin_signal="UART4_RX_DATA"/>
+                  <pin peripheral="GPIO1" signal="gpio_io, 30" pin_num="F17" pin_signal="UART5_TX_DATA"/>
+                  <pin peripheral="GPIO1" signal="gpio_io, 31" pin_num="G13" pin_signal="UART5_RX_DATA"/>
+               </pins>
+            </function>
+         </functions_list>
+      </pins>
+      <ddr name="DDR" version="1.0" enabled="false" update_project_code="true">
+         <components/>
+      </ddr>
+      <tee name="TEE" version="6.0" enabled="false" update_project_code="true">
+         <tee_profile>
+            <processor_version>N/A</processor_version>
+         </tee_profile>
+      </tee>
+      <pbl name="PBL" version="1.0" enabled="false" update_project_code="true">
+         <pbl_configuration/>
+      </pbl>
+      <serdes name="SERDES" version="1.0" enabled="false" update_project_code="true">
+         <components/>
+      </serdes>
+   </tools>
+</configuration>

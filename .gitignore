@@ -1,0 +1,15 @@
+/*
+!.gitignore
+!README.md
+
+
+!/doc
+
+
+!/kicad
+/kicad/*-backups
+
+
+!/ltspice
+/ltspice/*.raw
+/ltspice/*/*.raw
