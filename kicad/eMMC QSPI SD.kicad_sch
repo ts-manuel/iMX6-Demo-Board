@@ -4190,259 +4190,6 @@
 				)
 			)
 		)
-		(symbol "-- database:Integrated/INT-ZD25WQ80BOIGT"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0.635 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "ZD25WQ80BOIGT"
-				(at 7.62 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_SO:TSSOP-8_4.4x3mm_P0.65mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2108150430_Zetta-ZD25WQ80BOIGT_C2875857.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "TSSOP8 - 8Mbit QSPI TSSOP8 NOR FLASH"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C2875857"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Zetta"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "ZD25WQ80BOIGT"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Stock" "0"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Package_SO:TSSOP-8_4.4x3mm_P0.65mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Integrated/INT-ZD25WQ80BOIGT_1_0"
-				(rectangle
-					(start 0 0)
-					(end 25.4 -20.32)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 152 0 0 1)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -2.54 -2.54 0)
-					(length 2.54)
-					(name "~{CS}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -2.54 -7.62 0)
-					(length 2.54)
-					(name "SO/DQ1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -2.54 -12.7 0)
-					(length 2.54)
-					(name "~{WP}/DQ2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -17.78 0)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 27.94 -17.78 180)
-					(length 2.54)
-					(name "SI/DQ0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 27.94 -12.7 180)
-					(length 2.54)
-					(name "SCLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 27.94 -7.62 180)
-					(length 2.54)
-					(name "~{HOLD}/DQ3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 27.94 -2.54 180)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "-- database:Mechanical/MicroSD_GT-TF003-H0185-01"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4914,6 +4661,260 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "db:Integrated/INT-ZD25WQ32CTIGT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ZD25WQ32CTIGT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SO:SOP-8_3.9x4.9mm_P1.27mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2211290930_Zetta-ZD25WQ32CTIGT_C5290169.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SOP8 - 32Mbit QSPI 104MHz NOR FLASH"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Zetta"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "ZD25WQ32CTIGT"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C5290169"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Stock" "0"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Package_SO:SOP-8_3.9x4.9mm_P1.27mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Integrated/INT-ZD25WQ32CTIGT_1_0"
+				(rectangle
+					(start 0 0)
+					(end 25.4 -20.32)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 152 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "~{CS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 -7.62 0)
+					(length 2.54)
+					(name "SO/DQ1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 -12.7 0)
+					(length 2.54)
+					(name "~{WP}/DQ2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -17.78 0)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 27.94 -17.78 180)
+					(length 2.54)
+					(name "SI/DQ0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 27.94 -12.7 180)
+					(length 2.54)
+					(name "SCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 27.94 -7.62 180)
+					(length 2.54)
+					(name "~{HOLD}/DQ3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 27.94 -2.54 180)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10946,6 +10947,131 @@
 		)
 	)
 	(symbol
+		(lib_id "db:Integrated/INT-ZD25WQ32CTIGT")
+		(at 289.56 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "978ee748-8cdf-48df-aa98-80c4f2e23797")
+		(property "Reference" "U11"
+			(at 302.26 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ZD25WQ32CTIGT"
+			(at 302.26 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOP-8_3.9x4.9mm_P1.27mm"
+			(at 289.56 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2211290930_Zetta-ZD25WQ32CTIGT_C5290169.pdf"
+			(at 289.56 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SOP8 - 32Mbit QSPI 104MHz NOR FLASH"
+			(at 289.56 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Zetta"
+			(at 289.56 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ZD25WQ32CTIGT"
+			(at 289.56 76.2 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5290169"
+			(at 289.56 76.2 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "0"
+			(at 289.56 76.2 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a738257d-9472-4da0-b26c-c579d68b3e9d")
+		)
+		(pin "1"
+			(uuid "42ee7552-a346-450a-936b-71eff7b36513")
+		)
+		(pin "5"
+			(uuid "6763a141-43e3-436a-bfb3-be502305b31b")
+		)
+		(pin "3"
+			(uuid "d1191c8b-e07c-4d13-9577-0ec9d0f84066")
+		)
+		(pin "8"
+			(uuid "e1f708ae-48e8-4230-8860-65e774244a25")
+		)
+		(pin "6"
+			(uuid "490368a2-a6d6-495d-92ce-f289964ea154")
+		)
+		(pin "4"
+			(uuid "a186cae0-bd8b-4da0-9ba8-95a86bd08919")
+		)
+		(pin "7"
+			(uuid "7c30c586-f90e-405a-8c4c-89c58190a397")
+		)
+		(instances
+			(project ""
+				(path "/22d28cd1-1a5f-4d07-89a7-8fe714f4fb3d/eb948cab-b149-4301-ad44-286ab772f156/a6b73352-4156-4230-8828-44cad06e0e52"
+					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
 		(at 157.48 124.46 0)
 		(unit 1)
@@ -11546,130 +11672,6 @@
 			(project "iMX6 Demo Board"
 				(path "/22d28cd1-1a5f-4d07-89a7-8fe714f4fb3d/eb948cab-b149-4301-ad44-286ab772f156/a6b73352-4156-4230-8828-44cad06e0e52"
 					(reference "#PWR0144")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "-- database:Integrated/INT-ZD25WQ80BOIGT")
-		(at 289.56 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a73709a6-8387-4aef-b47a-b7a7df1b0753")
-		(property "Reference" "U11"
-			(at 302.26 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ZD25WQ80BOIGT"
-			(at 302.26 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-8_4.4x3mm_P0.65mm"
-			(at 289.56 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2108150430_Zetta-ZD25WQ80BOIGT_C2875857.pdf"
-			(at 289.56 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "TSSOP8 - 8Mbit QSPI TSSOP8 NOR FLASH"
-			(at 289.56 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2875857"
-			(at 289.56 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Zetta"
-			(at 289.56 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "ZD25WQ80BOIGT"
-			(at 289.56 76.2 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "0"
-			(at 289.56 76.2 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7e1f2b2e-75ae-4b43-b713-2f87d678a513")
-		)
-		(pin "8"
-			(uuid "d12c0380-b48d-44ec-a919-3b7f8ae46d8d")
-		)
-		(pin "4"
-			(uuid "1bc5183c-b1a4-4b84-9065-8eca5e64eb6d")
-		)
-		(pin "3"
-			(uuid "db865558-e298-476f-86a4-d866b8c47626")
-		)
-		(pin "1"
-			(uuid "af60ac51-db37-412c-a387-de1d5b7605ef")
-		)
-		(pin "5"
-			(uuid "b6a7f106-62cc-40a6-a5ca-15985ef3f45b")
-		)
-		(pin "6"
-			(uuid "61c28ad0-a660-4f13-986b-6cda4236419d")
-		)
-		(pin "7"
-			(uuid "707b2b28-d5ac-4eba-9544-4f2fd8044144")
-		)
-		(instances
-			(project "iMX6 Demo Board"
-				(path "/22d28cd1-1a5f-4d07-89a7-8fe714f4fb3d/eb948cab-b149-4301-ad44-286ab772f156/a6b73352-4156-4230-8828-44cad06e0e52"
-					(reference "U11")
 					(unit 1)
 				)
 			)

@@ -1637,7 +1637,7 @@
 		)
 		(uuid "d0e104b9-00b3-45d3-a21c-addde7c614b6")
 	)
-	(text_box "QSPI FLASH 256 Mb\n    Micron: MT25QL256"
+	(text_box "QSPI FLASH 32 Mb\n    Zetta: ZD25WQ32CTIGT"
 		(exclude_from_sim no)
 		(at 254 200.66 0)
 		(size 50.8 13.97)

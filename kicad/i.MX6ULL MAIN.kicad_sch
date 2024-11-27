@@ -994,7 +994,7 @@
 		)
 		(uuid "49aa9b7e-810d-4fe0-a685-8a64d41feffe")
 	)
-	(text_box "eMMC FLASH MEMORY\n  4GB: Kioxia THGBMNG5D1LBAIL\n\nQSPI FLASH 256Mb\n  Micron MT25QL256\n\nMicro SD Card"
+	(text_box "eMMC FLASH MEMORY\n  4GB: Kioxia THGBMNG5D1LBAIL\n\nQSPI FLASH 32Mb\n  Zetta ZD25WQ32CTIGT\n\nMicro SD Card"
 		(exclude_from_sim no)
 		(at 317.5 93.98 0)
 		(size 63.5 27.94)
