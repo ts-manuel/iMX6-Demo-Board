@@ -8,6 +8,7 @@
   <ol>
     <li><a href="#about-the-project">About The Project</a></li>
     <li><a href="#schematic">Schematic</a></li>
+    <li><a href="#u-boot">U-Boot</a></li>
   </ol>
 </details>
 
@@ -71,3 +72,16 @@ This is a demo board for the i.MX 6 ULL application procesor from NXP.
 ### CONTROL GPIO
 ![iMX6 Demo Board-13.png](</kicad/schematic/iMX6 Demo Board-13.png>)
 
+
+<!-- U-BOOT -->
+## U-Boot
+
+### Prerequisites
+
+    > sudo apt install gcc-arm-linux-gnueabihf
+
+### Compiling U-Boot
+
+    > cd linux/u-boot
+    > make mx6ull_demo_board_defconfig
+    > ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- make
