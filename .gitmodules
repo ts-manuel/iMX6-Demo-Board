@@ -1,0 +1,5 @@
+
+[submodule "linux/u-boot"]
+	path = linux/u-boot
+	url = https://github.com/ts-manuel/u-boot.git
+	branch = v2023.10_imx6ull-demo-board

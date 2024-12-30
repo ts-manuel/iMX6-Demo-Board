@@ -1,5 +1,6 @@
 /*
 !.gitignore
+!.gitmodules
 !README.md
 
 
@@ -13,3 +14,7 @@
 !/ltspice
 /ltspice/*.raw
 /ltspice/*/*.raw
+
+!/tools
+
+!/linux
