@@ -9,6 +9,7 @@
     <li><a href="#about-the-project">About The Project</a></li>
     <li><a href="#schematic">Schematic</a></li>
     <li><a href="#u-boot">U-Boot</a></li>
+    <li><a href="#known-issues">Known Issues</a></li>
   </ol>
 </details>
 
@@ -85,3 +86,26 @@ This is a demo board for the i.MX 6 ULL application procesor from NXP.
     > cd linux/u-boot
     > make mx6ull_demo_board_defconfig
     > ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- make
+
+
+## Known Issues
+
+### Rev. 00 - Issues found during hardware debug
+
++ Wrong part number in BOM for resistors R103, R113, R114, R118.\
+**Suggested Fix:** Replace with 680 KΩ resistors, applying power withot the fix will damage the board!!!
+
++ Wrong part number in BOM for resistors R13, R16.\
+**Suggested Fix:** Replace with 68 KΩ resistors, applying power withot the fix will damage the board!!!
+
++ Wrong part number in BOM for resistors R14.\
+**Suggested Fix:** Replace with 4.7 KΩ resistors, applying power withot the fix will damage the board!!!
+
++ Wrong part number in BOM for capacitors C100, C101, C12, C13, C130, C131, C133, C135, C140, C141, C15, C19, C57, C58, C7, C99.\
+**Suggested Fix:** Replace with 100 nF capacitors.
+
++ Wrong connection for power pins in USB Type A ports, power and ground are flipped.\
+**Suggested Fix:** Cut metal beind connector and rewire power and ground.
+
++ Wrong connection for power button pull-up resistor, board will not turn on with power button.\
+**Suggested Fix:** Remove R23 and connect 10 KΩ pull-up between button and +3V3_STANDBY.
