@@ -1,20 +1,24 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "5e0b9dd4-17fc-4cb8-9486-761502bddee9")
 	(paper "A3")
 	(title_block
 		(title "i.MX6 Demo Board")
-		(date "2024-05-26")
-		(rev "00")
+		(date "2026-02-16")
+		(rev "01")
 		(company "ts-manuel")
 	)
 	(lib_symbols
 		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim yes)
 			(in_bom no)
 			(on_board yes)
@@ -112,12 +116,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GNDREF"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -244,7 +253,330 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 375.92 138.43)
+		(end 350.52 148.59)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 153 153 153 1)
+		)
+		(fill
+			(type color)
+			(color 193 243 139 1)
+		)
+		(uuid 050d3ad9-f82d-4925-98ff-8576b7fc1e16)
+	)
+	(rectangle
+		(start 40.64 50.8)
+		(end 50.8 73.66)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 153 153 153 1)
+		)
+		(fill
+			(type color)
+			(color 193 243 139 1)
+		)
+		(uuid 06244aab-804f-4cd3-9f52-e71897d93d2d)
+	)
+	(rectangle
+		(start 40.64 99.06)
+		(end 50.8 114.3)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 153 153 153 1)
+		)
+		(fill
+			(type color)
+			(color 193 243 139 1)
+		)
+		(uuid 1491fe37-fc29-491d-9d7f-1b949fc14a52)
+	)
+	(rectangle
+		(start 350.52 151.13)
+		(end 375.92 161.29)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 153 153 153 1)
+		)
+		(fill
+			(type color)
+			(color 193 243 139 1)
+		)
+		(uuid 1c710034-11ea-4774-aa1b-e7e41d47762c)
+	)
+	(rectangle
+		(start 350.52 180.594)
+		(end 360.68 195.834)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 153 153 153 1)
+		)
+		(fill
+			(type color)
+			(color 193 243 139 1)
+		)
+		(uuid 59d1c3d9-bda6-4ebb-b870-8b104022a0af)
+	)
+	(rectangle
+		(start 360.68 236.22)
+		(end 403.86 261.62)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5b334e58-4a5d-49de-9e4c-018ab3eb7b2a)
+	)
+	(text "RJ45"
+		(exclude_from_sim no)
+		(at 355.6 187.96 90)
+		(effects
+			(font
+				(size 2.286 2.286)
+			)
+		)
+		(uuid "08ff8df1-fc0a-4c6c-8122-04f0909e7f2a")
+	)
+	(text "HEADPHONE"
+		(exclude_from_sim no)
+		(at 353.06 156.21 0)
+		(effects
+			(font
+				(size 2.286 2.286)
+			)
+			(justify left)
+		)
+		(uuid "39d2c39c-335c-46ec-b835-8777d1f5c341")
+	)
+	(text "JTAG"
+		(exclude_from_sim no)
+		(at 45.72 106.68 90)
+		(effects
+			(font
+				(size 2.286 2.286)
+			)
+		)
+		(uuid "60fb38cd-7004-4752-acee-564e578c7ddb")
+	)
+	(text "MOUNTING HOLES"
+		(exclude_from_sim no)
+		(at 360.934 235.204 0)
+		(effects
+			(font
+				(size 3.048 3.048)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "757ad1b5-6c6e-453c-bcbf-34fb36f8f1b5")
+	)
+	(text "USB C"
+		(exclude_from_sim no)
+		(at 45.72 63.5 90)
+		(effects
+			(font
+				(size 2.286 2.286)
+			)
+		)
+		(uuid "8e8feafa-bb0c-4d59-9282-398b8f5d203b")
+	)
+	(text "LINE OUT"
+		(exclude_from_sim no)
+		(at 353.06 143.51 0)
+		(effects
+			(font
+				(size 2.286 2.286)
+			)
+			(justify left)
+		)
+		(uuid "a0ed35e4-5acb-4575-9029-04be698b5ac1")
+	)
+	(text_box "DDR3L 4Gb / 8Gb\n  4Gb: Micron MT41K256M16TW\n  8Gb: Micron MT41K512M16HA"
+		(exclude_from_sim no)
+		(at 317.5 63.5 0)
+		(size 63.5 15.24)
+		(margins 1.7144 1.7144 1.7144 1.7144)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.286 2.286)
+				(thickness 0.4572)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "49aa9b7e-810d-4fe0-a685-8a64d41feffe")
+	)
+	(text_box "eMMC FLASH MEMORY\n  4GB: Kioxia THGBMNG5D1LBAIL\n\nQSPI FLASH 32Mb\n  Zetta ZD25WQ32CTIGT\n\nMicro SD Card"
+		(exclude_from_sim no)
+		(at 317.5 93.98 0)
+		(size 63.5 27.94)
+		(margins 1.7144 1.7144 1.7144 1.7144)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.286 2.286)
+				(thickness 0.4572)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "7135014d-6dbd-4dfe-8c8c-3ac8fdef0c9f")
+	)
+	(text_box "Ethernet PHY\nKSZ8081RNB"
+		(exclude_from_sim no)
+		(at 299.72 173.99 0)
+		(size 29.21 10.16)
+		(margins 1.7144 1.7144 1.7144 1.7144)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.286 2.286)
+				(thickness 0.4572)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "7579c2a5-e488-4d33-b8eb-827c1d176d54")
+	)
+	(text_box "AUDIO CODEC\nWM8904"
+		(exclude_from_sim no)
+		(at 299.72 138.43 0)
+		(size 27.94 12.7)
+		(margins 1.7144 1.7144 1.7144 1.7144)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.286 2.286)
+				(thickness 0.4572)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "82fde3ae-df4e-4c43-82bf-23bdf362f717")
+	)
+	(text_box "5x STATUS LEDs\n\n8x GENERIC LEDs"
+		(exclude_from_sim no)
+		(at 33.02 129.54 0)
+		(size 33.02 15.24)
+		(margins 1.9 1.9 1.9 1.9)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 153 153 153 1)
+		)
+		(fill
+			(type color)
+			(color 193 243 139 1)
+		)
+		(effects
+			(font
+				(size 2.2 2.2)
+			)
+		)
+		(uuid "8f81319c-9efc-40ef-8832-e4ea041b459d")
+	)
+	(text_box "24-bit LCD DOSPLAY"
+		(exclude_from_sim no)
+		(at 33.02 203.2 0)
+		(size 30.48 20.32)
+		(margins 1.9 1.9 1.9 1.9)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 153 153 153 1)
+		)
+		(fill
+			(type color)
+			(color 193 243 139 1)
+		)
+		(effects
+			(font
+				(size 2.2 2.2)
+			)
+		)
+		(uuid "ba44a23c-cef3-4eaf-baca-3aa1301bbccb")
+	)
+	(text_box "USB-A DEVICE"
+		(exclude_from_sim no)
+		(at 33.02 168.91 0)
+		(size 30.48 7.62)
+		(margins 1.9 1.9 1.9 1.9)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 153 153 153 1)
+		)
+		(fill
+			(type color)
+			(color 193 243 139 1)
+		)
+		(effects
+			(font
+				(size 2.2 2.2)
+			)
+		)
+		(uuid "bf06c1f3-483c-4c1f-96ad-7567078f6cd3")
+	)
+	(text_box "USB-A DEVICE"
+		(exclude_from_sim no)
+		(at 33.02 179.07 0)
+		(size 30.48 7.62)
+		(margins 1.9 1.9 1.9 1.9)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 153 153 153 1)
+		)
+		(fill
+			(type color)
+			(color 193 243 139 1)
+		)
+		(effects
+			(font
+				(size 2.2 2.2)
+			)
+		)
+		(uuid "cd99a5c3-26f6-4f82-b2a6-93532deb8b8e")
 	)
 	(junction
 		(at 139.7 223.52)
@@ -890,320 +1222,6 @@
 		)
 		(uuid "fb33c836-97ae-4faf-b5e5-d6d5768ea5fd")
 	)
-	(rectangle
-		(start 375.92 138.43)
-		(end 350.52 148.59)
-		(stroke
-			(width 0.508)
-			(type solid)
-			(color 153 153 153 1)
-		)
-		(fill
-			(type color)
-			(color 193 243 139 1)
-		)
-		(uuid 050d3ad9-f82d-4925-98ff-8576b7fc1e16)
-	)
-	(rectangle
-		(start 40.64 50.8)
-		(end 50.8 73.66)
-		(stroke
-			(width 0.508)
-			(type solid)
-			(color 153 153 153 1)
-		)
-		(fill
-			(type color)
-			(color 193 243 139 1)
-		)
-		(uuid 06244aab-804f-4cd3-9f52-e71897d93d2d)
-	)
-	(rectangle
-		(start 40.64 99.06)
-		(end 50.8 114.3)
-		(stroke
-			(width 0.508)
-			(type solid)
-			(color 153 153 153 1)
-		)
-		(fill
-			(type color)
-			(color 193 243 139 1)
-		)
-		(uuid 1491fe37-fc29-491d-9d7f-1b949fc14a52)
-	)
-	(rectangle
-		(start 350.52 151.13)
-		(end 375.92 161.29)
-		(stroke
-			(width 0.508)
-			(type solid)
-			(color 153 153 153 1)
-		)
-		(fill
-			(type color)
-			(color 193 243 139 1)
-		)
-		(uuid 1c710034-11ea-4774-aa1b-e7e41d47762c)
-	)
-	(rectangle
-		(start 350.52 180.594)
-		(end 360.68 195.834)
-		(stroke
-			(width 0.508)
-			(type solid)
-			(color 153 153 153 1)
-		)
-		(fill
-			(type color)
-			(color 193 243 139 1)
-		)
-		(uuid 59d1c3d9-bda6-4ebb-b870-8b104022a0af)
-	)
-	(rectangle
-		(start 360.68 236.22)
-		(end 403.86 261.62)
-		(stroke
-			(width 1)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 5b334e58-4a5d-49de-9e4c-018ab3eb7b2a)
-	)
-	(text_box "DDR3L 4Gb / 8Gb\n  4Gb: Micron MT41K256M16TW\n  8Gb: Micron MT41K512M16HA"
-		(exclude_from_sim no)
-		(at 317.5 63.5 0)
-		(size 63.5 15.24)
-		(stroke
-			(width -0.0001)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.286 2.286)
-				(thickness 0.4572)
-				(bold yes)
-			)
-			(justify left top)
-		)
-		(uuid "49aa9b7e-810d-4fe0-a685-8a64d41feffe")
-	)
-	(text_box "eMMC FLASH MEMORY\n  4GB: Kioxia THGBMNG5D1LBAIL\n\nQSPI FLASH 32Mb\n  Zetta ZD25WQ32CTIGT\n\nMicro SD Card"
-		(exclude_from_sim no)
-		(at 317.5 93.98 0)
-		(size 63.5 27.94)
-		(stroke
-			(width -0.0001)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.286 2.286)
-				(thickness 0.4572)
-				(bold yes)
-			)
-			(justify left top)
-		)
-		(uuid "7135014d-6dbd-4dfe-8c8c-3ac8fdef0c9f")
-	)
-	(text_box "Ethernet PHY\nKSZ8081RNB"
-		(exclude_from_sim no)
-		(at 299.72 173.99 0)
-		(size 29.21 10.16)
-		(stroke
-			(width -0.0001)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.286 2.286)
-				(thickness 0.4572)
-				(bold yes)
-			)
-			(justify left top)
-		)
-		(uuid "7579c2a5-e488-4d33-b8eb-827c1d176d54")
-	)
-	(text_box "AUDIO CODEC\nWM8904"
-		(exclude_from_sim no)
-		(at 299.72 138.43 0)
-		(size 27.94 12.7)
-		(stroke
-			(width -0.0001)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.286 2.286)
-				(thickness 0.4572)
-				(bold yes)
-			)
-			(justify left top)
-		)
-		(uuid "82fde3ae-df4e-4c43-82bf-23bdf362f717")
-	)
-	(text_box "5x STATUS LEDs\n\n8x GENERIC LEDs"
-		(exclude_from_sim no)
-		(at 33.02 129.54 0)
-		(size 33.02 15.24)
-		(stroke
-			(width 0.5)
-			(type default)
-			(color 153 153 153 1)
-		)
-		(fill
-			(type color)
-			(color 193 243 139 1)
-		)
-		(effects
-			(font
-				(size 2.2 2.2)
-			)
-		)
-		(uuid "8f81319c-9efc-40ef-8832-e4ea041b459d")
-	)
-	(text_box "24-bit LCD DOSPLAY"
-		(exclude_from_sim no)
-		(at 33.02 203.2 0)
-		(size 30.48 20.32)
-		(stroke
-			(width 0.5)
-			(type default)
-			(color 153 153 153 1)
-		)
-		(fill
-			(type color)
-			(color 193 243 139 1)
-		)
-		(effects
-			(font
-				(size 2.2 2.2)
-			)
-		)
-		(uuid "ba44a23c-cef3-4eaf-baca-3aa1301bbccb")
-	)
-	(text_box "USB-A DEVICE"
-		(exclude_from_sim no)
-		(at 33.02 168.91 0)
-		(size 30.48 7.62)
-		(stroke
-			(width 0.5)
-			(type default)
-			(color 153 153 153 1)
-		)
-		(fill
-			(type color)
-			(color 193 243 139 1)
-		)
-		(effects
-			(font
-				(size 2.2 2.2)
-			)
-		)
-		(uuid "bf06c1f3-483c-4c1f-96ad-7567078f6cd3")
-	)
-	(text_box "USB-A DEVICE"
-		(exclude_from_sim no)
-		(at 33.02 179.07 0)
-		(size 30.48 7.62)
-		(stroke
-			(width 0.5)
-			(type default)
-			(color 153 153 153 1)
-		)
-		(fill
-			(type color)
-			(color 193 243 139 1)
-		)
-		(effects
-			(font
-				(size 2.2 2.2)
-			)
-		)
-		(uuid "cd99a5c3-26f6-4f82-b2a6-93532deb8b8e")
-	)
-	(text "RJ45"
-		(exclude_from_sim no)
-		(at 355.6 187.96 90)
-		(effects
-			(font
-				(size 2.286 2.286)
-			)
-		)
-		(uuid "08ff8df1-fc0a-4c6c-8122-04f0909e7f2a")
-	)
-	(text "HEADPHONE"
-		(exclude_from_sim no)
-		(at 353.06 156.21 0)
-		(effects
-			(font
-				(size 2.286 2.286)
-			)
-			(justify left)
-		)
-		(uuid "39d2c39c-335c-46ec-b835-8777d1f5c341")
-	)
-	(text "JTAG"
-		(exclude_from_sim no)
-		(at 45.72 106.68 90)
-		(effects
-			(font
-				(size 2.286 2.286)
-			)
-		)
-		(uuid "60fb38cd-7004-4752-acee-564e578c7ddb")
-	)
-	(text "MOUNTING HOLES"
-		(exclude_from_sim no)
-		(at 360.934 235.204 0)
-		(effects
-			(font
-				(size 3.048 3.048)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "757ad1b5-6c6e-453c-bcbf-34fb36f8f1b5")
-	)
-	(text "USB C"
-		(exclude_from_sim no)
-		(at 45.72 63.5 90)
-		(effects
-			(font
-				(size 2.286 2.286)
-			)
-		)
-		(uuid "8e8feafa-bb0c-4d59-9282-398b8f5d203b")
-	)
-	(text "LINE OUT"
-		(exclude_from_sim no)
-		(at 353.06 143.51 0)
-		(effects
-			(font
-				(size 2.286 2.286)
-			)
-			(justify left)
-		)
-		(uuid "a0ed35e4-5acb-4575-9029-04be698b5ac1")
-	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 386.08 246.38 0)
@@ -1478,6 +1496,10 @@
 	(sheet
 		(at 88.9 198.12)
 		(size 38.1 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.5)
 			(type solid)
@@ -1506,53 +1528,53 @@
 		)
 		(pin "LCD_BACK_LIGHT" input
 			(at 127 208.28 0)
+			(uuid "ef455e0e-accd-4f17-8ab2-dfa41acb9e7f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ef455e0e-accd-4f17-8ab2-dfa41acb9e7f")
 		)
 		(pin "PMIC_POWER_GOOD" input
 			(at 127 203.2 0)
+			(uuid "30eddb5c-9845-4ed0-97ec-387393a5fdc9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "30eddb5c-9845-4ed0-97ec-387393a5fdc9")
 		)
 		(pin "{LCD_DATA}" passive
 			(at 127 223.52 0)
+			(uuid "1f8a5d70-b6ef-4e62-a707-762d4c8c691e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "1f8a5d70-b6ef-4e62-a707-762d4c8c691e")
 		)
 		(pin "{LCD_SPI}" input
 			(at 127 213.36 0)
+			(uuid "3f80b5db-7263-479d-846d-ad0e55d04a82")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "3f80b5db-7263-479d-846d-ad0e55d04a82")
 		)
 		(pin "TOUCH{X1 Y1 X2 Y2}" output
 			(at 127 218.44 0)
+			(uuid "27ce6b90-05d8-4bf5-901d-4c6acea6c413")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "27ce6b90-05d8-4bf5-901d-4c6acea6c413")
 		)
 		(instances
 			(project "iMX6 Demo Board"
@@ -1565,6 +1587,10 @@
 	(sheet
 		(at 88.9 81.28)
 		(size 38.1 71.12)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.5)
 			(type solid)
@@ -1593,83 +1619,83 @@
 		)
 		(pin "LED_ACTIVITY" input
 			(at 127 121.92 0)
+			(uuid "f4fc6d82-bf6e-4c6f-bf58-647ab3b4ea7a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f4fc6d82-bf6e-4c6f-bf58-647ab3b4ea7a")
 		)
 		(pin "LED_EMMC" input
 			(at 127 127 0)
+			(uuid "91c4d0ac-600e-44ae-a7d4-369ff9c742d4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "91c4d0ac-600e-44ae-a7d4-369ff9c742d4")
 		)
 		(pin "LED_SD" input
 			(at 127 132.08 0)
+			(uuid "1e317cdc-ab30-4f93-964c-f91b5bcde416")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "1e317cdc-ab30-4f93-964c-f91b5bcde416")
 		)
 		(pin "LED_NETWORK" input
 			(at 127 137.16 0)
+			(uuid "59c2e6cb-f22d-47ea-aa51-d4f9b74da874")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "59c2e6cb-f22d-47ea-aa51-d4f9b74da874")
 		)
 		(pin "PMIC_POWER_GOOD" input
 			(at 127 86.36 0)
+			(uuid "efe169d6-9c2c-4215-aac4-5911c602c837")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "efe169d6-9c2c-4215-aac4-5911c602c837")
 		)
 		(pin "{JTAG}" output
 			(at 127 106.68 0)
+			(uuid "2b028bff-9378-4637-8325-bdd22985bf67")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "2b028bff-9378-4637-8325-bdd22985bf67")
 		)
 		(pin "UART1{RX TX}" passive
 			(at 127 96.52 0)
+			(uuid "b4f83aad-d9c1-4967-92c2-8887ed06d4c8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b4f83aad-d9c1-4967-92c2-8887ed06d4c8")
 		)
 		(pin "{LED_SHIFT_REG}" input
 			(at 127 147.32 0)
+			(uuid "652f90cc-ad10-43d7-af6a-bb913f38185e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "652f90cc-ad10-43d7-af6a-bb913f38185e")
 		)
 		(instances
 			(project "iMX6 Demo Board"
@@ -1682,6 +1708,10 @@
 	(sheet
 		(at 175.26 43.18)
 		(size 91.44 218.44)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.5)
 			(type solid)
@@ -1710,303 +1740,303 @@
 		)
 		(pin "~{DRAM_RESET}" input
 			(at 266.7 76.2 0)
+			(uuid "ae969e31-981d-4bd0-998e-5062856d881c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ae969e31-981d-4bd0-998e-5062856d881c")
 		)
 		(pin "ENET_CLK" output
 			(at 266.7 190.5 0)
+			(uuid "3a7bb5bd-3cb6-41ec-b22a-348da68eb2e3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "3a7bb5bd-3cb6-41ec-b22a-348da68eb2e3")
 		)
 		(pin "BOOT_MODE_1" output
 			(at 175.26 254 180)
+			(uuid "45c59fee-2436-4304-8332-deb1fccc3acb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "45c59fee-2436-4304-8332-deb1fccc3acb")
 		)
 		(pin "BOOT_MODE_0" output
 			(at 175.26 248.92 180)
+			(uuid "ab4c7b6e-79df-4da9-adf2-6626323b27e8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ab4c7b6e-79df-4da9-adf2-6626323b27e8")
 		)
 		(pin "LCD_BACK_LIGHT" output
 			(at 175.26 208.28 180)
+			(uuid "d51f0798-2327-4267-ab7e-d8c761797947")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d51f0798-2327-4267-ab7e-d8c761797947")
 		)
 		(pin "~{ENET_RST}" output
 			(at 266.7 200.66 0)
+			(uuid "67140b25-02c8-418c-b986-d175c4e7d532")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "67140b25-02c8-418c-b986-d175c4e7d532")
 		)
 		(pin "PMIC_ON_REQ" output
 			(at 175.26 50.8 180)
+			(uuid "f9c12d70-56d3-4d4c-ae37-d2f157c3ab4a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f9c12d70-56d3-4d4c-ae37-d2f157c3ab4a")
 		)
 		(pin "~{SD_CARD_CD}" input
 			(at 266.7 124.46 0)
+			(uuid "3ec182c6-2984-4919-8ecf-fb8c28029942")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "3ec182c6-2984-4919-8ecf-fb8c28029942")
 		)
 		(pin "PMIC_POWER_GOOD" input
 			(at 175.26 86.36 180)
+			(uuid "4ab321cd-5393-4497-94a7-009f7b88be97")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "4ab321cd-5393-4497-94a7-009f7b88be97")
 		)
 		(pin "{DRAM_DATA}" passive
 			(at 266.7 71.12 0)
+			(uuid "7fcd3e01-9151-442a-b57d-af6b28046821")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "7fcd3e01-9151-442a-b57d-af6b28046821")
 		)
 		(pin "{DRAM_ADDR_CMD_CTRL}" output
 			(at 266.7 66.04 0)
+			(uuid "1dd7af48-7afc-4a05-82d2-ae8f4c32db26")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "1dd7af48-7afc-4a05-82d2-ae8f4c32db26")
 		)
 		(pin "{SD_CARD}" passive
 			(at 266.7 119.38 0)
+			(uuid "ce89a9ef-3a09-4b7d-b71c-c5bb8260ebd0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ce89a9ef-3a09-4b7d-b71c-c5bb8260ebd0")
 		)
 		(pin "{QSPI}" passive
 			(at 266.7 109.22 0)
+			(uuid "3a0a9f2c-ee2c-4173-9023-388c5b564918")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "3a0a9f2c-ee2c-4173-9023-388c5b564918")
 		)
 		(pin "{eMMC}" passive
 			(at 266.7 99.06 0)
+			(uuid "b6cc0cd8-deb8-4b86-a6ff-cf586a9af6cd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b6cc0cd8-deb8-4b86-a6ff-cf586a9af6cd")
 		)
 		(pin "{JTAG}" input
 			(at 175.26 106.68 180)
+			(uuid "2c810bac-05b1-406e-92fd-e99eb2f67a58")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "2c810bac-05b1-406e-92fd-e99eb2f67a58")
 		)
 		(pin "UART1{RX TX}" passive
 			(at 175.26 96.52 180)
+			(uuid "46dedecd-2fcb-43ca-a5c9-7a37ef22b15b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "46dedecd-2fcb-43ca-a5c9-7a37ef22b15b")
 		)
 		(pin "{LED_SHIFT_REG}" input
 			(at 175.26 147.32 180)
+			(uuid "9d2851e5-af01-439c-a1e2-c0eebab7f64e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "9d2851e5-af01-439c-a1e2-c0eebab7f64e")
 		)
 		(pin "{I2S}" passive
 			(at 266.7 144.78 0)
+			(uuid "4d161d7e-773a-4f17-af31-161e174b1d2a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "4d161d7e-773a-4f17-af31-161e174b1d2a")
 		)
 		(pin "{LCD_DATA}" passive
 			(at 175.26 223.52 180)
+			(uuid "111413d8-0e59-4865-a9cd-2bc4135019a3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "111413d8-0e59-4865-a9cd-2bc4135019a3")
 		)
 		(pin "I2C1{SDA SCL}" passive
 			(at 266.7 154.94 0)
+			(uuid "e461c835-02d9-4765-8088-0cdf63978bae")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e461c835-02d9-4765-8088-0cdf63978bae")
 		)
 		(pin "{RMII}" passive
 			(at 266.7 180.34 0)
+			(uuid "12ce8fe3-2639-4284-b60d-b7461d3e6a99")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "12ce8fe3-2639-4284-b60d-b7461d3e6a99")
 		)
 		(pin "{LCD_SPI}" output
 			(at 175.26 213.36 180)
+			(uuid "8244a254-5bee-41f8-8df1-6b6958567456")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "8244a254-5bee-41f8-8df1-6b6958567456")
 		)
 		(pin "TOUCH{X1 Y1 X2 Y2}" input
 			(at 175.26 218.44 180)
+			(uuid "2f36d2bd-1b06-40e2-a16b-41485e449026")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "2f36d2bd-1b06-40e2-a16b-41485e449026")
 		)
 		(pin "USB1{DP DN}" passive
 			(at 175.26 175.26 180)
+			(uuid "b620f312-892a-41d5-a71d-026cf000f4ab")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b620f312-892a-41d5-a71d-026cf000f4ab")
 		)
 		(pin "USB2{DP DN}" passive
 			(at 175.26 182.88 180)
+			(uuid "86c3d2c0-1077-43bc-ac89-2c7afa5d2ca5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "86c3d2c0-1077-43bc-ac89-2c7afa5d2ca5")
 		)
 		(pin "LED_SD" output
 			(at 175.26 132.08 180)
+			(uuid "7b8757af-2964-4c69-a5ae-fc4bbf3ec329")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "7b8757af-2964-4c69-a5ae-fc4bbf3ec329")
 		)
 		(pin "LED_NETWORK" output
 			(at 175.26 137.16 180)
+			(uuid "db26aade-384e-4452-82cc-c86ee3b86346")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "db26aade-384e-4452-82cc-c86ee3b86346")
 		)
 		(pin "LED_ACTIVITY" output
 			(at 175.26 121.92 180)
+			(uuid "f9c5b773-33d7-436c-92ff-9fadc8ab538a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f9c5b773-33d7-436c-92ff-9fadc8ab538a")
 		)
 		(pin "LED_EMMC" output
 			(at 175.26 127 180)
+			(uuid "d7e549e6-4038-4b29-9f7c-ccd81dbce4bb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d7e549e6-4038-4b29-9f7c-ccd81dbce4bb")
 		)
 		(pin "ENET_INTRP{slash}~{NAND_TREE}" input
 			(at 266.7 198.12 0)
+			(uuid "94842c6a-3fab-407c-b331-e764fc1f3934")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "94842c6a-3fab-407c-b331-e764fc1f3934")
 		)
 		(instances
 			(project "iMX6 Demo Board"
@@ -2019,6 +2049,10 @@
 	(sheet
 		(at 88.9 162.56)
 		(size 38.1 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.5)
 			(type solid)
@@ -2047,33 +2081,33 @@
 		)
 		(pin "PMIC_POWER_GOOD" input
 			(at 127 167.64 0)
+			(uuid "f0d76bb8-043d-475f-b51e-229a6e4bdf30")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f0d76bb8-043d-475f-b51e-229a6e4bdf30")
 		)
 		(pin "USB1{DP DN}" passive
 			(at 127 175.26 0)
+			(uuid "511c5621-eda2-41f2-bff0-d300add02598")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "511c5621-eda2-41f2-bff0-d300add02598")
 		)
 		(pin "USB2{DP DN}" passive
 			(at 127 182.88 0)
+			(uuid "f220993c-26f6-4e7f-9ecd-b263040b0df7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f220993c-26f6-4e7f-9ecd-b263040b0df7")
 		)
 		(instances
 			(project "iMX6 Demo Board"
@@ -2086,6 +2120,10 @@
 	(sheet
 		(at 292.1 60.96)
 		(size 91.44 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.5)
 			(type solid)
@@ -2114,33 +2152,33 @@
 		)
 		(pin "~{DRAM_RESET}" input
 			(at 292.1 76.2 180)
+			(uuid "fd79b5ad-8eed-451c-818f-d2836561ec5b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "fd79b5ad-8eed-451c-818f-d2836561ec5b")
 		)
 		(pin "{DRAM_DATA}" passive
 			(at 292.1 71.12 180)
+			(uuid "bff8c983-1e49-46df-8d8f-4a0a24cc5554")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "bff8c983-1e49-46df-8d8f-4a0a24cc5554")
 		)
 		(pin "{DRAM_ADDR_CMD_CTRL}" input
 			(at 292.1 66.04 180)
+			(uuid "6ee973cf-8b7c-4b62-b758-a453cd6b73e2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6ee973cf-8b7c-4b62-b758-a453cd6b73e2")
 		)
 		(instances
 			(project "iMX6 Demo Board"
@@ -2153,6 +2191,10 @@
 	(sheet
 		(at 88.9 238.76)
 		(size 38.1 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.5)
 			(type solid)
@@ -2181,33 +2223,33 @@
 		)
 		(pin "BOOT_MODE_1" output
 			(at 127 254 0)
+			(uuid "cd0588ae-dce3-461c-a0e5-36131aa03144")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "cd0588ae-dce3-461c-a0e5-36131aa03144")
 		)
 		(pin "BOOT_MODE_0" output
 			(at 127 248.92 0)
+			(uuid "855bbcce-b83d-45d4-8339-993ff5e06900")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "855bbcce-b83d-45d4-8339-993ff5e06900")
 		)
 		(pin "{LCD_DATA}" passive
 			(at 127 243.84 0)
+			(uuid "42390bf3-a3b3-4c3c-b6c2-e7f4d6e61e54")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "42390bf3-a3b3-4c3c-b6c2-e7f4d6e61e54")
 		)
 		(instances
 			(project "iMX6 Demo Board"
@@ -2220,6 +2262,10 @@
 	(sheet
 		(at 292.1 137.16)
 		(size 38.1 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.5)
 			(type solid)
@@ -2248,23 +2294,23 @@
 		)
 		(pin "{I2S}" passive
 			(at 292.1 144.78 180)
+			(uuid "2deb0052-ce24-4d14-9a22-0fedd469c92d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "2deb0052-ce24-4d14-9a22-0fedd469c92d")
 		)
 		(pin "I2C1{SDA SCL}" passive
 			(at 292.1 154.94 180)
+			(uuid "98036d68-4eb1-465c-baa5-59c7ac90c2c0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "98036d68-4eb1-465c-baa5-59c7ac90c2c0")
 		)
 		(instances
 			(project "iMX6 Demo Board"
@@ -2277,6 +2323,10 @@
 	(sheet
 		(at 292.1 172.72)
 		(size 38.1 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.5)
 			(type solid)
@@ -2305,43 +2355,43 @@
 		)
 		(pin "ENET_CLK" input
 			(at 292.1 190.5 180)
+			(uuid "1fa9d6b9-5ee8-45df-83b4-4260fe26d55f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1fa9d6b9-5ee8-45df-83b4-4260fe26d55f")
 		)
 		(pin "~{ENET_RST}" input
 			(at 292.1 200.66 180)
+			(uuid "81ba67be-e822-446d-8cb4-ca5ec6b60e28")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "81ba67be-e822-446d-8cb4-ca5ec6b60e28")
 		)
 		(pin "{RMII}" passive
 			(at 292.1 180.34 180)
+			(uuid "3fbe4d0b-0ef1-43fb-975c-b436c628181b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "3fbe4d0b-0ef1-43fb-975c-b436c628181b")
 		)
 		(pin "ENET_INTRP{slash}~{NAND_TREE}" output
 			(at 292.1 198.12 180)
+			(uuid "be32f458-2b4a-4252-bb30-f3b2b99c9135")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "be32f458-2b4a-4252-bb30-f3b2b99c9135")
 		)
 		(instances
 			(project "iMX6 Demo Board"
@@ -2354,6 +2404,10 @@
 	(sheet
 		(at 292.1 91.44)
 		(size 91.44 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.5)
 			(type solid)
@@ -2382,43 +2436,43 @@
 		)
 		(pin "~{SD_CARD_CD}" input
 			(at 292.1 124.46 180)
+			(uuid "31fdac3f-0e2b-406b-aea2-2bcbe72c0431")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "31fdac3f-0e2b-406b-aea2-2bcbe72c0431")
 		)
 		(pin "{SD_CARD}" passive
 			(at 292.1 119.38 180)
+			(uuid "acd40bdd-3841-4f43-8844-4084d62561a9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "acd40bdd-3841-4f43-8844-4084d62561a9")
 		)
 		(pin "{QSPI}" passive
 			(at 292.1 109.22 180)
+			(uuid "b33c2b4c-81cc-432e-a9bf-a8f02d64a84b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b33c2b4c-81cc-432e-a9bf-a8f02d64a84b")
 		)
 		(pin "{eMMC}" passive
 			(at 292.1 99.06 180)
+			(uuid "9c0bda40-3028-4010-8846-c9071cf4f926")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "9c0bda40-3028-4010-8846-c9071cf4f926")
 		)
 		(instances
 			(project "iMX6 Demo Board"
@@ -2431,6 +2485,10 @@
 	(sheet
 		(at 88.9 43.18)
 		(size 38.1 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.5)
 			(type solid)
@@ -2459,23 +2517,23 @@
 		)
 		(pin "PMIC_POWER_GOOD" output
 			(at 127 66.04 0)
+			(uuid "9562397f-81fd-4098-a2e8-fe73e96a788d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "9562397f-81fd-4098-a2e8-fe73e96a788d")
 		)
 		(pin "PMIC_ON_REQ" input
 			(at 127 50.8 0)
+			(uuid "28c00240-bab7-45de-a2f8-c05a250a877e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "28c00240-bab7-45de-a2f8-c05a250a877e")
 		)
 		(instances
 			(project "iMX6 Demo Board"

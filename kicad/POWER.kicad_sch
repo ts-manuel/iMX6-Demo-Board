@@ -1,230 +1,20 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "f81f62e7-3898-4d42-b061-3407ca3bd797")
 	(paper "A3")
 	(title_block
 		(title "i.MX6 Demo Board")
-		(date "2024-05-26")
-		(rev "00")
+		(date "2026-02-16")
+		(rev "01")
 		(company "ts-manuel")
 	)
 	(lib_symbols
-		(symbol "-- database:Capacitors/CAP_0402-100n-50V-X7R-10%"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "100 nF"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "ts_Passives:CAP-0402"
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "MLCC - SMD 0402 100nF 50V X7R 10%"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Voltage" "50 V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Dielectric" "X7R"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Tollerance" "10 %"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Generic"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" ""
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser" ""
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C1523"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Stock" ""
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "ts_Passives:CAP-0402"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Capacitors/CAP_0402-100n-50V-X7R-10%_0_1"
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Capacitors/CAP_0402-100n-50V-X7R-10%_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "-- database:Capacitors/CAP_0402-220p-50V-NP0-5%"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -373,7 +163,7 @@
 			(symbol "Capacitors/CAP_0402-220p-50V-NP0-5%_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -385,7 +175,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -434,9 +224,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "-- database:Capacitors/CAP_0402-22p-50V-NP0-5%"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -585,7 +378,7 @@
 			(symbol "Capacitors/CAP_0402-22p-50V-NP0-5%_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -597,7 +390,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -646,9 +439,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "-- database:Capacitors/CAP_0402-2n2-50V-X7R-10%"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -797,7 +593,7 @@
 			(symbol "Capacitors/CAP_0402-2n2-50V-X7R-10%_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -809,7 +605,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -858,9 +654,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "-- database:Capacitors/CAP_0402-560p-50V-NP0-5%"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -1009,7 +808,7 @@
 			(symbol "Capacitors/CAP_0402-560p-50V-NP0-5%_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -1021,7 +820,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -1070,9 +869,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "-- database:Capacitors/CAP_0603-1u-50V-X7R-10%"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -1221,7 +1023,7 @@
 			(symbol "Capacitors/CAP_0603-1u-50V-X7R-10%_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -1233,7 +1035,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -1282,9 +1084,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "-- database:Capacitors/CAP_0603-2.2u-16V-X5R-10%"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -1433,7 +1238,7 @@
 			(symbol "Capacitors/CAP_0603-2.2u-16V-X5R-10%_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -1445,7 +1250,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -1494,11 +1299,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "-- database:Generic/TP_ROUND-1PAD"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.762) hide)
+				(offset 0.762)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1645,11 +1455,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "-- database:Inductors/IND_FNR4020S270MT"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1792,32 +1607,8 @@
 			)
 			(symbol "Inductors/IND_FNR4020S270MT_0_1"
 				(arc
-					(start 0 -2.54)
-					(mid 0.6323 -1.905)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 0.635)
+					(start 0 2.54)
+					(mid 0.6323 1.905)
 					(end 0 1.27)
 					(stroke
 						(width 0)
@@ -1829,8 +1620,32 @@
 				)
 				(arc
 					(start 0 1.27)
-					(mid 0.6323 1.905)
-					(end 0 2.54)
+					(mid 0.6323 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 -0.635)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -1.905)
+					(end 0 -2.54)
 					(stroke
 						(width 0)
 						(type default)
@@ -1878,6 +1693,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "-- database:Integrated/INT-AP2127K-ADJTRG1"
 			(exclude_from_sim no)
@@ -2014,24 +1830,6 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 20.32 -12.7 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -2.54 -12.7 0)
 					(length 2.54)
@@ -2043,24 +1841,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 -7.62 180)
-					(length 2.54)
-					(name "ADJ"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2086,7 +1866,44 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 20.32 -7.62 180)
+					(length 2.54)
+					(name "ADJ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 -12.7 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "-- database:Integrated/INT-MT9700"
 			(exclude_from_sim no)
@@ -2196,53 +2013,17 @@
 						(type background)
 					)
 				)
-				(pin power_out line
-					(at 22.86 -2.54 180)
-					(length 2.54)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_in line
-					(at 10.16 -15.24 90)
+					(at -2.54 -2.54 0)
 					(length 2.54)
-					(name "GND"
+					(name "VIN"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -10.16 180)
-					(length 2.54)
-					(name "SET"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2269,16 +2050,52 @@
 					)
 				)
 				(pin power_in line
-					(at -2.54 -2.54 0)
+					(at 10.16 -15.24 90)
 					(length 2.54)
-					(name "VIN"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 22.86 -2.54 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -10.16 180)
+					(length 2.54)
+					(name "SET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2287,6 +2104,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "-- database:Integrated/INT-SY8892ARC"
 			(exclude_from_sim no)
@@ -2383,6 +2201,60 @@
 				)
 			)
 			(symbol "Integrated/INT-SY8892ARC_0_0"
+				(pin power_in line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -17.78 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -2.54 180)
+					(length 2.54)
+					(name "LX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at 17.78 -10.16 180)
 					(length 2.54)
@@ -2412,60 +2284,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -2.54 0)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 17.78 -2.54 180)
-					(length 2.54)
-					(name "LX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -17.78 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2507,9 +2325,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "-- database:Resistors/RES-SMD-0402-10K-1/16W-1%"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -2695,9 +2516,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "-- database:Resistors/RES-SMD-0402-18K-1/16W-1%"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -2883,9 +2707,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "-- database:Resistors/RES-SMD-0402-24K-1/16W-1%"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -3071,9 +2898,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "-- database:Resistors/RES-SMD-0402-56K2-1/16W-1%"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -3259,573 +3089,12 @@
 					)
 				)
 			)
-		)
-		(symbol "-- database:Resistors/RES-SMD-0402-64K9-1/16W-1%"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "64.9K"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "ts_Passives:RES-0402"
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Thick Film Resistor - SMD 0402 64.9K 1% 1/16W"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Tollerance" "1%"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Power" "1/16W"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Generic"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" ""
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser" "603-RC0402FR-0764K9L"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C3016024"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Stock" "0"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "ts_Passives:RES-0402"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Resistors/RES-SMD-0402-64K9-1/16W-1%_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Resistors/RES-SMD-0402-64K9-1/16W-1%_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "-- database:Resistors/RES-SMD-0402-72K-1/16W-1%"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "72K"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "ts_Passives:RES-0402"
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Thick Film Resistor - SMD 0402 72K 1% 1/16W"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Tollerance" "1%"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Power" "1/16W"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Generic"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" ""
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser" "603-RC0402FR-0772KL"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C852446"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Stock" "0"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "ts_Passives:RES-0402"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Resistors/RES-SMD-0402-72K-1/16W-1%_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Resistors/RES-SMD-0402-72K-1/16W-1%_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "-- database:Resistors/RES-SMD-0402-820R-1/16W-1%"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "820R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "ts_Passives:RES-0402"
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Thick Film Resistor - SMD 0402 820R 1% 1/16W"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Tollerance" "1%"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Power" "1/16W"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Generic"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" ""
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser" "603-RC0402FR-0718KL"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C431726"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Stock" "0"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "ts_Passives:RES-0402"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Resistors/RES-SMD-0402-820R-1/16W-1%_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Resistors/RES-SMD-0402-820R-1/16W-1%_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
+			(embedded_fonts no)
 		)
 		(symbol "-- database:Resistors/RES-SMD-0402-82K-1/16W-1%"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -4011,11 +3280,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "db:Capacitors/CAP_TAJD157K010RNJ"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4196,9 +3470,9 @@
 					)
 				)
 				(arc
-					(start 2.032 -1.27)
+					(start -2.032 -1.27)
 					(mid 0 -0.5572)
-					(end -2.032 -1.27)
+					(end 2.032 -1.27)
 					(stroke
 						(width 0.508)
 						(type default)
@@ -4246,12 +3520,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+9VA"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4323,7 +3602,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -4335,7 +3614,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -4366,12 +3645,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GNDREF"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4498,12 +3782,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:PWR_FLAG"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4594,7 +3883,715 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+		(symbol "ts_database:Capacitors/CAP_0402-100n-50V-X7R-10%"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "100 nF"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "ts_Passives:CAP-0402"
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "MLCC - SMD 0402 100nF 50V X7R 10%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Voltage" "50 V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Dielectric" "X7R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tollerance" "10 %"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Generic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" ""
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" ""
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C77020"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Stock" ""
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "ts_Passives:CAP-0402"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Capacitors/CAP_0402-100n-50V-X7R-10%_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Capacitors/CAP_0402-100n-50V-X7R-10%_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ts_database:Resistors/RES-SMD-0402-4K7-1/16W-1%"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "4.7K"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "ts_Passives:RES-0402"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Thick Film Resistor - SMD 0402 4.7K 1% 1/16W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tollerance" "1%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Power" "1/16W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Generic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" ""
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "603-RC0402FR-074K7L"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C105871"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Stock" "0"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "ts_Passives:RES-0402"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Resistors/RES-SMD-0402-4K7-1/16W-1%_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Resistors/RES-SMD-0402-4K7-1/16W-1%_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ts_database:Resistors/RES-SMD-0402-68K-1/16W-1%"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "68K"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "ts_Passives:RES-0402"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Thick Film Resistor - SMD 0402 68K 1% 1/16W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tollerance" "1%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Power" "1/16W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Generic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" ""
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "603-RC0402FR-0768KL"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C36871"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Stock" "0"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "ts_Passives:RES-0402"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Resistors/RES-SMD-0402-68K-1/16W-1%_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Resistors/RES-SMD-0402-68K-1/16W-1%_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text_box "DESIGN NOTE:\n\nV_{out} = 0.6V * (1 + 82K / 72.7K) = 1.277V\nF_{sw} = 1.5MHz"
+		(exclude_from_sim no)
+		(at 198.12 200.66 0)
+		(size 58.42 15.24)
+		(margins 1.375 1.375 1.375 1.375)
+		(stroke
+			(width 0.5)
+			(type solid)
+			(color 255 229 153 1)
+		)
+		(fill
+			(type color)
+			(color 243 243 243 1)
+		)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left top)
+		)
+		(uuid "04d6b17a-ce3b-4eea-8091-17f6db5392ea")
+	)
+	(text_box "DESIGN NOTE:\n\nV_{out} = 0.8V * (1 + 56.2K / 18K) = 3.3V"
+		(exclude_from_sim no)
+		(at 147.32 63.5 0)
+		(size 58.42 15.24)
+		(margins 1.375 1.375 1.375 1.375)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 255 229 153 1)
+		)
+		(fill
+			(type color)
+			(color 243 243 243 1)
+		)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left top)
+		)
+		(uuid "31ddfd32-b025-451f-8b6d-c38ff459f0ec")
+	)
+	(text_box "DESIGN NOTE:\n\nV_{out} = 0.6V * (1 + 82K / 68.0K) = 1.324V\nF_{sw} = 1.5MHz"
+		(exclude_from_sim no)
+		(at 198.12 261.62 0)
+		(size 58.42 15.24)
+		(margins 1.375 1.375 1.375 1.375)
+		(stroke
+			(width 0.5)
+			(type solid)
+			(color 255 229 153 1)
+		)
+		(fill
+			(type color)
+			(color 243 243 243 1)
+		)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left top)
+		)
+		(uuid "336e25f2-c207-4bdf-b477-e0521cab0912")
+	)
+	(text_box "DESIGN NOTE:\n\nV_{out} = 0.6V * (1 + 82K / 18K) = 3.33V\nF_{sw} = 1.5MHz"
+		(exclude_from_sim no)
+		(at 198.12 129.54 0)
+		(size 58.42 15.24)
+		(margins 1.375 1.375 1.375 1.375)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 255 229 153 1)
+		)
+		(fill
+			(type color)
+			(color 243 243 243 1)
+		)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left top)
+		)
+		(uuid "965a5644-953d-4c67-9ea7-84ce0d779a1d")
+	)
+	(text_box "DESIGN NOTE:\n\nRequired to reduce the inrush current\n\nMax current 680 mA"
+		(exclude_from_sim no)
+		(at 67.31 127 0)
+		(size 50.8 19.05)
+		(margins 1.375 1.375 1.375 1.375)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 255 229 153 1)
+		)
+		(fill
+			(type color)
+			(color 243 243 243 1)
+		)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left top)
+		)
+		(uuid "9f1c57bb-a060-481c-8d47-bb77a4342a7f")
 	)
 	(junction
 		(at 187.96 177.8)
@@ -6520,114 +6517,8 @@
 		)
 		(uuid "fd24932e-646d-46b2-9d1b-54089533d9ec")
 	)
-	(text_box "DESIGN NOTE:\n\nV_{out} = 0.6V * (1 + 82K / 72.82K) = 1.276V\nF_{sw} = 1.5MHz"
-		(exclude_from_sim no)
-		(at 198.12 200.66 0)
-		(size 58.42 15.24)
-		(stroke
-			(width 0.5)
-			(type default)
-			(color 255 229 153 1)
-		)
-		(fill
-			(type color)
-			(color 243 243 243 1)
-		)
-		(effects
-			(font
-				(size 1.5 1.5)
-			)
-			(justify left top)
-		)
-		(uuid "04d6b17a-ce3b-4eea-8091-17f6db5392ea")
-	)
-	(text_box "DESIGN NOTE:\n\nV_{out} = 0.8V * (1 + 56.2K / 18K) = 3.3V"
-		(exclude_from_sim no)
-		(at 147.32 63.5 0)
-		(size 58.42 15.24)
-		(stroke
-			(width 0.5)
-			(type default)
-			(color 255 229 153 1)
-		)
-		(fill
-			(type color)
-			(color 243 243 243 1)
-		)
-		(effects
-			(font
-				(size 1.5 1.5)
-			)
-			(justify left top)
-		)
-		(uuid "31ddfd32-b025-451f-8b6d-c38ff459f0ec")
-	)
-	(text_box "DESIGN NOTE:\n\nV_{out} = 0.6V * (1 + 82K / 64.9K) = 1.358V\nF_{sw} = 1.5MHz"
-		(exclude_from_sim no)
-		(at 198.12 261.62 0)
-		(size 58.42 15.24)
-		(stroke
-			(width 0.5)
-			(type default)
-			(color 255 229 153 1)
-		)
-		(fill
-			(type color)
-			(color 243 243 243 1)
-		)
-		(effects
-			(font
-				(size 1.5 1.5)
-			)
-			(justify left top)
-		)
-		(uuid "336e25f2-c207-4bdf-b477-e0521cab0912")
-	)
-	(text_box "DESIGN NOTE:\n\nV_{out} = 0.6V * (1 + 82K / 18K) = 3.33V\nF_{sw} = 1.5MHz"
-		(exclude_from_sim no)
-		(at 198.12 129.54 0)
-		(size 58.42 15.24)
-		(stroke
-			(width 0.5)
-			(type default)
-			(color 255 229 153 1)
-		)
-		(fill
-			(type color)
-			(color 243 243 243 1)
-		)
-		(effects
-			(font
-				(size 1.5 1.5)
-			)
-			(justify left top)
-		)
-		(uuid "965a5644-953d-4c67-9ea7-84ce0d779a1d")
-	)
-	(text_box "DESIGN NOTE:\n\nRequired to reduce the inrush current\n\nMax current 680 mA"
-		(exclude_from_sim no)
-		(at 67.31 127 0)
-		(size 50.8 19.05)
-		(stroke
-			(width 0.5)
-			(type default)
-			(color 255 229 153 1)
-		)
-		(fill
-			(type color)
-			(color 243 243 243 1)
-		)
-		(effects
-			(font
-				(size 1.5 1.5)
-			)
-			(justify left top)
-		)
-		(uuid "9f1c57bb-a060-481c-8d47-bb77a4342a7f")
-	)
 	(label "3V3_DCDC_SW"
 		(at 217.17 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6638,7 +6529,6 @@
 	)
 	(label "SOC_DCDC_SW"
 		(at 217.17 170.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6649,7 +6539,6 @@
 	)
 	(label "DRAM_DCDC_SW"
 		(at 217.17 236.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6660,7 +6549,6 @@
 	)
 	(label "+5V_SW"
 		(at 96.52 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6672,7 +6560,6 @@
 	(hierarchical_label "PMIC_ON_REQ"
 		(shape input)
 		(at 30.48 124.46 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6684,7 +6571,6 @@
 	(hierarchical_label "PMIC_POWER_GOOD"
 		(shape output)
 		(at 259.08 218.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6694,7 +6580,7 @@
 		(uuid "b5f821ad-2527-47b0-b09a-ac45f7d703af")
 	)
 	(symbol
-		(lib_id "-- database:Capacitors/CAP_0402-100n-50V-X7R-10%")
+		(lib_id "ts_database:Capacitors/CAP_0402-100n-50V-X7R-10%")
 		(at 274.32 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6804,7 +6690,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1523"
+		(property "LCSC" "C77020"
 			(at 274.32 110.49 0)
 			(show_name yes)
 			(effects
@@ -7750,7 +7636,7 @@
 		)
 	)
 	(symbol
-		(lib_id "-- database:Resistors/RES-SMD-0402-72K-1/16W-1%")
+		(lib_id "ts_database:Resistors/RES-SMD-0402-68K-1/16W-1%")
 		(at 238.76 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7768,7 +7654,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "72K"
+		(property "Value" "68K"
 			(at 241.3 185.4199 0)
 			(effects
 				(font
@@ -7795,7 +7681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thick Film Resistor - SMD 0402 72K 1% 1/16W"
+		(property "Description" "Thick Film Resistor - SMD 0402 68K 1% 1/16W"
 			(at 238.76 184.15 0)
 			(effects
 				(font
@@ -7841,7 +7727,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-0772KL"
+		(property "Mouser" "603-RC0402FR-0768KL"
 			(at 238.76 184.15 0)
 			(show_name yes)
 			(effects
@@ -7851,7 +7737,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C852446"
+		(property "LCSC" "C36871"
 			(at 238.76 184.15 0)
 			(show_name yes)
 			(effects
@@ -7887,7 +7773,7 @@
 		)
 	)
 	(symbol
-		(lib_id "-- database:Capacitors/CAP_0402-100n-50V-X7R-10%")
+		(lib_id "ts_database:Capacitors/CAP_0402-100n-50V-X7R-10%")
 		(at 274.32 242.57 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7997,7 +7883,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1523"
+		(property "LCSC" "C77020"
 			(at 274.32 242.57 0)
 			(show_name yes)
 			(effects
@@ -8100,7 +7986,7 @@
 		)
 	)
 	(symbol
-		(lib_id "-- database:Resistors/RES-SMD-0402-820R-1/16W-1%")
+		(lib_id "ts_database:Resistors/RES-SMD-0402-4K7-1/16W-1%")
 		(at 238.76 191.77 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8118,7 +8004,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "820R"
+		(property "Value" "4.7K"
 			(at 241.3 193.0399 0)
 			(effects
 				(font
@@ -8145,7 +8031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thick Film Resistor - SMD 0402 820R 1% 1/16W"
+		(property "Description" "Thick Film Resistor - SMD 0402 4.7K 1% 1/16W"
 			(at 238.76 191.77 0)
 			(effects
 				(font
@@ -8191,7 +8077,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-0718KL"
+		(property "Mouser" "603-RC0402FR-074K7L"
 			(at 238.76 191.77 0)
 			(show_name yes)
 			(effects
@@ -8201,7 +8087,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C431726"
+		(property "LCSC" "C105871"
 			(at 238.76 191.77 0)
 			(show_name yes)
 			(effects
@@ -8237,7 +8123,7 @@
 		)
 	)
 	(symbol
-		(lib_id "-- database:Capacitors/CAP_0402-100n-50V-X7R-10%")
+		(lib_id "ts_database:Capacitors/CAP_0402-100n-50V-X7R-10%")
 		(at 274.32 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8347,7 +8233,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1523"
+		(property "LCSC" "C77020"
 			(at 274.32 176.53 0)
 			(show_name yes)
 			(effects
@@ -8660,7 +8546,7 @@
 		)
 	)
 	(symbol
-		(lib_id "-- database:Resistors/RES-SMD-0402-64K9-1/16W-1%")
+		(lib_id "ts_database:Resistors/RES-SMD-0402-68K-1/16W-1%")
 		(at 238.76 250.19 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8678,7 +8564,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "64.9K"
+		(property "Value" "68K"
 			(at 241.3 251.4599 0)
 			(effects
 				(font
@@ -8705,7 +8591,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thick Film Resistor - SMD 0402 64.9K 1% 1/16W"
+		(property "Description" "Thick Film Resistor - SMD 0402 68K 1% 1/16W"
 			(at 238.76 250.19 0)
 			(effects
 				(font
@@ -8751,7 +8637,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-0764K9L"
+		(property "Mouser" "603-RC0402FR-0768KL"
 			(at 238.76 250.19 0)
 			(show_name yes)
 			(effects
@@ -8761,7 +8647,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3016024"
+		(property "LCSC" "C36871"
 			(at 238.76 250.19 0)
 			(show_name yes)
 			(effects
@@ -13486,7 +13372,7 @@
 		)
 	)
 	(symbol
-		(lib_id "-- database:Capacitors/CAP_0402-100n-50V-X7R-10%")
+		(lib_id "ts_database:Capacitors/CAP_0402-100n-50V-X7R-10%")
 		(at 160.02 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13596,7 +13482,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1523"
+		(property "LCSC" "C77020"
 			(at 160.02 125.73 0)
 			(show_name yes)
 			(effects
@@ -15764,7 +15650,7 @@
 		)
 	)
 	(symbol
-		(lib_id "-- database:Capacitors/CAP_0402-100n-50V-X7R-10%")
+		(lib_id "ts_database:Capacitors/CAP_0402-100n-50V-X7R-10%")
 		(at 43.18 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15874,7 +15760,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1523"
+		(property "LCSC" "C77020"
 			(at 43.18 130.81 0)
 			(show_name yes)
 			(effects

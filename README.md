@@ -7,34 +7,45 @@
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#about-the-project">About The Project</a></li>
+    <li><a href="#hardware-specifications">Hardware Specifications</a></li>
+    <li><a href="#software">Software</a></li>
     <li><a href="#schematic">Schematic</a></li>
-    <li><a href="#u-boot">U-Boot</a></li>
-    <li><a href="#known-issues">Known Issues</a></li>
   </ol>
 </details>
 
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-This is a demo board for the i.MX 6 ULL application procesor from NXP. 
+This repository contains the design files and documentation for a custom-built Linux demo board based on the NXP i.MX6ULL (900 MHz ARM Cortex-A7). The purpose of this project isn't to solve a specific problem or build a commercial product. This is a dedicated learning platform designed to bridge the gap between simple micro-controllers and complex application processors. While micro-controllers (like STM32 or ESP32) are great for real-time tasks, application processors are better suited for "heavy lifting" and high-level software stacks. Checkout the full schematic [schematic](./kicad/schematic/iMX6%20Demo%20Board.pdf) and the [interactive BOM](./kicad/bom/ibom.html).
 
+### Hardware Specifications
+- **System**
+    - CPU: NXP i.MX6ULL @ 900 MHz (ARM Cortex-A7)
+    - RAM: 512 MB DDR3
+- **Storage:**
+    - 4 GB eMMC (On-board)
+    - 32 MB NOR Quad SPI
+    - Micro SD-Card Slot
+- **Connectivity:**
+    - 1x 100Mb Ethernet
+    - 2x USB 2.0 Host (Type A)
+    - 1x USB 2.0 Device (Type C)
+    - 2x Audio Jacks 3.5 mm (WM8904 Codec)
+- **UI & Indicators:**
+    - 24-bit LCD Interface
+    - 8x User LEDs + 5x Status LEDs
 
-### Hardware:
-- NXP i.MX6ULL 900 MHz ARM Coretex-A7
-- 512 MB DDR3 RAM
-- 32 MB NOR QUAD SPI
-- 4 GB eMMC on-board storage
-- Micro SD-Card Slot
-- 1x 100Mb Ethernet
-- 2x USB 2.0 Host Type A
-- 1x USB 2.0 Device Type C Power + FTDI (DFU)
-- 8x USER LEDs
-- 5x STATUS LEDs
-- 24 bit LCD
+<!-- SOFTWARE -->
+## Software
+The current goal is to compile a basic Linux image using the Yocto Project to exercise and validate every hardware feature on the board (Ethernet, USB, Display, and GPIO).\
+
+**Status: In Progress**. Development of the custom meta-layer and bitbake recipes is currently underway.
 
 
 <!-- SCHEMATIC -->
 ## Schematic
+Checkout the full [schematic](./kicad/schematic/iMX6%20Demo%20Board.pdf) in PDF.
+
 ![iMX6 Demo Board-01.png](</kicad/schematic/iMX6 Demo Board-01.png>)
 
 ### POWER TREE
@@ -72,40 +83,3 @@ This is a demo board for the i.MX 6 ULL application procesor from NXP.
 
 ### CONTROL GPIO
 ![iMX6 Demo Board-13.png](</kicad/schematic/iMX6 Demo Board-13.png>)
-
-
-<!-- U-BOOT -->
-## U-Boot
-
-### Prerequisites
-
-    > sudo apt install gcc-arm-linux-gnueabihf
-
-### Compiling U-Boot
-
-    > cd linux/u-boot
-    > make mx6ull_demo_board_defconfig
-    > ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- make
-
-
-## Known Issues
-
-### Rev. 00 - Issues found during hardware debug
-
-+ Wrong part number in BOM for resistors R103, R113, R114, R118.\
-**Suggested Fix:** Replace with 680 KΩ resistors, applying power withot the fix will damage the board!!!
-
-+ Wrong part number in BOM for resistors R13, R16.\
-**Suggested Fix:** Replace with 68 KΩ resistors, applying power withot the fix will damage the board!!!
-
-+ Wrong part number in BOM for resistors R14.\
-**Suggested Fix:** Replace with 4.7 KΩ resistors, applying power withot the fix will damage the board!!!
-
-+ Wrong part number in BOM for capacitors C100, C101, C12, C13, C130, C131, C133, C135, C140, C141, C15, C19, C57, C58, C7, C99.\
-**Suggested Fix:** Replace with 100 nF capacitors.
-
-+ Wrong connection for power pins in USB Type A ports, power and ground are flipped.\
-**Suggested Fix:** Cut metal beind connector and rewire power and ground.
-
-+ Wrong connection for power button pull-up resistor, board will not turn on with power button.\
-**Suggested Fix:** Remove R23 and connect 10 KΩ pull-up between button and +3V3_STANDBY.

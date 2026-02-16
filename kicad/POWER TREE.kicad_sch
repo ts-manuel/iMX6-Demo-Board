@@ -1,16 +1,1402 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "00578cd8-f4f4-4bf4-b4e3-52cbb688d8c6")
 	(paper "A3")
 	(title_block
 		(title "i.MX6 Demo Board")
-		(date "2024-05-26")
-		(rev "00")
+		(date "2026-02-16")
+		(rev "01")
 		(company "ts-manuel")
 	)
 	(lib_symbols)
+	(rectangle
+		(start 314.96 50.6222)
+		(end 294.64 55.7022)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 128 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 252 229 205 1)
+		)
+		(uuid 1521be62-fe8a-4f1a-b49e-f5c5a6ce7605)
+	)
+	(rectangle
+		(start 13.97 223.52)
+		(end 129.54 283.21)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 71bb15f5-ea65-4d3f-a000-a51242a40890)
+	)
+	(rectangle
+		(start 314.96 77.2922)
+		(end 294.64 84.9122)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 128 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 252 229 205 1)
+		)
+		(uuid 854afa2b-b5be-431c-b03d-c3613650d83f)
+	)
+	(rectangle
+		(start 314.96 65.8622)
+		(end 294.64 70.9422)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 128 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 252 229 205 1)
+		)
+		(uuid 9bfa61db-b5c8-4816-91e0-748472709fd0)
+	)
+	(rectangle
+		(start 314.96 153.4922)
+		(end 294.64 163.6522)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 128 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 252 229 205 1)
+		)
+		(uuid b3054910-9eb1-4520-a0be-a0d4f0f4fdc8)
+	)
+	(rectangle
+		(start 254 43.0022)
+		(end 355.6 172.5422)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 153 153 153 1)
+		)
+		(fill
+			(type color)
+			(color 243 243 243 1)
+		)
+		(uuid c935a711-df38-43c5-87a0-644c1a295b5b)
+	)
+	(rectangle
+		(start 77.47 61.722)
+		(end 189.23 102.87)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c9d52e32-b886-4aa6-8af0-bdec53dd766c)
+	)
+	(rectangle
+		(start 314.96 58.2422)
+		(end 294.64 63.3222)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 128 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 252 229 205 1)
+		)
+		(uuid dda0a3ae-7ad2-4809-b2e3-531b625897d6)
+	)
+	(text ""
+		(exclude_from_sim no)
+		(at 302.26 208.1022 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "02e3c07d-c9d0-4ee8-9f83-3d410881f512")
+	)
+	(text "+5V_LCD"
+		(exclude_from_sim no)
+		(at 172.72 177.8 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "0b3f125d-037b-4548-b59b-e8f9cad2b6b8")
+	)
+	(text "125 mA"
+		(exclude_from_sim no)
+		(at 256.54 69.6722 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left top)
+		)
+		(uuid "0e06860c-a32c-48bf-9246-f6cd5373a449")
+	)
+	(text "500 uA"
+		(exclude_from_sim no)
+		(at 193.04 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "12df0d57-5f3f-4762-b850-e34b0249bb62")
+	)
+	(text "VDD_SOC_IN"
+		(exclude_from_sim no)
+		(at 256.54 81.1022 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left)
+		)
+		(uuid "140abeb8-c11e-4456-a084-9060215c3795")
+	)
+	(text "NVCC_NAND"
+		(exclude_from_sim no)
+		(at 256.54 131.9022 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left)
+		)
+		(uuid "1a302f49-5232-4346-9ce9-982cfe62b303")
+	)
+	(text "+VDD_DRAM"
+		(exclude_from_sim no)
+		(at 190.5 93.8022 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "20f8b0b8-ad4b-4827-af3c-b29c8f5d4d0a")
+	)
+	(text "+3V3_DCDC"
+		(exclude_from_sim no)
+		(at 36.83 241.1222 0)
+		(effects
+			(font
+				(size 1.8 1.8)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "212d42c0-678f-418b-baf6-4b2276ec93d3")
+	)
+	(text "NVCC_DRAM"
+		(exclude_from_sim no)
+		(at 256.54 93.8022 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left)
+		)
+		(uuid "25fa729d-42d8-4e44-a488-03dcf22be0ed")
+	)
+	(text "VDD_SNVS_IN"
+		(exclude_from_sim no)
+		(at 330.2 53.1622 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left)
+		)
+		(uuid "2798a035-8de8-4be4-8d11-3fe60d4c30ce")
+	)
+	(text "450 mA"
+		(exclude_from_sim no)
+		(at 180.34 200.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2826b154-4557-4de0-b1ad-afc0dd6cb42e")
+	)
+	(text "8 mA"
+		(exclude_from_sim no)
+		(at 60.96 195.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2cce798f-fa1c-4d72-924d-838a7fec83cb")
+	)
+	(text "POWER SEQUENCE"
+		(exclude_from_sim no)
+		(at 13.97 222.25 0)
+		(effects
+			(font
+				(size 3.048 3.048)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "3099e724-fa4b-4375-b46f-be77bef6f602")
+	)
+	(text "VDD_ARM_CAP"
+		(exclude_from_sim no)
+		(at 330.2 78.5622 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left)
+		)
+		(uuid "34d07535-fd42-4238-8233-8dfbc41fb0a3")
+	)
+	(text "2.80 A"
+		(exclude_from_sim no)
+		(at 40.64 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3602d7d4-e9ea-4568-bd14-8c61d6a140a5")
+	)
+	(text "VDD_USB_CAP"
+		(exclude_from_sim no)
+		(at 330.2 158.5722 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left)
+		)
+		(uuid "37ff2645-635a-4605-8f51-70f1f69fe026")
+	)
+	(text "NVCC_UART"
+		(exclude_from_sim no)
+		(at 256.54 116.6622 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left)
+		)
+		(uuid "3a092e76-91d2-4e9a-ab63-482ddc1e19cf")
+	)
+	(text "PMIC_POWER_GOOD"
+		(exclude_from_sim no)
+		(at 200.66 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3a3cec7f-7c97-460c-8a28-765c7d039056")
+	)
+	(text "+3V3_STAND_BY"
+		(exclude_from_sim no)
+		(at 36.83 233.5022 0)
+		(effects
+			(font
+				(size 1.8 1.8)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "403169d0-a25c-4ef1-94c1-b88d923a3b99")
+	)
+	(text "i.MX6ULL"
+		(exclude_from_sim no)
+		(at 313.69 130.6322 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(justify bottom)
+		)
+		(uuid "403acee6-048a-4cbe-bb05-e529bbb577c6")
+	)
+	(text "500 mA"
+		(exclude_from_sim no)
+		(at 175.26 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "40841df2-b035-484e-bda6-e141802c4bc8")
+	)
+	(text "VDD_HIGH_CAP"
+		(exclude_from_sim no)
+		(at 330.2 68.4022 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left)
+		)
+		(uuid "40f0eb1f-bb97-47df-8aad-5f29e5742ebc")
+	)
+	(text "NVCC_ENET"
+		(exclude_from_sim no)
+		(at 256.54 121.7422 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left)
+		)
+		(uuid "488364ba-e838-4e3d-8127-fe9500e6622d")
+	)
+	(text "120 mA"
+		(exclude_from_sim no)
+		(at 252.73 191.77 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify right bottom)
+		)
+		(uuid "48b5d42d-7f5b-4202-a137-f651de275387")
+	)
+	(text "VCCQ - 100 mA"
+		(exclude_from_sim no)
+		(at 252.73 240.03 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify right bottom)
+		)
+		(uuid "4bc95edd-0cd7-4137-abf9-dbb5a2293bb2")
+	)
+	(text "NVCC_GPIO"
+		(exclude_from_sim no)
+		(at 256.54 111.5822 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left)
+		)
+		(uuid "4c3b61cb-2621-4f84-9360-cd1ed2c5c051")
+	)
+	(text "+VDD_SOC"
+		(exclude_from_sim no)
+		(at 36.83 256.3622 0)
+		(effects
+			(font
+				(size 1.8 1.8)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "4d0d0f11-4be1-47a1-a9bc-7757e8206d3f")
+	)
+	(text "LDO_USB"
+		(exclude_from_sim no)
+		(at 304.8 158.5722 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4f9bfbbf-351f-45c5-96b5-26764f737966")
+	)
+	(text "450 mA"
+		(exclude_from_sim no)
+		(at 175.26 180.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "501197bf-7cfd-4a98-a023-7d5e6e3bc180")
+	)
+	(text "NVCC_SD"
+		(exclude_from_sim no)
+		(at 256.54 136.9822 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left)
+		)
+		(uuid "521ee701-e48c-43d4-a36d-b89a4eabe871")
+	)
+	(text "120 mA"
+		(exclude_from_sim no)
+		(at 193.04 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5769108f-601c-4287-a84d-9d8fea69bfe7")
+	)
+	(text "+3V3_DCDC"
+		(exclude_from_sim no)
+		(at 190.5 68.58 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "5a53be9b-40de-4703-9f2c-b22ed48d5662")
+	)
+	(text "Always ON"
+		(exclude_from_sim no)
+		(at 137.16 54.4322 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5bd2e7de-7a3a-4b19-a089-d1af430ad148")
+	)
+	(text "VCC - 30 mA"
+		(exclude_from_sim no)
+		(at 252.73 229.87 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify right bottom)
+		)
+		(uuid "5e09ee7d-2ecc-4716-926e-277c3825a5bf")
+	)
+	(text "NVCC_PLL"
+		(exclude_from_sim no)
+		(at 330.2 60.7822 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left)
+		)
+		(uuid "67fecc0e-d8af-4b69-90fe-53575770aa30")
+	)
+	(text "PMIC_POWER_GOOD"
+		(exclude_from_sim no)
+		(at 121.92 179.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6b9fdd72-233a-4f16-9b78-d1d0c8e94360")
+	)
+	(text "LDO_ARM_SOC"
+		(exclude_from_sim no)
+		(at 304.8 81.1022 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6bd52af5-5ce8-42bc-929c-b1174c0d8d4b")
+	)
+	(text "USB_OTG1_VBUS"
+		(exclude_from_sim no)
+		(at 256.54 153.4922 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left)
+		)
+		(uuid "6ed1ad3b-b6dd-42e2-8628-d08ccae47238")
+	)
+	(text "41 mA"
+		(exclude_from_sim no)
+		(at 180.34 278.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "71f772b7-3ab1-467a-8cdb-e410e2af7901")
+	)
+	(text "DCDC_3V3_PG"
+		(exclude_from_sim no)
+		(at 139.7 82.3722 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "72043abd-0b32-40b0-a49d-31f3c966d207")
+	)
+	(text "500 µA"
+		(exclude_from_sim no)
+		(at 256.54 54.4322 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left top)
+		)
+		(uuid "73222e87-4354-43f9-af85-81075b735cd0")
+	)
+	(text "PMIC_POWER_GOOD"
+		(exclude_from_sim no)
+		(at 121.92 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "74acdc7d-10a0-48cc-8607-56107ef50d3d")
+	)
+	(text "200 mA"
+		(exclude_from_sim no)
+		(at 193.04 96.3422 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "75a4066b-751b-43ca-bdc1-d61d8b86d277")
+	)
+	(text "100 mA"
+		(exclude_from_sim no)
+		(at 180.34 210.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "792121b6-6a8f-46b0-b8e2-aea69b915358")
+	)
+	(text "NVCC_DRAM_2P5"
+		(exclude_from_sim no)
+		(at 326.39 93.8022 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left)
+		)
+		(uuid "7c8c3ae3-e41b-40d2-bed6-b6be1969d370")
+	)
+	(text "VDD_SNVS_IN"
+		(exclude_from_sim no)
+		(at 256.54 53.1622 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left)
+		)
+		(uuid "7dd17b10-0ba3-4063-bf19-2a584d76045e")
+	)
+	(text "500 mA"
+		(exclude_from_sim no)
+		(at 193.04 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "83db50e7-2c9f-4640-a834-6fefcde2fee1")
+	)
+	(text "DCDC_3V3_PG"
+		(exclude_from_sim no)
+		(at 139.7 125.5522 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "884d2fc5-d003-49bc-bbf9-adc243503a61")
+	)
+	(text "640 mA"
+		(exclude_from_sim no)
+		(at 116.84 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "89188325-be55-4d17-abe6-e3bc7e6160a0")
+	)
+	(text "500 mA"
+		(exclude_from_sim no)
+		(at 256.54 82.3722 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left top)
+		)
+		(uuid "8b63491b-7266-470a-924a-c78e8af9ee43")
+	)
+	(text "500 mA"
+		(exclude_from_sim no)
+		(at 175.26 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8c3a0824-941a-4cfa-8e16-465924b8edfb")
+	)
+	(text "20 mA"
+		(exclude_from_sim no)
+		(at 180.34 255.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8ddcfc98-8b07-4ccb-bed5-0595e0aa8930")
+	)
+	(text "PMIC_ON_REQ"
+		(exclude_from_sim no)
+		(at 66.04 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9086d82b-ad20-4c83-827b-9bd7529c8d21")
+	)
+	(text "~{POR}"
+		(exclude_from_sim no)
+		(at 33.02 271.6022 0)
+		(effects
+			(font
+				(size 1.8 1.8)
+				(bold yes)
+			)
+		)
+		(uuid "9a768707-c066-4b8a-b902-cbc67919a947")
+	)
+	(text "PMIC_POWER_GOOD"
+		(exclude_from_sim no)
+		(at 121.92 166.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9f16af31-cd10-41c0-9521-722f0b6441a3")
+	)
+	(text "500 mA"
+		(exclude_from_sim no)
+		(at 193.04 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9fb7594e-5213-413d-8cde-650c495cb366")
+	)
+	(text "+VDD_DRAM"
+		(exclude_from_sim no)
+		(at 36.83 263.9822 0)
+		(effects
+			(font
+				(size 1.8 1.8)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "a0f68fa9-5b39-44aa-9929-f81bc2af0240")
+	)
+	(text "POWER TREE"
+		(exclude_from_sim no)
+		(at 195.58 32.8422 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(bold yes)
+			)
+			(justify bottom)
+		)
+		(uuid "a43e2078-f09c-48c8-ad1d-c63c04b94cc4")
+	)
+	(text "+VDD_SOC"
+		(exclude_from_sim no)
+		(at 190.5 81.28 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "a92e699b-83ff-4de1-b9ac-1652739d601a")
+	)
+	(text "+1V8"
+		(exclude_from_sim no)
+		(at 190.5 124.2822 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "ab65b166-d99b-42bc-9aa4-0a110c86d7df")
+	)
+	(text "+3V3_STAND_BY"
+		(exclude_from_sim no)
+		(at 190.5 53.34 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "ac0c2368-ecfc-411a-9989-69d35f3ce557")
+	)
+	(text "VDD_HIGH_IN"
+		(exclude_from_sim no)
+		(at 256.54 68.4022 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left)
+		)
+		(uuid "b78555bc-4933-4635-ab61-3f272b33716d")
+	)
+	(text "USB_OTG2_VBUS"
+		(exclude_from_sim no)
+		(at 256.54 163.6522 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left)
+		)
+		(uuid "bcafd2d2-d916-408f-833a-0e18d64e70cb")
+	)
+	(text "NVCC_ADC3P3"
+		(exclude_from_sim no)
+		(at 256.54 102.6922 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left)
+		)
+		(uuid "c24088c7-bf11-4389-8ef0-e072420608bd")
+	)
+	(text "+5V_USB_VBUS_2"
+		(exclude_from_sim no)
+		(at 172.72 165.1 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "c48da855-45f3-4caa-a4d1-dc9f40002a6d")
+	)
+	(text "+NVCC_XXX"
+		(exclude_from_sim no)
+		(at 36.83 248.7422 0)
+		(effects
+			(font
+				(size 1.8 1.8)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "c77a2ef6-fddc-45bb-af8a-335775915c93")
+	)
+	(text "NVCC_CSI"
+		(exclude_from_sim no)
+		(at 256.54 142.0622 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left)
+		)
+		(uuid "c83451c8-744e-44f0-a25c-f743fe17243f")
+	)
+	(text "LDO_1P1"
+		(exclude_from_sim no)
+		(at 304.8 60.7822 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c946fd54-b1aa-4e7e-b8e9-863f9c880d95")
+	)
+	(text "6 mA"
+		(exclude_from_sim no)
+		(at 252.73 209.55 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify right bottom)
+		)
+		(uuid "c9c2b4a9-a341-4772-a69a-677b7cad725a")
+	)
+	(text "LDO_2P5"
+		(exclude_from_sim no)
+		(at 304.8 68.4022 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cc0cd582-33b1-415d-b008-58f8244a207b")
+	)
+	(text "NVCC_LCD"
+		(exclude_from_sim no)
+		(at 256.54 126.8222 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left)
+		)
+		(uuid "cf98befe-f6a8-4de1-bfd3-4cf3ffd0e6d9")
+	)
+	(text "+5V_VBUS"
+		(exclude_from_sim no)
+		(at 39.37 48.26 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left top)
+		)
+		(uuid "d556685b-9e73-4540-96ac-1f2e0c0e135b")
+	)
+	(text "+5V_USB_VBUS_1"
+		(exclude_from_sim no)
+		(at 172.72 152.4 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "d7e3826d-5896-44c1-b30c-b8fc02ff1033")
+	)
+	(text "LDO_ARM_SOC"
+		(exclude_from_sim no)
+		(at 304.8 53.1622 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e87ba1d8-14c1-46cd-aeb2-a748de4d1927")
+	)
+	(text "35 mA"
+		(exclude_from_sim no)
+		(at 256.54 103.9622 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left top)
+		)
+		(uuid "ea6de34d-35f9-4e70-9a8e-14e55713032b")
+	)
+	(text "VDD_SOC_CAP"
+		(exclude_from_sim no)
+		(at 330.2 83.6422 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left)
+		)
+		(uuid "f217ea6e-9dfd-4817-8e74-7d099d1276ee")
+	)
+	(text "DCDC_3V3_PG"
+		(exclude_from_sim no)
+		(at 139.7 95.0722 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f6378093-092c-42ac-9a51-9af6cd4e5cd8")
+	)
+	(text "40 mA"
+		(exclude_from_sim no)
+		(at 252.73 260.1722 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify right bottom)
+		)
+		(uuid "fac96306-f7e7-49c7-b4e1-2119871ff358")
+	)
+	(text_box "LDO\nAP2127K-ADJTRG1\n+3.3 V / 300 mA"
+		(exclude_from_sim no)
+		(at 152.4 119.38 0)
+		(size 35.56 10.16)
+		(margins 1.375 1.375 1.375 1.375)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 153 153 153 1)
+		)
+		(fill
+			(type color)
+			(color 252 229 205 1)
+		)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+		)
+		(uuid "08f2434e-e114-4fe3-950c-6706e3c22448")
+	)
+	(text_box "Ethernet PHY\n    KSZ8081RNB"
+		(exclude_from_sim no)
+		(at 134.62 269.24 0)
+		(size 43.18 10.16)
+		(margins 1.9 1.9 1.9 1.9)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 153 153 153 1)
+		)
+		(fill
+			(type color)
+			(color 243 243 243 1)
+		)
+		(effects
+			(font
+				(size 2.2 2.2)
+			)
+			(justify left)
+		)
+		(uuid "0fb2e689-f437-4777-9ab1-7ed9ea71310e")
+	)
+	(text_box "LOAD SWITCH\nMT9700\n680 mA"
+		(exclude_from_sim no)
+		(at 78.74 63.5 0)
+		(size 35.56 10.16)
+		(margins 1.375 1.375 1.375 1.375)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 153 153 153 1)
+		)
+		(fill
+			(type color)
+			(color 217 234 211 1)
+		)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+		)
+		(uuid "43ebe505-fc1d-4fd3-ae3b-38796006848c")
+	)
+	(text_box "USB to Serial\n    FT234XD"
+		(exclude_from_sim no)
+		(at 68.58 185.42 0)
+		(size 33.02 15.24)
+		(margins 1.9 1.9 1.9 1.9)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 153 153 153 1)
+		)
+		(fill
+			(type color)
+			(color 243 243 243 1)
+		)
+		(effects
+			(font
+				(size 2.2 2.2)
+			)
+			(justify left)
+		)
+		(uuid "5c53f88e-2ed0-468e-9f62-af893840f6b9")
+	)
+	(text_box "LOAD SWITCH\nMT9700\n680 mA"
+		(exclude_from_sim no)
+		(at 134.62 172.72 0)
+		(size 35.56 10.16)
+		(margins 1.375 1.375 1.375 1.375)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 153 153 153 1)
+		)
+		(fill
+			(type color)
+			(color 217 234 211 1)
+		)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+		)
+		(uuid "74b0a688-e973-43f0-a787-cbe89fa35301")
+	)
+	(text_box "DC/DC BUCK\nSY8892ARC\n+3.3 V / 2000 mA"
+		(exclude_from_sim no)
+		(at 152.4 63.5 0)
+		(size 35.56 10.16)
+		(margins 1.375 1.375 1.375 1.375)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 153 153 153 1)
+		)
+		(fill
+			(type color)
+			(color 252 229 205 1)
+		)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+		)
+		(uuid "807a40ec-2331-4d60-b798-ab1b5c19f41b")
+	)
+	(text_box "LDO\nAP2127K-ADJTRG1\n+3.3 V / 300 mA"
+		(exclude_from_sim no)
+		(at 152.4 48.26 0)
+		(size 35.56 10.16)
+		(margins 1.375 1.375 1.375 1.375)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 153 153 153 1)
+		)
+		(fill
+			(type color)
+			(color 252 229 205 1)
+		)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+		)
+		(uuid "8505a017-4fe6-4492-9d4e-86c37c76cb80")
+	)
+	(text_box "DC/DC BUCK\nSY8892ARC\n+1.275 V / 2000 mA"
+		(exclude_from_sim no)
+		(at 152.4 76.2 0)
+		(size 35.56 10.16)
+		(margins 1.375 1.375 1.375 1.375)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 153 153 153 1)
+		)
+		(fill
+			(type color)
+			(color 252 229 205 1)
+		)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+		)
+		(uuid "89ed9c7b-799f-4c10-b0a5-a9a6dd601a18")
+	)
+	(text_box "LOAD SWITCH\nMT9700\n680 mA"
+		(exclude_from_sim no)
+		(at 134.62 147.32 0)
+		(size 35.56 10.16)
+		(margins 1.375 1.375 1.375 1.375)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 153 153 153 1)
+		)
+		(fill
+			(type color)
+			(color 217 234 211 1)
+		)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+		)
+		(uuid "8f937440-aa6e-46ce-bc7a-30f7eaff0f89")
+	)
+	(text_box "Audio Codec\n    WM8904CGEFL/RV"
+		(exclude_from_sim no)
+		(at 134.62 246.38 0)
+		(size 43.18 10.16)
+		(margins 1.9 1.9 1.9 1.9)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 153 153 153 1)
+		)
+		(fill
+			(type color)
+			(color 243 243 243 1)
+		)
+		(effects
+			(font
+				(size 2.2 2.2)
+			)
+			(justify left)
+		)
+		(uuid "97a657bb-1c07-4b46-807b-ab4d862b57a4")
+	)
+	(text_box "eMMC FLASH MEMORY\n    4GB: Kioxia THGBMNG5D1LBAIL"
+		(exclude_from_sim no)
+		(at 254 220.98 0)
+		(size 66.04 20.32)
+		(margins 1.9 1.9 1.9 1.9)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 153 153 153 1)
+		)
+		(fill
+			(type color)
+			(color 243 243 243 1)
+		)
+		(effects
+			(font
+				(size 2.2 2.2)
+			)
+			(justify left)
+		)
+		(uuid "9a8dda86-e429-4848-86d4-8a40bb01832c")
+	)
+	(text_box "USB A"
+		(exclude_from_sim no)
+		(at 156.21 229.87 0)
+		(size 21.59 7.62)
+		(margins 1.9 1.9 1.9 1.9)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 153 153 153 1)
+		)
+		(fill
+			(type color)
+			(color 243 243 243 1)
+		)
+		(effects
+			(font
+				(size 2.2 2.2)
+			)
+		)
+		(uuid "b632ef62-b430-473d-972e-83e1cad92e11")
+	)
+	(text_box "USB C"
+		(exclude_from_sim no)
+		(at 16.51 46.99 0)
+		(size 21.59 7.62)
+		(margins 1.9 1.9 1.9 1.9)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 153 153 153 1)
+		)
+		(fill
+			(type color)
+			(color 243 243 243 1)
+		)
+		(effects
+			(font
+				(size 2.2 2.2)
+			)
+		)
+		(uuid "d0e104b9-00b3-45d3-a21c-addde7c614b6")
+	)
+	(text_box "QSPI FLASH 32 Mb\n    Zetta: ZD25WQ32CTIGT"
+		(exclude_from_sim no)
+		(at 254 200.66 0)
+		(size 50.8 13.97)
+		(margins 1.9 1.9 1.9 1.9)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 153 153 153 1)
+		)
+		(fill
+			(type color)
+			(color 243 243 243 1)
+		)
+		(effects
+			(font
+				(size 2.2 2.2)
+			)
+			(justify left)
+		)
+		(uuid "dfdade93-a778-489d-a1bb-f6b435c796e8")
+	)
+	(text_box "LOAD SWITCH\nMT9700\n680 mA"
+		(exclude_from_sim no)
+		(at 134.62 160.02 0)
+		(size 35.56 10.16)
+		(margins 1.375 1.375 1.375 1.375)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 153 153 153 1)
+		)
+		(fill
+			(type color)
+			(color 217 234 211 1)
+		)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+		)
+		(uuid "e1371ca3-c5f6-4f34-bf86-5a0be11a8147")
+	)
+	(text_box "Micro SD Card"
+		(exclude_from_sim no)
+		(at 254 248.92 0)
+		(size 30.48 15.24)
+		(margins 1.9 1.9 1.9 1.9)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 153 153 153 1)
+		)
+		(fill
+			(type color)
+			(color 243 243 243 1)
+		)
+		(effects
+			(font
+				(size 2.2 2.2)
+			)
+			(justify left)
+		)
+		(uuid "e88f67a1-0239-4791-b3ef-27c6cced2c45")
+	)
+	(text_box "24 bit LCD"
+		(exclude_from_sim no)
+		(at 147.32 195.58 0)
+		(size 30.48 15.24)
+		(margins 1.9 1.9 1.9 1.9)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 153 153 153 1)
+		)
+		(fill
+			(type color)
+			(color 243 243 243 1)
+		)
+		(effects
+			(font
+				(size 2.2 2.2)
+			)
+		)
+		(uuid "ee3d81c7-6976-48da-b8d6-db64ee71e0c4")
+	)
+	(text_box "USB A"
+		(exclude_from_sim no)
+		(at 156.21 217.17 0)
+		(size 21.59 7.62)
+		(margins 1.9 1.9 1.9 1.9)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 153 153 153 1)
+		)
+		(fill
+			(type color)
+			(color 243 243 243 1)
+		)
+		(effects
+			(font
+				(size 2.2 2.2)
+			)
+		)
+		(uuid "f162e463-8284-4986-87be-9c9d8fd34f82")
+	)
+	(text_box "DC/DC BUCK\nSY8892ARC\n+1.35 V / 2000 mA"
+		(exclude_from_sim no)
+		(at 152.4 88.9 0)
+		(size 35.56 10.16)
+		(margins 1.375 1.375 1.375 1.375)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 153 153 153 1)
+		)
+		(fill
+			(type color)
+			(color 252 229 205 1)
+		)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+		)
+		(uuid "f71f2bc1-e235-42e5-a5af-927f083b8432")
+	)
+	(text_box "DDR3L\n    Micron: MT41K256M16"
+		(exclude_from_sim no)
+		(at 254 181.61 0)
+		(size 50.8 13.97)
+		(margins 1.9 1.9 1.9 1.9)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 153 153 153 1)
+		)
+		(fill
+			(type color)
+			(color 243 243 243 1)
+		)
+		(effects
+			(font
+				(size 2.2 2.2)
+			)
+			(justify left)
+		)
+		(uuid "f9a7cb38-9a1c-4952-a2cf-b38d9d04de86")
+	)
 	(polyline
 		(pts
 			(xy 144.78 109.0422) (xy 226.06 109.0422)
@@ -1264,1371 +2650,5 @@
 			(color 0 0 0 1)
 		)
 		(uuid "ff9077f5-dd89-4c40-b2f9-5041098bb3c2")
-	)
-	(rectangle
-		(start 314.96 50.6222)
-		(end 294.64 55.7022)
-		(stroke
-			(width 0.254)
-			(type solid)
-			(color 128 0 0 1)
-		)
-		(fill
-			(type color)
-			(color 252 229 205 1)
-		)
-		(uuid 1521be62-fe8a-4f1a-b49e-f5c5a6ce7605)
-	)
-	(rectangle
-		(start 13.97 223.52)
-		(end 129.54 283.21)
-		(stroke
-			(width 1)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 71bb15f5-ea65-4d3f-a000-a51242a40890)
-	)
-	(rectangle
-		(start 314.96 77.2922)
-		(end 294.64 84.9122)
-		(stroke
-			(width 0.254)
-			(type solid)
-			(color 128 0 0 1)
-		)
-		(fill
-			(type color)
-			(color 252 229 205 1)
-		)
-		(uuid 854afa2b-b5be-431c-b03d-c3613650d83f)
-	)
-	(rectangle
-		(start 314.96 65.8622)
-		(end 294.64 70.9422)
-		(stroke
-			(width 0.254)
-			(type solid)
-			(color 128 0 0 1)
-		)
-		(fill
-			(type color)
-			(color 252 229 205 1)
-		)
-		(uuid 9bfa61db-b5c8-4816-91e0-748472709fd0)
-	)
-	(rectangle
-		(start 314.96 153.4922)
-		(end 294.64 163.6522)
-		(stroke
-			(width 0.254)
-			(type solid)
-			(color 128 0 0 1)
-		)
-		(fill
-			(type color)
-			(color 252 229 205 1)
-		)
-		(uuid b3054910-9eb1-4520-a0be-a0d4f0f4fdc8)
-	)
-	(rectangle
-		(start 254 43.0022)
-		(end 355.6 172.5422)
-		(stroke
-			(width 0.508)
-			(type solid)
-			(color 153 153 153 1)
-		)
-		(fill
-			(type color)
-			(color 243 243 243 1)
-		)
-		(uuid c935a711-df38-43c5-87a0-644c1a295b5b)
-	)
-	(rectangle
-		(start 77.47 61.722)
-		(end 189.23 102.87)
-		(stroke
-			(width 0.5)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid c9d52e32-b886-4aa6-8af0-bdec53dd766c)
-	)
-	(rectangle
-		(start 314.96 58.2422)
-		(end 294.64 63.3222)
-		(stroke
-			(width 0.254)
-			(type solid)
-			(color 128 0 0 1)
-		)
-		(fill
-			(type color)
-			(color 252 229 205 1)
-		)
-		(uuid dda0a3ae-7ad2-4809-b2e3-531b625897d6)
-	)
-	(text_box "LDO\nAP2127K-ADJTRG1\n+3.3 V / 300 mA"
-		(exclude_from_sim no)
-		(at 152.4 119.38 0)
-		(size 35.56 10.16)
-		(stroke
-			(width 0.5)
-			(type default)
-			(color 153 153 153 1)
-		)
-		(fill
-			(type color)
-			(color 252 229 205 1)
-		)
-		(effects
-			(font
-				(size 1.5 1.5)
-			)
-		)
-		(uuid "08f2434e-e114-4fe3-950c-6706e3c22448")
-	)
-	(text_box "Ethernet PHY\n    KSZ8081RNB"
-		(exclude_from_sim no)
-		(at 134.62 269.24 0)
-		(size 43.18 10.16)
-		(stroke
-			(width 0.5)
-			(type default)
-			(color 153 153 153 1)
-		)
-		(fill
-			(type color)
-			(color 243 243 243 1)
-		)
-		(effects
-			(font
-				(size 2.2 2.2)
-			)
-			(justify left)
-		)
-		(uuid "0fb2e689-f437-4777-9ab1-7ed9ea71310e")
-	)
-	(text_box "LOAD SWITCH\nMT9700\n680 mA"
-		(exclude_from_sim no)
-		(at 78.74 63.5 0)
-		(size 35.56 10.16)
-		(stroke
-			(width 0.5)
-			(type default)
-			(color 153 153 153 1)
-		)
-		(fill
-			(type color)
-			(color 217 234 211 1)
-		)
-		(effects
-			(font
-				(size 1.5 1.5)
-			)
-		)
-		(uuid "43ebe505-fc1d-4fd3-ae3b-38796006848c")
-	)
-	(text_box "USB to Serial\n    FT234XD"
-		(exclude_from_sim no)
-		(at 68.58 185.42 0)
-		(size 33.02 15.24)
-		(stroke
-			(width 0.5)
-			(type default)
-			(color 153 153 153 1)
-		)
-		(fill
-			(type color)
-			(color 243 243 243 1)
-		)
-		(effects
-			(font
-				(size 2.2 2.2)
-			)
-			(justify left)
-		)
-		(uuid "5c53f88e-2ed0-468e-9f62-af893840f6b9")
-	)
-	(text_box "LOAD SWITCH\nMT9700\n680 mA"
-		(exclude_from_sim no)
-		(at 134.62 172.72 0)
-		(size 35.56 10.16)
-		(stroke
-			(width 0.5)
-			(type default)
-			(color 153 153 153 1)
-		)
-		(fill
-			(type color)
-			(color 217 234 211 1)
-		)
-		(effects
-			(font
-				(size 1.5 1.5)
-			)
-		)
-		(uuid "74b0a688-e973-43f0-a787-cbe89fa35301")
-	)
-	(text_box "DC/DC BUCK\nSY8892ARC\n+3.3 V / 2000 mA"
-		(exclude_from_sim no)
-		(at 152.4 63.5 0)
-		(size 35.56 10.16)
-		(stroke
-			(width 0.5)
-			(type default)
-			(color 153 153 153 1)
-		)
-		(fill
-			(type color)
-			(color 252 229 205 1)
-		)
-		(effects
-			(font
-				(size 1.5 1.5)
-			)
-		)
-		(uuid "807a40ec-2331-4d60-b798-ab1b5c19f41b")
-	)
-	(text_box "LDO\nAP2127K-ADJTRG1\n+3.3 V / 300 mA"
-		(exclude_from_sim no)
-		(at 152.4 48.26 0)
-		(size 35.56 10.16)
-		(stroke
-			(width 0.5)
-			(type default)
-			(color 153 153 153 1)
-		)
-		(fill
-			(type color)
-			(color 252 229 205 1)
-		)
-		(effects
-			(font
-				(size 1.5 1.5)
-			)
-		)
-		(uuid "8505a017-4fe6-4492-9d4e-86c37c76cb80")
-	)
-	(text_box "DC/DC BUCK\nSY8892ARC\n+1.275 V / 2000 mA"
-		(exclude_from_sim no)
-		(at 152.4 76.2 0)
-		(size 35.56 10.16)
-		(stroke
-			(width 0.5)
-			(type default)
-			(color 153 153 153 1)
-		)
-		(fill
-			(type color)
-			(color 252 229 205 1)
-		)
-		(effects
-			(font
-				(size 1.5 1.5)
-			)
-		)
-		(uuid "89ed9c7b-799f-4c10-b0a5-a9a6dd601a18")
-	)
-	(text_box "LOAD SWITCH\nMT9700\n680 mA"
-		(exclude_from_sim no)
-		(at 134.62 147.32 0)
-		(size 35.56 10.16)
-		(stroke
-			(width 0.5)
-			(type default)
-			(color 153 153 153 1)
-		)
-		(fill
-			(type color)
-			(color 217 234 211 1)
-		)
-		(effects
-			(font
-				(size 1.5 1.5)
-			)
-		)
-		(uuid "8f937440-aa6e-46ce-bc7a-30f7eaff0f89")
-	)
-	(text_box "Audio Codec\n    WM8904CGEFL/RV"
-		(exclude_from_sim no)
-		(at 134.62 246.38 0)
-		(size 43.18 10.16)
-		(stroke
-			(width 0.5)
-			(type default)
-			(color 153 153 153 1)
-		)
-		(fill
-			(type color)
-			(color 243 243 243 1)
-		)
-		(effects
-			(font
-				(size 2.2 2.2)
-			)
-			(justify left)
-		)
-		(uuid "97a657bb-1c07-4b46-807b-ab4d862b57a4")
-	)
-	(text_box "eMMC FLASH MEMORY\n    4GB: Kioxia THGBMNG5D1LBAIL"
-		(exclude_from_sim no)
-		(at 254 220.98 0)
-		(size 66.04 20.32)
-		(stroke
-			(width 0.5)
-			(type default)
-			(color 153 153 153 1)
-		)
-		(fill
-			(type color)
-			(color 243 243 243 1)
-		)
-		(effects
-			(font
-				(size 2.2 2.2)
-			)
-			(justify left)
-		)
-		(uuid "9a8dda86-e429-4848-86d4-8a40bb01832c")
-	)
-	(text_box "USB A"
-		(exclude_from_sim no)
-		(at 156.21 229.87 0)
-		(size 21.59 7.62)
-		(stroke
-			(width 0.5)
-			(type default)
-			(color 153 153 153 1)
-		)
-		(fill
-			(type color)
-			(color 243 243 243 1)
-		)
-		(effects
-			(font
-				(size 2.2 2.2)
-			)
-		)
-		(uuid "b632ef62-b430-473d-972e-83e1cad92e11")
-	)
-	(text_box "USB C"
-		(exclude_from_sim no)
-		(at 16.51 46.99 0)
-		(size 21.59 7.62)
-		(stroke
-			(width 0.5)
-			(type default)
-			(color 153 153 153 1)
-		)
-		(fill
-			(type color)
-			(color 243 243 243 1)
-		)
-		(effects
-			(font
-				(size 2.2 2.2)
-			)
-		)
-		(uuid "d0e104b9-00b3-45d3-a21c-addde7c614b6")
-	)
-	(text_box "QSPI FLASH 32 Mb\n    Zetta: ZD25WQ32CTIGT"
-		(exclude_from_sim no)
-		(at 254 200.66 0)
-		(size 50.8 13.97)
-		(stroke
-			(width 0.5)
-			(type default)
-			(color 153 153 153 1)
-		)
-		(fill
-			(type color)
-			(color 243 243 243 1)
-		)
-		(effects
-			(font
-				(size 2.2 2.2)
-			)
-			(justify left)
-		)
-		(uuid "dfdade93-a778-489d-a1bb-f6b435c796e8")
-	)
-	(text_box "LOAD SWITCH\nMT9700\n680 mA"
-		(exclude_from_sim no)
-		(at 134.62 160.02 0)
-		(size 35.56 10.16)
-		(stroke
-			(width 0.5)
-			(type default)
-			(color 153 153 153 1)
-		)
-		(fill
-			(type color)
-			(color 217 234 211 1)
-		)
-		(effects
-			(font
-				(size 1.5 1.5)
-			)
-		)
-		(uuid "e1371ca3-c5f6-4f34-bf86-5a0be11a8147")
-	)
-	(text_box "Micro SD Card"
-		(exclude_from_sim no)
-		(at 254 248.92 0)
-		(size 30.48 15.24)
-		(stroke
-			(width 0.5)
-			(type default)
-			(color 153 153 153 1)
-		)
-		(fill
-			(type color)
-			(color 243 243 243 1)
-		)
-		(effects
-			(font
-				(size 2.2 2.2)
-			)
-			(justify left)
-		)
-		(uuid "e88f67a1-0239-4791-b3ef-27c6cced2c45")
-	)
-	(text_box "24 bit LCD"
-		(exclude_from_sim no)
-		(at 147.32 195.58 0)
-		(size 30.48 15.24)
-		(stroke
-			(width 0.5)
-			(type default)
-			(color 153 153 153 1)
-		)
-		(fill
-			(type color)
-			(color 243 243 243 1)
-		)
-		(effects
-			(font
-				(size 2.2 2.2)
-			)
-		)
-		(uuid "ee3d81c7-6976-48da-b8d6-db64ee71e0c4")
-	)
-	(text_box "USB A"
-		(exclude_from_sim no)
-		(at 156.21 217.17 0)
-		(size 21.59 7.62)
-		(stroke
-			(width 0.5)
-			(type default)
-			(color 153 153 153 1)
-		)
-		(fill
-			(type color)
-			(color 243 243 243 1)
-		)
-		(effects
-			(font
-				(size 2.2 2.2)
-			)
-		)
-		(uuid "f162e463-8284-4986-87be-9c9d8fd34f82")
-	)
-	(text_box "DC/DC BUCK\nSY8892ARC\n+1.35 V / 2000 mA"
-		(exclude_from_sim no)
-		(at 152.4 88.9 0)
-		(size 35.56 10.16)
-		(stroke
-			(width 0.5)
-			(type default)
-			(color 153 153 153 1)
-		)
-		(fill
-			(type color)
-			(color 252 229 205 1)
-		)
-		(effects
-			(font
-				(size 1.5 1.5)
-			)
-		)
-		(uuid "f71f2bc1-e235-42e5-a5af-927f083b8432")
-	)
-	(text_box "DDR3L\n    Micron: MT41K256M16"
-		(exclude_from_sim no)
-		(at 254 181.61 0)
-		(size 50.8 13.97)
-		(stroke
-			(width 0.5)
-			(type default)
-			(color 153 153 153 1)
-		)
-		(fill
-			(type color)
-			(color 243 243 243 1)
-		)
-		(effects
-			(font
-				(size 2.2 2.2)
-			)
-			(justify left)
-		)
-		(uuid "f9a7cb38-9a1c-4952-a2cf-b38d9d04de86")
-	)
-	(text ""
-		(exclude_from_sim no)
-		(at 302.26 208.1022 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "02e3c07d-c9d0-4ee8-9f83-3d410881f512")
-	)
-	(text "+5V_LCD"
-		(exclude_from_sim no)
-		(at 172.72 177.8 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-			(justify left bottom)
-		)
-		(uuid "0b3f125d-037b-4548-b59b-e8f9cad2b6b8")
-	)
-	(text "125 mA"
-		(exclude_from_sim no)
-		(at 256.54 69.6722 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-			(justify left top)
-		)
-		(uuid "0e06860c-a32c-48bf-9246-f6cd5373a449")
-	)
-	(text "500 uA"
-		(exclude_from_sim no)
-		(at 193.04 55.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "12df0d57-5f3f-4762-b850-e34b0249bb62")
-	)
-	(text "VDD_SOC_IN"
-		(exclude_from_sim no)
-		(at 256.54 81.1022 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-			(justify left)
-		)
-		(uuid "140abeb8-c11e-4456-a084-9060215c3795")
-	)
-	(text "NVCC_NAND"
-		(exclude_from_sim no)
-		(at 256.54 131.9022 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-			(justify left)
-		)
-		(uuid "1a302f49-5232-4346-9ce9-982cfe62b303")
-	)
-	(text "+VDD_DRAM"
-		(exclude_from_sim no)
-		(at 190.5 93.8022 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-			(justify left bottom)
-		)
-		(uuid "20f8b0b8-ad4b-4827-af3c-b29c8f5d4d0a")
-	)
-	(text "+3V3_DCDC"
-		(exclude_from_sim no)
-		(at 36.83 241.1222 0)
-		(effects
-			(font
-				(size 1.8 1.8)
-				(bold yes)
-			)
-			(justify right)
-		)
-		(uuid "212d42c0-678f-418b-baf6-4b2276ec93d3")
-	)
-	(text "NVCC_DRAM"
-		(exclude_from_sim no)
-		(at 256.54 93.8022 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-			(justify left)
-		)
-		(uuid "25fa729d-42d8-4e44-a488-03dcf22be0ed")
-	)
-	(text "VDD_SNVS_IN"
-		(exclude_from_sim no)
-		(at 330.2 53.1622 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-			(justify left)
-		)
-		(uuid "2798a035-8de8-4be4-8d11-3fe60d4c30ce")
-	)
-	(text "450 mA"
-		(exclude_from_sim no)
-		(at 180.34 200.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2826b154-4557-4de0-b1ad-afc0dd6cb42e")
-	)
-	(text "8 mA"
-		(exclude_from_sim no)
-		(at 60.96 195.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2cce798f-fa1c-4d72-924d-838a7fec83cb")
-	)
-	(text "POWER SEQUENCE"
-		(exclude_from_sim no)
-		(at 13.97 222.25 0)
-		(effects
-			(font
-				(size 3.048 3.048)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "3099e724-fa4b-4375-b46f-be77bef6f602")
-	)
-	(text "VDD_ARM_CAP"
-		(exclude_from_sim no)
-		(at 330.2 78.5622 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-			(justify left)
-		)
-		(uuid "34d07535-fd42-4238-8233-8dfbc41fb0a3")
-	)
-	(text "2.80 A"
-		(exclude_from_sim no)
-		(at 40.64 54.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3602d7d4-e9ea-4568-bd14-8c61d6a140a5")
-	)
-	(text "VDD_USB_CAP"
-		(exclude_from_sim no)
-		(at 330.2 158.5722 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-			(justify left)
-		)
-		(uuid "37ff2645-635a-4605-8f51-70f1f69fe026")
-	)
-	(text "NVCC_UART"
-		(exclude_from_sim no)
-		(at 256.54 116.6622 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-			(justify left)
-		)
-		(uuid "3a092e76-91d2-4e9a-ab63-482ddc1e19cf")
-	)
-	(text "PMIC_POWER_GOOD"
-		(exclude_from_sim no)
-		(at 200.66 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "3a3cec7f-7c97-460c-8a28-765c7d039056")
-	)
-	(text "+3V3_STAND_BY"
-		(exclude_from_sim no)
-		(at 36.83 233.5022 0)
-		(effects
-			(font
-				(size 1.8 1.8)
-				(bold yes)
-			)
-			(justify right)
-		)
-		(uuid "403169d0-a25c-4ef1-94c1-b88d923a3b99")
-	)
-	(text "i.MX6ULL"
-		(exclude_from_sim no)
-		(at 313.69 130.6322 0)
-		(effects
-			(font
-				(size 3.81 3.81)
-			)
-			(justify bottom)
-		)
-		(uuid "403acee6-048a-4cbe-bb05-e529bbb577c6")
-	)
-	(text "500 mA"
-		(exclude_from_sim no)
-		(at 175.26 154.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "40841df2-b035-484e-bda6-e141802c4bc8")
-	)
-	(text "VDD_HIGH_CAP"
-		(exclude_from_sim no)
-		(at 330.2 68.4022 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-			(justify left)
-		)
-		(uuid "40f0eb1f-bb97-47df-8aad-5f29e5742ebc")
-	)
-	(text "NVCC_ENET"
-		(exclude_from_sim no)
-		(at 256.54 121.7422 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-			(justify left)
-		)
-		(uuid "488364ba-e838-4e3d-8127-fe9500e6622d")
-	)
-	(text "120 mA"
-		(exclude_from_sim no)
-		(at 252.73 191.77 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-			(justify right bottom)
-		)
-		(uuid "48b5d42d-7f5b-4202-a137-f651de275387")
-	)
-	(text "VCCQ - 100 mA"
-		(exclude_from_sim no)
-		(at 252.73 240.03 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-			(justify right bottom)
-		)
-		(uuid "4bc95edd-0cd7-4137-abf9-dbb5a2293bb2")
-	)
-	(text "NVCC_GPIO"
-		(exclude_from_sim no)
-		(at 256.54 111.5822 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-			(justify left)
-		)
-		(uuid "4c3b61cb-2621-4f84-9360-cd1ed2c5c051")
-	)
-	(text "+VDD_SOC"
-		(exclude_from_sim no)
-		(at 36.83 256.3622 0)
-		(effects
-			(font
-				(size 1.8 1.8)
-				(bold yes)
-			)
-			(justify right)
-		)
-		(uuid "4d0d0f11-4be1-47a1-a9bc-7757e8206d3f")
-	)
-	(text "LDO_USB"
-		(exclude_from_sim no)
-		(at 304.8 158.5722 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4f9bfbbf-351f-45c5-96b5-26764f737966")
-	)
-	(text "450 mA"
-		(exclude_from_sim no)
-		(at 175.26 180.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "501197bf-7cfd-4a98-a023-7d5e6e3bc180")
-	)
-	(text "NVCC_SD"
-		(exclude_from_sim no)
-		(at 256.54 136.9822 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-			(justify left)
-		)
-		(uuid "521ee701-e48c-43d4-a36d-b89a4eabe871")
-	)
-	(text "120 mA"
-		(exclude_from_sim no)
-		(at 193.04 127 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5769108f-601c-4287-a84d-9d8fea69bfe7")
-	)
-	(text "+3V3_DCDC"
-		(exclude_from_sim no)
-		(at 190.5 68.58 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-			(justify left bottom)
-		)
-		(uuid "5a53be9b-40de-4703-9f2c-b22ed48d5662")
-	)
-	(text "Always ON"
-		(exclude_from_sim no)
-		(at 137.16 54.4322 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "5bd2e7de-7a3a-4b19-a089-d1af430ad148")
-	)
-	(text "VCC - 30 mA"
-		(exclude_from_sim no)
-		(at 252.73 229.87 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-			(justify right bottom)
-		)
-		(uuid "5e09ee7d-2ecc-4716-926e-277c3825a5bf")
-	)
-	(text "NVCC_PLL"
-		(exclude_from_sim no)
-		(at 330.2 60.7822 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-			(justify left)
-		)
-		(uuid "67fecc0e-d8af-4b69-90fe-53575770aa30")
-	)
-	(text "PMIC_POWER_GOOD"
-		(exclude_from_sim no)
-		(at 121.92 179.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "6b9fdd72-233a-4f16-9b78-d1d0c8e94360")
-	)
-	(text "LDO_ARM_SOC"
-		(exclude_from_sim no)
-		(at 304.8 81.1022 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "6bd52af5-5ce8-42bc-929c-b1174c0d8d4b")
-	)
-	(text "USB_OTG1_VBUS"
-		(exclude_from_sim no)
-		(at 256.54 153.4922 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-			(justify left)
-		)
-		(uuid "6ed1ad3b-b6dd-42e2-8628-d08ccae47238")
-	)
-	(text "41 mA"
-		(exclude_from_sim no)
-		(at 180.34 278.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "71f772b7-3ab1-467a-8cdb-e410e2af7901")
-	)
-	(text "DCDC_3V3_PG"
-		(exclude_from_sim no)
-		(at 139.7 82.3722 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "72043abd-0b32-40b0-a49d-31f3c966d207")
-	)
-	(text "500 µA"
-		(exclude_from_sim no)
-		(at 256.54 54.4322 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-			(justify left top)
-		)
-		(uuid "73222e87-4354-43f9-af85-81075b735cd0")
-	)
-	(text "PMIC_POWER_GOOD"
-		(exclude_from_sim no)
-		(at 121.92 153.67 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "74acdc7d-10a0-48cc-8607-56107ef50d3d")
-	)
-	(text "200 mA"
-		(exclude_from_sim no)
-		(at 193.04 96.3422 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "75a4066b-751b-43ca-bdc1-d61d8b86d277")
-	)
-	(text "100 mA"
-		(exclude_from_sim no)
-		(at 180.34 210.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "792121b6-6a8f-46b0-b8e2-aea69b915358")
-	)
-	(text "NVCC_DRAM_2P5"
-		(exclude_from_sim no)
-		(at 326.39 93.8022 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-			(justify left)
-		)
-		(uuid "7c8c3ae3-e41b-40d2-bed6-b6be1969d370")
-	)
-	(text "VDD_SNVS_IN"
-		(exclude_from_sim no)
-		(at 256.54 53.1622 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-			(justify left)
-		)
-		(uuid "7dd17b10-0ba3-4063-bf19-2a584d76045e")
-	)
-	(text "500 mA"
-		(exclude_from_sim no)
-		(at 193.04 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "83db50e7-2c9f-4640-a834-6fefcde2fee1")
-	)
-	(text "DCDC_3V3_PG"
-		(exclude_from_sim no)
-		(at 139.7 125.5522 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "884d2fc5-d003-49bc-bbf9-adc243503a61")
-	)
-	(text "640 mA"
-		(exclude_from_sim no)
-		(at 116.84 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "89188325-be55-4d17-abe6-e3bc7e6160a0")
-	)
-	(text "500 mA"
-		(exclude_from_sim no)
-		(at 256.54 82.3722 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-			(justify left top)
-		)
-		(uuid "8b63491b-7266-470a-924a-c78e8af9ee43")
-	)
-	(text "500 mA"
-		(exclude_from_sim no)
-		(at 175.26 167.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8c3a0824-941a-4cfa-8e16-465924b8edfb")
-	)
-	(text "20 mA"
-		(exclude_from_sim no)
-		(at 180.34 255.27 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8ddcfc98-8b07-4ccb-bed5-0595e0aa8930")
-	)
-	(text "PMIC_ON_REQ"
-		(exclude_from_sim no)
-		(at 66.04 69.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "9086d82b-ad20-4c83-827b-9bd7529c8d21")
-	)
-	(text "~{POR}"
-		(exclude_from_sim no)
-		(at 33.02 271.6022 0)
-		(effects
-			(font
-				(size 1.8 1.8)
-				(bold yes)
-			)
-		)
-		(uuid "9a768707-c066-4b8a-b902-cbc67919a947")
-	)
-	(text "PMIC_POWER_GOOD"
-		(exclude_from_sim no)
-		(at 121.92 166.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "9f16af31-cd10-41c0-9521-722f0b6441a3")
-	)
-	(text "500 mA"
-		(exclude_from_sim no)
-		(at 193.04 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9fb7594e-5213-413d-8cde-650c495cb366")
-	)
-	(text "+VDD_DRAM"
-		(exclude_from_sim no)
-		(at 36.83 263.9822 0)
-		(effects
-			(font
-				(size 1.8 1.8)
-				(bold yes)
-			)
-			(justify right)
-		)
-		(uuid "a0f68fa9-5b39-44aa-9929-f81bc2af0240")
-	)
-	(text "POWER TREE"
-		(exclude_from_sim no)
-		(at 195.58 32.8422 0)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(bold yes)
-			)
-			(justify bottom)
-		)
-		(uuid "a43e2078-f09c-48c8-ad1d-c63c04b94cc4")
-	)
-	(text "+VDD_SOC"
-		(exclude_from_sim no)
-		(at 190.5 81.28 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-			(justify left bottom)
-		)
-		(uuid "a92e699b-83ff-4de1-b9ac-1652739d601a")
-	)
-	(text "+1V8"
-		(exclude_from_sim no)
-		(at 190.5 124.2822 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-			(justify left bottom)
-		)
-		(uuid "ab65b166-d99b-42bc-9aa4-0a110c86d7df")
-	)
-	(text "+3V3_STAND_BY"
-		(exclude_from_sim no)
-		(at 190.5 53.34 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-			(justify left bottom)
-		)
-		(uuid "ac0c2368-ecfc-411a-9989-69d35f3ce557")
-	)
-	(text "VDD_HIGH_IN"
-		(exclude_from_sim no)
-		(at 256.54 68.4022 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-			(justify left)
-		)
-		(uuid "b78555bc-4933-4635-ab61-3f272b33716d")
-	)
-	(text "USB_OTG2_VBUS"
-		(exclude_from_sim no)
-		(at 256.54 163.6522 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-			(justify left)
-		)
-		(uuid "bcafd2d2-d916-408f-833a-0e18d64e70cb")
-	)
-	(text "NVCC_ADC3P3"
-		(exclude_from_sim no)
-		(at 256.54 102.6922 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-			(justify left)
-		)
-		(uuid "c24088c7-bf11-4389-8ef0-e072420608bd")
-	)
-	(text "+5V_USB_VBUS_2"
-		(exclude_from_sim no)
-		(at 172.72 165.1 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-			(justify left bottom)
-		)
-		(uuid "c48da855-45f3-4caa-a4d1-dc9f40002a6d")
-	)
-	(text "+NVCC_XXX"
-		(exclude_from_sim no)
-		(at 36.83 248.7422 0)
-		(effects
-			(font
-				(size 1.8 1.8)
-				(bold yes)
-			)
-			(justify right)
-		)
-		(uuid "c77a2ef6-fddc-45bb-af8a-335775915c93")
-	)
-	(text "NVCC_CSI"
-		(exclude_from_sim no)
-		(at 256.54 142.0622 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-			(justify left)
-		)
-		(uuid "c83451c8-744e-44f0-a25c-f743fe17243f")
-	)
-	(text "LDO_1P1"
-		(exclude_from_sim no)
-		(at 304.8 60.7822 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c946fd54-b1aa-4e7e-b8e9-863f9c880d95")
-	)
-	(text "6 mA"
-		(exclude_from_sim no)
-		(at 252.73 209.55 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-			(justify right bottom)
-		)
-		(uuid "c9c2b4a9-a341-4772-a69a-677b7cad725a")
-	)
-	(text "LDO_2P5"
-		(exclude_from_sim no)
-		(at 304.8 68.4022 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "cc0cd582-33b1-415d-b008-58f8244a207b")
-	)
-	(text "NVCC_LCD"
-		(exclude_from_sim no)
-		(at 256.54 126.8222 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-			(justify left)
-		)
-		(uuid "cf98befe-f6a8-4de1-bfd3-4cf3ffd0e6d9")
-	)
-	(text "+5V_VBUS"
-		(exclude_from_sim no)
-		(at 39.37 48.26 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-			(justify left top)
-		)
-		(uuid "d556685b-9e73-4540-96ac-1f2e0c0e135b")
-	)
-	(text "+5V_USB_VBUS_1"
-		(exclude_from_sim no)
-		(at 172.72 152.4 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-			(justify left bottom)
-		)
-		(uuid "d7e3826d-5896-44c1-b30c-b8fc02ff1033")
-	)
-	(text "LDO_ARM_SOC"
-		(exclude_from_sim no)
-		(at 304.8 53.1622 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "e87ba1d8-14c1-46cd-aeb2-a748de4d1927")
-	)
-	(text "35 mA"
-		(exclude_from_sim no)
-		(at 256.54 103.9622 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-			(justify left top)
-		)
-		(uuid "ea6de34d-35f9-4e70-9a8e-14e55713032b")
-	)
-	(text "VDD_SOC_CAP"
-		(exclude_from_sim no)
-		(at 330.2 83.6422 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-			(justify left)
-		)
-		(uuid "f217ea6e-9dfd-4817-8e74-7d099d1276ee")
-	)
-	(text "DCDC_3V3_PG"
-		(exclude_from_sim no)
-		(at 139.7 95.0722 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f6378093-092c-42ac-9a51-9af6cd4e5cd8")
-	)
-	(text "40 mA"
-		(exclude_from_sim no)
-		(at 252.73 260.1722 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-			(justify right bottom)
-		)
-		(uuid "fac96306-f7e7-49c7-b4e1-2119871ff358")
 	)
 )

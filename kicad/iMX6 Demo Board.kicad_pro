@@ -69,38 +69,134 @@
         }
       ],
       "drc_exclusions": [
-        "shorting_items|148750000|149250000|506677bf-b253-4de4-8684-f1f20cb0c47d|672791ca-ecba-4437-b558-b709cea60c28",
-        "shorting_items|148750000|149250000|c51e327e-2735-46bc-83eb-1a35de20ae48|672791ca-ecba-4437-b558-b709cea60c28",
-        "shorting_items|148750000|151750000|df5d61a5-86aa-40d2-8c15-1b27d81f7e97|1276a3e5-7270-445f-88b6-83bc5972d49f",
-        "shorting_items|148750000|151750000|fb529593-6d10-499e-8766-2bd5586c182a|1276a3e5-7270-445f-88b6-83bc5972d49f",
-        "shorting_items|149250000|152250000|40841fb6-e59f-4f3a-8446-473b606b3945|8e00ee86-4e10-4c8f-91ae-251280b0af05",
-        "shorting_items|149250000|152299461|87b06d76-5738-4c5f-b0e2-2cefcc49beac|8e00ee86-4e10-4c8f-91ae-251280b0af05",
-        "shorting_items|149750000|150250000|b4121054-8d1a-4aa5-b019-a581fd34326c|33d8340e-21be-4a80-a451-59d5d27e5385",
-        "shorting_items|149750000|152250000|cee71b00-1992-4eeb-a246-851375346a9d|652ad925-ddb7-4b7d-b06e-cc9a36027337",
-        "shorting_items|149750000|152375000|35c4a835-a914-40bb-b706-cbdabfd5596f|652ad925-ddb7-4b7d-b06e-cc9a36027337",
-        "shorting_items|150250000|150750000|cc612756-bced-41ff-873a-e04cfffa00c7|4df079ae-8a52-4b29-bf11-a086b9a925fb",
-        "shorting_items|150250000|151750000|a8fcd25a-48b0-43d3-b1db-856b99c2bb62|db775264-c809-436d-8b86-bb4bef56bf2b",
-        "shorting_items|150250000|152250000|293ba979-9901-43d6-ad91-aa2dc07ba76d|43a714e3-ef7c-442e-849c-0cb6dacd5e3e",
-        "shorting_items|150250000|152250000|ff237124-8690-4eae-85ed-8240978f0974|43a714e3-ef7c-442e-849c-0cb6dacd5e3e",
-        "shorting_items|155250000|152250000|91bf5df0-1d66-4bbb-89bb-44059d39bf6a|85ac7e7f-55d4-493b-a9a6-4f11804ded1a",
-        "shorting_items|155250001|152250000|43f6ec7f-4eae-435f-910e-5eaa0c1c595c|85ac7e7f-55d4-493b-a9a6-4f11804ded1a",
-        "solder_mask_bridge|148750000|149250000|506677bf-b253-4de4-8684-f1f20cb0c47d|672791ca-ecba-4437-b558-b709cea60c28",
-        "solder_mask_bridge|148750000|149250000|c51e327e-2735-46bc-83eb-1a35de20ae48|672791ca-ecba-4437-b558-b709cea60c28",
-        "solder_mask_bridge|148750000|151750000|df5d61a5-86aa-40d2-8c15-1b27d81f7e97|1276a3e5-7270-445f-88b6-83bc5972d49f",
-        "solder_mask_bridge|148750000|151750000|fb529593-6d10-499e-8766-2bd5586c182a|1276a3e5-7270-445f-88b6-83bc5972d49f",
-        "solder_mask_bridge|149250000|152250000|40841fb6-e59f-4f3a-8446-473b606b3945|8e00ee86-4e10-4c8f-91ae-251280b0af05",
-        "solder_mask_bridge|149250000|152299461|87b06d76-5738-4c5f-b0e2-2cefcc49beac|8e00ee86-4e10-4c8f-91ae-251280b0af05",
-        "solder_mask_bridge|149750000|150250000|b4121054-8d1a-4aa5-b019-a581fd34326c|33d8340e-21be-4a80-a451-59d5d27e5385",
-        "solder_mask_bridge|149750000|151250000|a8fcd25a-48b0-43d3-b1db-856b99c2bb62|5aafdab7-5dfd-4f14-9671-6bd2dd8dd251",
-        "solder_mask_bridge|149750000|152250000|cee71b00-1992-4eeb-a246-851375346a9d|652ad925-ddb7-4b7d-b06e-cc9a36027337",
-        "solder_mask_bridge|149750000|152375000|35c4a835-a914-40bb-b706-cbdabfd5596f|652ad925-ddb7-4b7d-b06e-cc9a36027337",
-        "solder_mask_bridge|150250000|150750000|cc612756-bced-41ff-873a-e04cfffa00c7|4df079ae-8a52-4b29-bf11-a086b9a925fb",
-        "solder_mask_bridge|150250000|151750000|293ba979-9901-43d6-ad91-aa2dc07ba76d|db775264-c809-436d-8b86-bb4bef56bf2b",
-        "solder_mask_bridge|150250000|151750000|a8fcd25a-48b0-43d3-b1db-856b99c2bb62|db775264-c809-436d-8b86-bb4bef56bf2b",
-        "solder_mask_bridge|150250000|152250000|293ba979-9901-43d6-ad91-aa2dc07ba76d|43a714e3-ef7c-442e-849c-0cb6dacd5e3e",
-        "solder_mask_bridge|150250000|152250000|ff237124-8690-4eae-85ed-8240978f0974|43a714e3-ef7c-442e-849c-0cb6dacd5e3e",
-        "solder_mask_bridge|155250000|152250000|91bf5df0-1d66-4bbb-89bb-44059d39bf6a|85ac7e7f-55d4-493b-a9a6-4f11804ded1a",
-        "solder_mask_bridge|155250001|152250000|43f6ec7f-4eae-435f-910e-5eaa0c1c595c|85ac7e7f-55d4-493b-a9a6-4f11804ded1a"
+        [
+          "shorting_items|148625000|149250000|672791ca-ecba-4437-b558-b709cea60c28|c51e327e-2735-46bc-83eb-1a35de20ae48",
+          ""
+        ],
+        [
+          "shorting_items|148625000|151750000|1276a3e5-7270-445f-88b6-83bc5972d49f|df5d61a5-86aa-40d2-8c15-1b27d81f7e97",
+          ""
+        ],
+        [
+          "shorting_items|148838388|149338388|506677bf-b253-4de4-8684-f1f20cb0c47d|672791ca-ecba-4437-b558-b709cea60c28",
+          ""
+        ],
+        [
+          "shorting_items|148838388|151661612|1276a3e5-7270-445f-88b6-83bc5972d49f|fb529593-6d10-499e-8766-2bd5586c182a",
+          ""
+        ],
+        [
+          "shorting_items|149250000|152125000|40841fb6-e59f-4f3a-8446-473b606b3945|8e00ee86-4e10-4c8f-91ae-251280b0af05",
+          ""
+        ],
+        [
+          "shorting_items|149250000|152299461|87b06d76-5738-4c5f-b0e2-2cefcc49beac|8e00ee86-4e10-4c8f-91ae-251280b0af05",
+          ""
+        ],
+        [
+          "shorting_items|149750000|152125000|652ad925-ddb7-4b7d-b06e-cc9a36027337|cee71b00-1992-4eeb-a246-851375346a9d",
+          ""
+        ],
+        [
+          "shorting_items|149750000|152375000|35c4a835-a914-40bb-b706-cbdabfd5596f|652ad925-ddb7-4b7d-b06e-cc9a36027337",
+          ""
+        ],
+        [
+          "shorting_items|149838388|151338388|5aafdab7-5dfd-4f14-9671-6bd2dd8dd251|a8fcd25a-48b0-43d3-b1db-856b99c2bb62",
+          ""
+        ],
+        [
+          "shorting_items|149875000|150250000|33d8340e-21be-4a80-a451-59d5d27e5385|b4121054-8d1a-4aa5-b019-a581fd34326c",
+          ""
+        ],
+        [
+          "shorting_items|150250000|152125000|293ba979-9901-43d6-ad91-aa2dc07ba76d|43a714e3-ef7c-442e-849c-0cb6dacd5e3e",
+          ""
+        ],
+        [
+          "shorting_items|150250000|152375000|43a714e3-ef7c-442e-849c-0cb6dacd5e3e|ff237124-8690-4eae-85ed-8240978f0974",
+          ""
+        ],
+        [
+          "shorting_items|150375000|150750000|4df079ae-8a52-4b29-bf11-a086b9a925fb|cc612756-bced-41ff-873a-e04cfffa00c7",
+          ""
+        ],
+        [
+          "shorting_items|155161612|152161612|85ac7e7f-55d4-493b-a9a6-4f11804ded1a|91bf5df0-1d66-4bbb-89bb-44059d39bf6a",
+          ""
+        ],
+        [
+          "shorting_items|155250001|152250000|43f6ec7f-4eae-435f-910e-5eaa0c1c595c|85ac7e7f-55d4-493b-a9a6-4f11804ded1a",
+          ""
+        ],
+        [
+          "solder_mask_bridge|148625000|149250000|c51e327e-2735-46bc-83eb-1a35de20ae48|672791ca-ecba-4437-b558-b709cea60c28",
+          ""
+        ],
+        [
+          "solder_mask_bridge|148625000|151750000|df5d61a5-86aa-40d2-8c15-1b27d81f7e97|1276a3e5-7270-445f-88b6-83bc5972d49f",
+          ""
+        ],
+        [
+          "solder_mask_bridge|148838388|149338388|506677bf-b253-4de4-8684-f1f20cb0c47d|672791ca-ecba-4437-b558-b709cea60c28",
+          ""
+        ],
+        [
+          "solder_mask_bridge|148838388|151661612|fb529593-6d10-499e-8766-2bd5586c182a|1276a3e5-7270-445f-88b6-83bc5972d49f",
+          ""
+        ],
+        [
+          "solder_mask_bridge|149250000|152125000|40841fb6-e59f-4f3a-8446-473b606b3945|8e00ee86-4e10-4c8f-91ae-251280b0af05",
+          ""
+        ],
+        [
+          "solder_mask_bridge|149250000|152299461|87b06d76-5738-4c5f-b0e2-2cefcc49beac|8e00ee86-4e10-4c8f-91ae-251280b0af05",
+          ""
+        ],
+        [
+          "solder_mask_bridge|149750000|152125000|cee71b00-1992-4eeb-a246-851375346a9d|652ad925-ddb7-4b7d-b06e-cc9a36027337",
+          ""
+        ],
+        [
+          "solder_mask_bridge|149750000|152375000|35c4a835-a914-40bb-b706-cbdabfd5596f|652ad925-ddb7-4b7d-b06e-cc9a36027337",
+          ""
+        ],
+        [
+          "solder_mask_bridge|149838388|151338388|a8fcd25a-48b0-43d3-b1db-856b99c2bb62|5aafdab7-5dfd-4f14-9671-6bd2dd8dd251",
+          ""
+        ],
+        [
+          "solder_mask_bridge|149875000|150250000|b4121054-8d1a-4aa5-b019-a581fd34326c|33d8340e-21be-4a80-a451-59d5d27e5385",
+          ""
+        ],
+        [
+          "solder_mask_bridge|150161612|151661612|a8fcd25a-48b0-43d3-b1db-856b99c2bb62|db775264-c809-436d-8b86-bb4bef56bf2b",
+          ""
+        ],
+        [
+          "solder_mask_bridge|150250000|151875000|293ba979-9901-43d6-ad91-aa2dc07ba76d|db775264-c809-436d-8b86-bb4bef56bf2b",
+          ""
+        ],
+        [
+          "solder_mask_bridge|150250000|152125000|293ba979-9901-43d6-ad91-aa2dc07ba76d|43a714e3-ef7c-442e-849c-0cb6dacd5e3e",
+          ""
+        ],
+        [
+          "solder_mask_bridge|150250000|152375000|ff237124-8690-4eae-85ed-8240978f0974|43a714e3-ef7c-442e-849c-0cb6dacd5e3e",
+          ""
+        ],
+        [
+          "solder_mask_bridge|150375000|150750000|cc612756-bced-41ff-873a-e04cfffa00c7|4df079ae-8a52-4b29-bf11-a086b9a925fb",
+          ""
+        ],
+        [
+          "solder_mask_bridge|155161612|152161612|91bf5df0-1d66-4bbb-89bb-44059d39bf6a|85ac7e7f-55d4-493b-a9a6-4f11804ded1a",
+          ""
+        ],
+        [
+          "solder_mask_bridge|155250001|152250000|43f6ec7f-4eae-435f-910e-5eaa0c1c595c|85ac7e7f-55d4-493b-a9a6-4f11804ded1a",
+          ""
+        ]
       ],
       "meta": {
         "version": 2
@@ -112,16 +208,19 @@
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
         "courtyards_overlap": "warning",
+        "creepage": "error",
         "diff_pair_gap_out_of_range": "warning",
         "diff_pair_uncoupled_length_too_long": "warning",
         "drill_out_of_range": "error",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
+        "footprint_filters_mismatch": "ignore",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "hole_to_hole": "error",
         "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
@@ -132,9 +231,11 @@
         "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
+        "mirrored_text_on_front_layer": "warning",
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
         "net_conflict": "warning",
+        "nonmirrored_text_on_back_layer": "warning",
         "npth_inside_courtyard": "ignore",
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
@@ -146,10 +247,13 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "warning",
+        "track_angle": "error",
         "track_dangling": "warning",
+        "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
         "unconnected_items": "error",
@@ -162,6 +266,7 @@
         "min_clearance": 0.12,
         "min_connection": 0.12,
         "min_copper_edge_clearance": 0.5,
+        "min_groove_width": 0.0,
         "min_hole_clearance": 0.2,
         "min_hole_to_hole": 0.5,
         "min_microvia_diameter": 0.2,
@@ -181,10 +286,11 @@
       },
       "teardrop_options": [
         {
-          "td_onpadsmd": true,
+          "td_onpthpad": true,
           "td_onroundshapesonly": false,
+          "td_onsmdpad": true,
           "td_ontrackend": false,
-          "td_onviapad": true
+          "td_onvia": true
         }
       ],
       "teardrop_parameters": [
@@ -271,6 +377,7 @@
       "mfg": "",
       "mpn": ""
     },
+    "layer_pairs": [],
     "layer_presets": [],
     "viewports": []
   },
@@ -465,10 +572,15 @@
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "warning",
       "extra_units": "error",
+      "footprint_filter": "ignore",
+      "footprint_link_issues": "warning",
+      "four_way_junction": "ignore",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
+      "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
+      "lib_symbol_mismatch": "warning",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
@@ -481,9 +593,15 @@
       "pin_not_driven": "error",
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
+      "same_local_global_label": "warning",
+      "similar_label_and_power": "warning",
       "similar_labels": "warning",
+      "similar_power": "warning",
       "simulation_model_issue": "ignore",
+      "single_global_label": "ignore",
       "unannotated": "error",
+      "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -517,7 +635,7 @@
   },
   "meta": {
     "filename": "iMX6 Demo Board.kicad_pro",
-    "version": 1
+    "version": 3
   },
   "net_settings": {
     "classes": [
@@ -532,6 +650,7 @@
         "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.119,
         "via_diameter": 0.4,
@@ -549,6 +668,7 @@
         "microvia_drill": 0.1,
         "name": "AUDIO_CODEC",
         "pcb_color": "rgb(255, 249, 95)",
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.119,
         "via_diameter": 0.4,
@@ -566,6 +686,7 @@
         "microvia_drill": 0.1,
         "name": "DRAM_ADDR_CMD_CTRL",
         "pcb_color": "rgb(167, 255, 197)",
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.119,
         "via_diameter": 0.4,
@@ -583,6 +704,7 @@
         "microvia_drill": 0.1,
         "name": "DRAM_BANK0",
         "pcb_color": "rgb(255, 145, 128)",
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.119,
         "via_diameter": 0.4,
@@ -600,6 +722,7 @@
         "microvia_drill": 0.1,
         "name": "DRAM_BANK1",
         "pcb_color": "rgb(255, 246, 164)",
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.119,
         "via_diameter": 0.4,
@@ -617,6 +740,7 @@
         "microvia_drill": 0.1,
         "name": "LCD_DATA",
         "pcb_color": "rgb(151, 220, 255)",
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.119,
         "via_diameter": 0.4,
@@ -634,6 +758,7 @@
         "microvia_drill": 0.1,
         "name": "QSPI",
         "pcb_color": "rgb(113, 56, 188)",
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.119,
         "via_diameter": 0.4,
@@ -651,6 +776,7 @@
         "microvia_drill": 0.1,
         "name": "RMII",
         "pcb_color": "rgb(255, 88, 2)",
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.119,
         "via_diameter": 0.4,
@@ -668,6 +794,7 @@
         "microvia_drill": 0.1,
         "name": "SD_CARD",
         "pcb_color": "rgb(24, 139, 17)",
+        "priority": 7,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.119,
         "via_diameter": 0.4,
@@ -685,6 +812,7 @@
         "microvia_drill": 0.1,
         "name": "USB",
         "pcb_color": "rgb(255, 165, 247)",
+        "priority": 8,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "via_diameter": 0.4,
@@ -702,6 +830,7 @@
         "microvia_drill": 0.1,
         "name": "eMMC",
         "pcb_color": "rgb(152, 113, 255)",
+        "priority": 9,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.119,
         "via_diameter": 0.4,
@@ -710,7 +839,7 @@
       }
     ],
     "meta": {
-      "version": 3
+      "version": 4
     },
     "net_colors": {
       "+1.8V": "rgb(255, 163, 37)",
@@ -727,119 +856,345 @@
       "GNDREF": "rgb(5, 255, 0)"
     },
     "netclass_assignments": {
-      "/i.MX6ULL MAIN/AUDIO CODEC/I2C1.SCL": "AUDIO_CODEC",
-      "/i.MX6ULL MAIN/AUDIO CODEC/I2C1.SDA": "AUDIO_CODEC",
-      "/i.MX6ULL MAIN/AUDIO CODEC/I2S_ADCDAT": "AUDIO_CODEC",
-      "/i.MX6ULL MAIN/AUDIO CODEC/I2S_BCLK": "AUDIO_CODEC",
-      "/i.MX6ULL MAIN/AUDIO CODEC/I2S_DACDAT": "AUDIO_CODEC",
-      "/i.MX6ULL MAIN/AUDIO CODEC/I2S_LRCLK": "AUDIO_CODEC",
-      "/i.MX6ULL MAIN/AUDIO CODEC/I2S_MCLK": "AUDIO_CODEC",
-      "/i.MX6ULL MAIN/BOOT CONFIG/LCD_DATA0": "LCD_DATA",
-      "/i.MX6ULL MAIN/BOOT CONFIG/LCD_DATA1": "LCD_DATA",
-      "/i.MX6ULL MAIN/BOOT CONFIG/LCD_DATA10": "LCD_DATA",
-      "/i.MX6ULL MAIN/BOOT CONFIG/LCD_DATA11": "LCD_DATA",
-      "/i.MX6ULL MAIN/BOOT CONFIG/LCD_DATA12": "LCD_DATA",
-      "/i.MX6ULL MAIN/BOOT CONFIG/LCD_DATA13": "LCD_DATA",
-      "/i.MX6ULL MAIN/BOOT CONFIG/LCD_DATA14": "LCD_DATA",
-      "/i.MX6ULL MAIN/BOOT CONFIG/LCD_DATA15": "LCD_DATA",
-      "/i.MX6ULL MAIN/BOOT CONFIG/LCD_DATA16": "LCD_DATA",
-      "/i.MX6ULL MAIN/BOOT CONFIG/LCD_DATA17": "LCD_DATA",
-      "/i.MX6ULL MAIN/BOOT CONFIG/LCD_DATA18": "LCD_DATA",
-      "/i.MX6ULL MAIN/BOOT CONFIG/LCD_DATA19": "LCD_DATA",
-      "/i.MX6ULL MAIN/BOOT CONFIG/LCD_DATA2": "LCD_DATA",
-      "/i.MX6ULL MAIN/BOOT CONFIG/LCD_DATA20": "LCD_DATA",
-      "/i.MX6ULL MAIN/BOOT CONFIG/LCD_DATA21": "LCD_DATA",
-      "/i.MX6ULL MAIN/BOOT CONFIG/LCD_DATA22": "LCD_DATA",
-      "/i.MX6ULL MAIN/BOOT CONFIG/LCD_DATA23": "LCD_DATA",
-      "/i.MX6ULL MAIN/BOOT CONFIG/LCD_DATA3": "LCD_DATA",
-      "/i.MX6ULL MAIN/BOOT CONFIG/LCD_DATA4": "LCD_DATA",
-      "/i.MX6ULL MAIN/BOOT CONFIG/LCD_DATA5": "LCD_DATA",
-      "/i.MX6ULL MAIN/BOOT CONFIG/LCD_DATA6": "LCD_DATA",
-      "/i.MX6ULL MAIN/BOOT CONFIG/LCD_DATA7": "LCD_DATA",
-      "/i.MX6ULL MAIN/BOOT CONFIG/LCD_DATA8": "LCD_DATA",
-      "/i.MX6ULL MAIN/BOOT CONFIG/LCD_DATA9": "LCD_DATA",
-      "/i.MX6ULL MAIN/BOOT CONFIG/LCD_DOTCLK": "LCD_DATA",
-      "/i.MX6ULL MAIN/BOOT CONFIG/LCD_HSYNC": "LCD_DATA",
-      "/i.MX6ULL MAIN/BOOT CONFIG/LCD_RESET": "LCD_DATA",
-      "/i.MX6ULL MAIN/BOOT CONFIG/LCD_VSYNC": "LCD_DATA",
-      "/i.MX6ULL MAIN/CONTROL GPIO/USBD_N": "USB",
-      "/i.MX6ULL MAIN/CONTROL GPIO/USBD_P": "USB",
-      "/i.MX6ULL MAIN/CONTROL GPIO/_USBD_N": "USB",
-      "/i.MX6ULL MAIN/CONTROL GPIO/_USBD_P": "USB",
-      "/i.MX6ULL MAIN/CPU/DRAM_A0": "DRAM_ADDR_CMD_CTRL",
-      "/i.MX6ULL MAIN/CPU/DRAM_A1": "DRAM_ADDR_CMD_CTRL",
-      "/i.MX6ULL MAIN/CPU/DRAM_A10": "DRAM_ADDR_CMD_CTRL",
-      "/i.MX6ULL MAIN/CPU/DRAM_A11": "DRAM_ADDR_CMD_CTRL",
-      "/i.MX6ULL MAIN/CPU/DRAM_A12": "DRAM_ADDR_CMD_CTRL",
-      "/i.MX6ULL MAIN/CPU/DRAM_A13": "DRAM_ADDR_CMD_CTRL",
-      "/i.MX6ULL MAIN/CPU/DRAM_A14": "DRAM_ADDR_CMD_CTRL",
-      "/i.MX6ULL MAIN/CPU/DRAM_A15": "DRAM_ADDR_CMD_CTRL",
-      "/i.MX6ULL MAIN/CPU/DRAM_A2": "DRAM_ADDR_CMD_CTRL",
-      "/i.MX6ULL MAIN/CPU/DRAM_A3": "DRAM_ADDR_CMD_CTRL",
-      "/i.MX6ULL MAIN/CPU/DRAM_A4": "DRAM_ADDR_CMD_CTRL",
-      "/i.MX6ULL MAIN/CPU/DRAM_A5": "DRAM_ADDR_CMD_CTRL",
-      "/i.MX6ULL MAIN/CPU/DRAM_A6": "DRAM_ADDR_CMD_CTRL",
-      "/i.MX6ULL MAIN/CPU/DRAM_A7": "DRAM_ADDR_CMD_CTRL",
-      "/i.MX6ULL MAIN/CPU/DRAM_A8": "DRAM_ADDR_CMD_CTRL",
-      "/i.MX6ULL MAIN/CPU/DRAM_A9": "DRAM_ADDR_CMD_CTRL",
-      "/i.MX6ULL MAIN/CPU/DRAM_BA0": "DRAM_ADDR_CMD_CTRL",
-      "/i.MX6ULL MAIN/CPU/DRAM_BA1": "DRAM_ADDR_CMD_CTRL",
-      "/i.MX6ULL MAIN/CPU/DRAM_BA2": "DRAM_ADDR_CMD_CTRL",
-      "/i.MX6ULL MAIN/CPU/DRAM_CLK_EN0": "DRAM_ADDR_CMD_CTRL",
-      "/i.MX6ULL MAIN/CPU/DRAM_CLK_EN1": "DRAM_ADDR_CMD_CTRL",
-      "/i.MX6ULL MAIN/CPU/DRAM_CLK_N": "DRAM_ADDR_CMD_CTRL",
-      "/i.MX6ULL MAIN/CPU/DRAM_CLK_P": "DRAM_ADDR_CMD_CTRL",
-      "/i.MX6ULL MAIN/CPU/DRAM_ODT0": "DRAM_ADDR_CMD_CTRL",
-      "/i.MX6ULL MAIN/CPU/DRAM_ODT1": "DRAM_ADDR_CMD_CTRL",
-      "/i.MX6ULL MAIN/CPU/ENET_CLK": "RMII",
-      "/i.MX6ULL MAIN/CPU/LCD_SPI_MOSI": "LCD_DATA",
-      "/i.MX6ULL MAIN/CPU/LCD_SPI_SCLK": "LCD_DATA",
-      "/i.MX6ULL MAIN/CPU/QSPI_DATA0": "QSPI",
-      "/i.MX6ULL MAIN/CPU/QSPI_DATA1": "QSPI",
-      "/i.MX6ULL MAIN/CPU/QSPI_DATA2": "QSPI",
-      "/i.MX6ULL MAIN/CPU/QSPI_DATA3": "QSPI",
-      "/i.MX6ULL MAIN/CPU/QSPI_SCLK": "QSPI",
-      "/i.MX6ULL MAIN/CPU/RMII_CRS_DV{slash}CONFIG2": "RMII",
-      "/i.MX6ULL MAIN/CPU/RMII_MDC": "RMII",
-      "/i.MX6ULL MAIN/CPU/RMII_MDIO": "RMII",
-      "/i.MX6ULL MAIN/CPU/RMII_RXD0{slash}DUPLEX": "RMII",
-      "/i.MX6ULL MAIN/CPU/RMII_RXD1{slash}PHYAD2": "RMII",
-      "/i.MX6ULL MAIN/CPU/RMII_RXER{slash}ISO": "RMII",
-      "/i.MX6ULL MAIN/CPU/RMII_TXD0": "RMII",
-      "/i.MX6ULL MAIN/CPU/RMII_TXD1": "RMII",
-      "/i.MX6ULL MAIN/CPU/RMII_TXEN": "RMII",
-      "/i.MX6ULL MAIN/CPU/SD_CARD_CMD": "SD_CARD",
-      "/i.MX6ULL MAIN/CPU/SD_CARD_DATA0": "SD_CARD",
-      "/i.MX6ULL MAIN/CPU/SD_CARD_DATA1": "SD_CARD",
-      "/i.MX6ULL MAIN/CPU/SD_CARD_DATA2": "SD_CARD",
-      "/i.MX6ULL MAIN/CPU/SD_CARD_DATA3": "SD_CARD",
-      "/i.MX6ULL MAIN/CPU/SD_CARD_SCLK": "SD_CARD",
-      "/i.MX6ULL MAIN/CPU/TOUCH.X1": "LCD_DATA",
-      "/i.MX6ULL MAIN/CPU/TOUCH.X2": "LCD_DATA",
-      "/i.MX6ULL MAIN/CPU/TOUCH.Y1": "LCD_DATA",
-      "/i.MX6ULL MAIN/CPU/TOUCH.Y2": "LCD_DATA",
-      "/i.MX6ULL MAIN/CPU/USB1.DN": "USB",
-      "/i.MX6ULL MAIN/CPU/USB1.DP": "USB",
-      "/i.MX6ULL MAIN/CPU/USB2.DN": "USB",
-      "/i.MX6ULL MAIN/CPU/USB2.DP": "USB",
-      "/i.MX6ULL MAIN/CPU/eMMC_CLK": "eMMC",
-      "/i.MX6ULL MAIN/CPU/eMMC_CMD": "eMMC",
-      "/i.MX6ULL MAIN/CPU/eMMC_DATA0": "eMMC",
-      "/i.MX6ULL MAIN/CPU/eMMC_DATA1": "eMMC",
-      "/i.MX6ULL MAIN/CPU/eMMC_DATA2": "eMMC",
-      "/i.MX6ULL MAIN/CPU/eMMC_DATA3": "eMMC",
-      "/i.MX6ULL MAIN/CPU/eMMC_DATA4": "eMMC",
-      "/i.MX6ULL MAIN/CPU/eMMC_DATA5": "eMMC",
-      "/i.MX6ULL MAIN/CPU/eMMC_DATA6": "eMMC",
-      "/i.MX6ULL MAIN/CPU/eMMC_DATA7": "eMMC",
-      "/i.MX6ULL MAIN/CPU/~{DRAM_CAS}": "DRAM_ADDR_CMD_CTRL",
-      "/i.MX6ULL MAIN/CPU/~{DRAM_CS0}": "DRAM_ADDR_CMD_CTRL",
-      "/i.MX6ULL MAIN/CPU/~{DRAM_CS1}": "DRAM_ADDR_CMD_CTRL",
-      "/i.MX6ULL MAIN/CPU/~{DRAM_RAS}": "DRAM_ADDR_CMD_CTRL",
-      "/i.MX6ULL MAIN/CPU/~{DRAM_WE}": "DRAM_ADDR_CMD_CTRL",
-      "/i.MX6ULL MAIN/CPU/~{LCD_SPI_CS}": "LCD_DATA",
-      "/i.MX6ULL MAIN/CPU/~{QSPI_CS}": "QSPI",
-      "/i.MX6ULL MAIN/CPU/~{eMMC_RESET}": "eMMC",
+      "/i.MX6ULL MAIN/AUDIO CODEC/I2C1.SCL": [
+        "AUDIO_CODEC"
+      ],
+      "/i.MX6ULL MAIN/AUDIO CODEC/I2C1.SDA": [
+        "AUDIO_CODEC"
+      ],
+      "/i.MX6ULL MAIN/AUDIO CODEC/I2S_ADCDAT": [
+        "AUDIO_CODEC"
+      ],
+      "/i.MX6ULL MAIN/AUDIO CODEC/I2S_BCLK": [
+        "AUDIO_CODEC"
+      ],
+      "/i.MX6ULL MAIN/AUDIO CODEC/I2S_DACDAT": [
+        "AUDIO_CODEC"
+      ],
+      "/i.MX6ULL MAIN/AUDIO CODEC/I2S_LRCLK": [
+        "AUDIO_CODEC"
+      ],
+      "/i.MX6ULL MAIN/AUDIO CODEC/I2S_MCLK": [
+        "AUDIO_CODEC"
+      ],
+      "/i.MX6ULL MAIN/BOOT CONFIG/LCD_DATA0": [
+        "LCD_DATA"
+      ],
+      "/i.MX6ULL MAIN/BOOT CONFIG/LCD_DATA1": [
+        "LCD_DATA"
+      ],
+      "/i.MX6ULL MAIN/BOOT CONFIG/LCD_DATA10": [
+        "LCD_DATA"
+      ],
+      "/i.MX6ULL MAIN/BOOT CONFIG/LCD_DATA11": [
+        "LCD_DATA"
+      ],
+      "/i.MX6ULL MAIN/BOOT CONFIG/LCD_DATA12": [
+        "LCD_DATA"
+      ],
+      "/i.MX6ULL MAIN/BOOT CONFIG/LCD_DATA13": [
+        "LCD_DATA"
+      ],
+      "/i.MX6ULL MAIN/BOOT CONFIG/LCD_DATA14": [
+        "LCD_DATA"
+      ],
+      "/i.MX6ULL MAIN/BOOT CONFIG/LCD_DATA15": [
+        "LCD_DATA"
+      ],
+      "/i.MX6ULL MAIN/BOOT CONFIG/LCD_DATA16": [
+        "LCD_DATA"
+      ],
+      "/i.MX6ULL MAIN/BOOT CONFIG/LCD_DATA17": [
+        "LCD_DATA"
+      ],
+      "/i.MX6ULL MAIN/BOOT CONFIG/LCD_DATA18": [
+        "LCD_DATA"
+      ],
+      "/i.MX6ULL MAIN/BOOT CONFIG/LCD_DATA19": [
+        "LCD_DATA"
+      ],
+      "/i.MX6ULL MAIN/BOOT CONFIG/LCD_DATA2": [
+        "LCD_DATA"
+      ],
+      "/i.MX6ULL MAIN/BOOT CONFIG/LCD_DATA20": [
+        "LCD_DATA"
+      ],
+      "/i.MX6ULL MAIN/BOOT CONFIG/LCD_DATA21": [
+        "LCD_DATA"
+      ],
+      "/i.MX6ULL MAIN/BOOT CONFIG/LCD_DATA22": [
+        "LCD_DATA"
+      ],
+      "/i.MX6ULL MAIN/BOOT CONFIG/LCD_DATA23": [
+        "LCD_DATA"
+      ],
+      "/i.MX6ULL MAIN/BOOT CONFIG/LCD_DATA3": [
+        "LCD_DATA"
+      ],
+      "/i.MX6ULL MAIN/BOOT CONFIG/LCD_DATA4": [
+        "LCD_DATA"
+      ],
+      "/i.MX6ULL MAIN/BOOT CONFIG/LCD_DATA5": [
+        "LCD_DATA"
+      ],
+      "/i.MX6ULL MAIN/BOOT CONFIG/LCD_DATA6": [
+        "LCD_DATA"
+      ],
+      "/i.MX6ULL MAIN/BOOT CONFIG/LCD_DATA7": [
+        "LCD_DATA"
+      ],
+      "/i.MX6ULL MAIN/BOOT CONFIG/LCD_DATA8": [
+        "LCD_DATA"
+      ],
+      "/i.MX6ULL MAIN/BOOT CONFIG/LCD_DATA9": [
+        "LCD_DATA"
+      ],
+      "/i.MX6ULL MAIN/BOOT CONFIG/LCD_DOTCLK": [
+        "LCD_DATA"
+      ],
+      "/i.MX6ULL MAIN/BOOT CONFIG/LCD_HSYNC": [
+        "LCD_DATA"
+      ],
+      "/i.MX6ULL MAIN/BOOT CONFIG/LCD_RESET": [
+        "LCD_DATA"
+      ],
+      "/i.MX6ULL MAIN/BOOT CONFIG/LCD_VSYNC": [
+        "LCD_DATA"
+      ],
+      "/i.MX6ULL MAIN/CONTROL GPIO/USBD_N": [
+        "USB"
+      ],
+      "/i.MX6ULL MAIN/CONTROL GPIO/USBD_P": [
+        "USB"
+      ],
+      "/i.MX6ULL MAIN/CONTROL GPIO/_USBD_N": [
+        "USB"
+      ],
+      "/i.MX6ULL MAIN/CONTROL GPIO/_USBD_P": [
+        "USB"
+      ],
+      "/i.MX6ULL MAIN/CPU/DRAM_A0": [
+        "DRAM_ADDR_CMD_CTRL"
+      ],
+      "/i.MX6ULL MAIN/CPU/DRAM_A1": [
+        "DRAM_ADDR_CMD_CTRL"
+      ],
+      "/i.MX6ULL MAIN/CPU/DRAM_A10": [
+        "DRAM_ADDR_CMD_CTRL"
+      ],
+      "/i.MX6ULL MAIN/CPU/DRAM_A11": [
+        "DRAM_ADDR_CMD_CTRL"
+      ],
+      "/i.MX6ULL MAIN/CPU/DRAM_A12": [
+        "DRAM_ADDR_CMD_CTRL"
+      ],
+      "/i.MX6ULL MAIN/CPU/DRAM_A13": [
+        "DRAM_ADDR_CMD_CTRL"
+      ],
+      "/i.MX6ULL MAIN/CPU/DRAM_A14": [
+        "DRAM_ADDR_CMD_CTRL"
+      ],
+      "/i.MX6ULL MAIN/CPU/DRAM_A15": [
+        "DRAM_ADDR_CMD_CTRL"
+      ],
+      "/i.MX6ULL MAIN/CPU/DRAM_A2": [
+        "DRAM_ADDR_CMD_CTRL"
+      ],
+      "/i.MX6ULL MAIN/CPU/DRAM_A3": [
+        "DRAM_ADDR_CMD_CTRL"
+      ],
+      "/i.MX6ULL MAIN/CPU/DRAM_A4": [
+        "DRAM_ADDR_CMD_CTRL"
+      ],
+      "/i.MX6ULL MAIN/CPU/DRAM_A5": [
+        "DRAM_ADDR_CMD_CTRL"
+      ],
+      "/i.MX6ULL MAIN/CPU/DRAM_A6": [
+        "DRAM_ADDR_CMD_CTRL"
+      ],
+      "/i.MX6ULL MAIN/CPU/DRAM_A7": [
+        "DRAM_ADDR_CMD_CTRL"
+      ],
+      "/i.MX6ULL MAIN/CPU/DRAM_A8": [
+        "DRAM_ADDR_CMD_CTRL"
+      ],
+      "/i.MX6ULL MAIN/CPU/DRAM_A9": [
+        "DRAM_ADDR_CMD_CTRL"
+      ],
+      "/i.MX6ULL MAIN/CPU/DRAM_BA0": [
+        "DRAM_ADDR_CMD_CTRL"
+      ],
+      "/i.MX6ULL MAIN/CPU/DRAM_BA1": [
+        "DRAM_ADDR_CMD_CTRL"
+      ],
+      "/i.MX6ULL MAIN/CPU/DRAM_BA2": [
+        "DRAM_ADDR_CMD_CTRL"
+      ],
+      "/i.MX6ULL MAIN/CPU/DRAM_CLK_EN0": [
+        "DRAM_ADDR_CMD_CTRL"
+      ],
+      "/i.MX6ULL MAIN/CPU/DRAM_CLK_EN1": [
+        "DRAM_ADDR_CMD_CTRL"
+      ],
+      "/i.MX6ULL MAIN/CPU/DRAM_CLK_N": [
+        "DRAM_ADDR_CMD_CTRL"
+      ],
+      "/i.MX6ULL MAIN/CPU/DRAM_CLK_P": [
+        "DRAM_ADDR_CMD_CTRL"
+      ],
+      "/i.MX6ULL MAIN/CPU/DRAM_ODT0": [
+        "DRAM_ADDR_CMD_CTRL"
+      ],
+      "/i.MX6ULL MAIN/CPU/DRAM_ODT1": [
+        "DRAM_ADDR_CMD_CTRL"
+      ],
+      "/i.MX6ULL MAIN/CPU/ENET_CLK": [
+        "RMII"
+      ],
+      "/i.MX6ULL MAIN/CPU/LCD_SPI_MOSI": [
+        "LCD_DATA"
+      ],
+      "/i.MX6ULL MAIN/CPU/LCD_SPI_SCLK": [
+        "LCD_DATA"
+      ],
+      "/i.MX6ULL MAIN/CPU/QSPI_DATA0": [
+        "QSPI"
+      ],
+      "/i.MX6ULL MAIN/CPU/QSPI_DATA1": [
+        "QSPI"
+      ],
+      "/i.MX6ULL MAIN/CPU/QSPI_DATA2": [
+        "QSPI"
+      ],
+      "/i.MX6ULL MAIN/CPU/QSPI_DATA3": [
+        "QSPI"
+      ],
+      "/i.MX6ULL MAIN/CPU/QSPI_SCLK": [
+        "QSPI"
+      ],
+      "/i.MX6ULL MAIN/CPU/RMII_CRS_DV{slash}CONFIG2": [
+        "RMII"
+      ],
+      "/i.MX6ULL MAIN/CPU/RMII_MDC": [
+        "RMII"
+      ],
+      "/i.MX6ULL MAIN/CPU/RMII_MDIO": [
+        "RMII"
+      ],
+      "/i.MX6ULL MAIN/CPU/RMII_RXD0{slash}DUPLEX": [
+        "RMII"
+      ],
+      "/i.MX6ULL MAIN/CPU/RMII_RXD1{slash}PHYAD2": [
+        "RMII"
+      ],
+      "/i.MX6ULL MAIN/CPU/RMII_RXER{slash}ISO": [
+        "RMII"
+      ],
+      "/i.MX6ULL MAIN/CPU/RMII_TXD0": [
+        "RMII"
+      ],
+      "/i.MX6ULL MAIN/CPU/RMII_TXD1": [
+        "RMII"
+      ],
+      "/i.MX6ULL MAIN/CPU/RMII_TXEN": [
+        "RMII"
+      ],
+      "/i.MX6ULL MAIN/CPU/SD_CARD_CMD": [
+        "SD_CARD"
+      ],
+      "/i.MX6ULL MAIN/CPU/SD_CARD_DATA0": [
+        "SD_CARD"
+      ],
+      "/i.MX6ULL MAIN/CPU/SD_CARD_DATA1": [
+        "SD_CARD"
+      ],
+      "/i.MX6ULL MAIN/CPU/SD_CARD_DATA2": [
+        "SD_CARD"
+      ],
+      "/i.MX6ULL MAIN/CPU/SD_CARD_DATA3": [
+        "SD_CARD"
+      ],
+      "/i.MX6ULL MAIN/CPU/SD_CARD_SCLK": [
+        "SD_CARD"
+      ],
+      "/i.MX6ULL MAIN/CPU/TOUCH.X1": [
+        "LCD_DATA"
+      ],
+      "/i.MX6ULL MAIN/CPU/TOUCH.X2": [
+        "LCD_DATA"
+      ],
+      "/i.MX6ULL MAIN/CPU/TOUCH.Y1": [
+        "LCD_DATA"
+      ],
+      "/i.MX6ULL MAIN/CPU/TOUCH.Y2": [
+        "LCD_DATA"
+      ],
+      "/i.MX6ULL MAIN/CPU/USB1.DN": [
+        "USB"
+      ],
+      "/i.MX6ULL MAIN/CPU/USB1.DP": [
+        "USB"
+      ],
+      "/i.MX6ULL MAIN/CPU/USB2.DN": [
+        "USB"
+      ],
+      "/i.MX6ULL MAIN/CPU/USB2.DP": [
+        "USB"
+      ],
+      "/i.MX6ULL MAIN/CPU/eMMC_CLK": [
+        "eMMC"
+      ],
+      "/i.MX6ULL MAIN/CPU/eMMC_CMD": [
+        "eMMC"
+      ],
+      "/i.MX6ULL MAIN/CPU/eMMC_DATA0": [
+        "eMMC"
+      ],
+      "/i.MX6ULL MAIN/CPU/eMMC_DATA1": [
+        "eMMC"
+      ],
+      "/i.MX6ULL MAIN/CPU/eMMC_DATA2": [
+        "eMMC"
+      ],
+      "/i.MX6ULL MAIN/CPU/eMMC_DATA3": [
+        "eMMC"
+      ],
+      "/i.MX6ULL MAIN/CPU/eMMC_DATA4": [
+        "eMMC"
+      ],
+      "/i.MX6ULL MAIN/CPU/eMMC_DATA5": [
+        "eMMC"
+      ],
+      "/i.MX6ULL MAIN/CPU/eMMC_DATA6": [
+        "eMMC"
+      ],
+      "/i.MX6ULL MAIN/CPU/eMMC_DATA7": [
+        "eMMC"
+      ],
+      "/i.MX6ULL MAIN/CPU/~{DRAM_CAS}": [
+        "DRAM_ADDR_CMD_CTRL"
+      ],
+      "/i.MX6ULL MAIN/CPU/~{DRAM_CS0}": [
+        "DRAM_ADDR_CMD_CTRL"
+      ],
+      "/i.MX6ULL MAIN/CPU/~{DRAM_CS1}": [
+        "DRAM_ADDR_CMD_CTRL"
+      ],
+      "/i.MX6ULL MAIN/CPU/~{DRAM_RAS}": [
+        "DRAM_ADDR_CMD_CTRL"
+      ],
+      "/i.MX6ULL MAIN/CPU/~{DRAM_WE}": [
+        "DRAM_ADDR_CMD_CTRL"
+      ],
+      "/i.MX6ULL MAIN/CPU/~{LCD_SPI_CS}": [
+        "LCD_DATA"
+      ],
+      "/i.MX6ULL MAIN/CPU/~{QSPI_CS}": [
+        "QSPI"
+      ],
+      "/i.MX6ULL MAIN/CPU/~{eMMC_RESET}": [
+        "eMMC"
+      ],
       "/i.MX6ULL MAIN/ETHERNET/RMII_CRS_DV{slash}CONFIG2": "RMII",
       "/i.MX6ULL MAIN/ETHERNET/RMII_MDC": "RMII",
       "/i.MX6ULL MAIN/ETHERNET/RMII_MDIO": "RMII",
@@ -907,28 +1262,72 @@
       "/i.MX6ULL MAIN/RAM DDR3/DRAM_CLK_EN1": "DRAM_ADDR_CMD_CTRL",
       "/i.MX6ULL MAIN/RAM DDR3/DRAM_CLK_N": "DRAM_ADDR_CMD_CTRL",
       "/i.MX6ULL MAIN/RAM DDR3/DRAM_CLK_P": "DRAM_ADDR_CMD_CTRL",
-      "/i.MX6ULL MAIN/RAM DDR3/DRAM_DATA0": "DRAM_BANK0",
-      "/i.MX6ULL MAIN/RAM DDR3/DRAM_DATA1": "DRAM_BANK0",
-      "/i.MX6ULL MAIN/RAM DDR3/DRAM_DATA10": "DRAM_BANK1",
-      "/i.MX6ULL MAIN/RAM DDR3/DRAM_DATA11": "DRAM_BANK1",
-      "/i.MX6ULL MAIN/RAM DDR3/DRAM_DATA12": "DRAM_BANK1",
-      "/i.MX6ULL MAIN/RAM DDR3/DRAM_DATA13": "DRAM_BANK1",
-      "/i.MX6ULL MAIN/RAM DDR3/DRAM_DATA14": "DRAM_BANK1",
-      "/i.MX6ULL MAIN/RAM DDR3/DRAM_DATA15": "DRAM_BANK1",
-      "/i.MX6ULL MAIN/RAM DDR3/DRAM_DATA2": "DRAM_BANK0",
-      "/i.MX6ULL MAIN/RAM DDR3/DRAM_DATA3": "DRAM_BANK0",
-      "/i.MX6ULL MAIN/RAM DDR3/DRAM_DATA4": "DRAM_BANK0",
-      "/i.MX6ULL MAIN/RAM DDR3/DRAM_DATA5": "DRAM_BANK0",
-      "/i.MX6ULL MAIN/RAM DDR3/DRAM_DATA6": "DRAM_BANK0",
-      "/i.MX6ULL MAIN/RAM DDR3/DRAM_DATA7": "DRAM_BANK0",
-      "/i.MX6ULL MAIN/RAM DDR3/DRAM_DATA8": "DRAM_BANK1",
-      "/i.MX6ULL MAIN/RAM DDR3/DRAM_DATA9": "DRAM_BANK1",
-      "/i.MX6ULL MAIN/RAM DDR3/DRAM_DML": "DRAM_BANK0",
-      "/i.MX6ULL MAIN/RAM DDR3/DRAM_DMU": "DRAM_BANK1",
-      "/i.MX6ULL MAIN/RAM DDR3/DRAM_DQSL_N": "DRAM_BANK0",
-      "/i.MX6ULL MAIN/RAM DDR3/DRAM_DQSL_P": "DRAM_BANK0",
-      "/i.MX6ULL MAIN/RAM DDR3/DRAM_DQSU_N": "DRAM_BANK1",
-      "/i.MX6ULL MAIN/RAM DDR3/DRAM_DQSU_P": "DRAM_BANK1",
+      "/i.MX6ULL MAIN/RAM DDR3/DRAM_DATA0": [
+        "DRAM_BANK0"
+      ],
+      "/i.MX6ULL MAIN/RAM DDR3/DRAM_DATA1": [
+        "DRAM_BANK0"
+      ],
+      "/i.MX6ULL MAIN/RAM DDR3/DRAM_DATA10": [
+        "DRAM_BANK1"
+      ],
+      "/i.MX6ULL MAIN/RAM DDR3/DRAM_DATA11": [
+        "DRAM_BANK1"
+      ],
+      "/i.MX6ULL MAIN/RAM DDR3/DRAM_DATA12": [
+        "DRAM_BANK1"
+      ],
+      "/i.MX6ULL MAIN/RAM DDR3/DRAM_DATA13": [
+        "DRAM_BANK1"
+      ],
+      "/i.MX6ULL MAIN/RAM DDR3/DRAM_DATA14": [
+        "DRAM_BANK1"
+      ],
+      "/i.MX6ULL MAIN/RAM DDR3/DRAM_DATA15": [
+        "DRAM_BANK1"
+      ],
+      "/i.MX6ULL MAIN/RAM DDR3/DRAM_DATA2": [
+        "DRAM_BANK0"
+      ],
+      "/i.MX6ULL MAIN/RAM DDR3/DRAM_DATA3": [
+        "DRAM_BANK0"
+      ],
+      "/i.MX6ULL MAIN/RAM DDR3/DRAM_DATA4": [
+        "DRAM_BANK0"
+      ],
+      "/i.MX6ULL MAIN/RAM DDR3/DRAM_DATA5": [
+        "DRAM_BANK0"
+      ],
+      "/i.MX6ULL MAIN/RAM DDR3/DRAM_DATA6": [
+        "DRAM_BANK0"
+      ],
+      "/i.MX6ULL MAIN/RAM DDR3/DRAM_DATA7": [
+        "DRAM_BANK0"
+      ],
+      "/i.MX6ULL MAIN/RAM DDR3/DRAM_DATA8": [
+        "DRAM_BANK1"
+      ],
+      "/i.MX6ULL MAIN/RAM DDR3/DRAM_DATA9": [
+        "DRAM_BANK1"
+      ],
+      "/i.MX6ULL MAIN/RAM DDR3/DRAM_DML": [
+        "DRAM_BANK0"
+      ],
+      "/i.MX6ULL MAIN/RAM DDR3/DRAM_DMU": [
+        "DRAM_BANK1"
+      ],
+      "/i.MX6ULL MAIN/RAM DDR3/DRAM_DQSL_N": [
+        "DRAM_BANK0"
+      ],
+      "/i.MX6ULL MAIN/RAM DDR3/DRAM_DQSL_P": [
+        "DRAM_BANK0"
+      ],
+      "/i.MX6ULL MAIN/RAM DDR3/DRAM_DQSU_N": [
+        "DRAM_BANK1"
+      ],
+      "/i.MX6ULL MAIN/RAM DDR3/DRAM_DQSU_P": [
+        "DRAM_BANK1"
+      ],
       "/i.MX6ULL MAIN/RAM DDR3/~{DRAM_CAS}": "DRAM_ADDR_CMD_CTRL",
       "/i.MX6ULL MAIN/RAM DDR3/~{DRAM_CS0}": "DRAM_ADDR_CMD_CTRL",
       "/i.MX6ULL MAIN/RAM DDR3/~{DRAM_CS1}": "DRAM_ADDR_CMD_CTRL",
@@ -1232,6 +1631,7 @@
       ],
       "filter_string": "",
       "group_symbols": true,
+      "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
       "sort_field": "${QUANTITY}"
@@ -1266,6 +1666,7 @@
     "net_format_name": "",
     "page_layout_descr_file": "${KICAD_USER_TEMPLATE_DIR}/ts-m.kicad_wks",
     "plot_directory": "schematic/",
+    "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,

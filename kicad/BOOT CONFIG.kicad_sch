@@ -1,13 +1,13 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "a82624d3-b1fa-4c12-85f1-ab552044f9cf")
 	(paper "A3")
 	(title_block
 		(title "i.MX6 Demo Board")
-		(date "2024-05-26")
-		(rev "00")
+		(date "2026-02-16")
+		(rev "01")
 		(company "ts-manuel")
 	)
 	(lib_symbols
@@ -120,17 +120,6 @@
 					)
 				)
 				(rectangle
-					(start -3.048 0)
-					(end -4.572 -2.286)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
 					(start -3.048 2.286)
 					(end -4.572 -2.286)
 					(stroke
@@ -142,8 +131,8 @@
 					)
 				)
 				(rectangle
-					(start -2.032 0)
-					(end -0.508 -2.286)
+					(start -3.048 0)
+					(end -4.572 -2.286)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -164,8 +153,8 @@
 					)
 				)
 				(rectangle
-					(start 2.032 0)
-					(end 0.508 -2.286)
+					(start -2.032 0)
+					(end -0.508 -2.286)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -186,8 +175,8 @@
 					)
 				)
 				(rectangle
-					(start 4.572 0)
-					(end 3.048 -2.286)
+					(start 2.032 0)
+					(end 0.508 -2.286)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -207,8 +196,28 @@
 						(type none)
 					)
 				)
+				(rectangle
+					(start 4.572 0)
+					(end 3.048 -2.286)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(text "1"
 					(at -4.064 -3.81 0)
+					(effects
+						(font
+							(size 1.0922 1.0922)
+						)
+						(justify bottom)
+					)
+				)
+				(text "ON"
+					(at -3.556 2.286 0)
 					(effects
 						(font
 							(size 1.0922 1.0922)
@@ -243,13 +252,22 @@
 						(justify bottom)
 					)
 				)
-				(text "ON"
-					(at -3.556 2.286 0)
-					(effects
-						(font
-							(size 1.0922 1.0922)
+				(pin passive line
+					(at -3.81 6.35 270)
+					(length 2.54)
+					(name "8"
+						(effects
+							(font
+								(size 0 0)
+							)
 						)
-						(justify bottom)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
 					)
 				)
 				(pin passive line
@@ -263,96 +281,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -1.27 -6.35 90)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 -6.35 90)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 -6.35 90)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 6.35 270)
-					(length 2.54)
-					(name "5"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 6.35 270)
-					(length 2.54)
-					(name "6"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "6"
 						(effects
 							(font
 								(size 0 0)
@@ -379,16 +307,88 @@
 					)
 				)
 				(pin passive line
-					(at -3.81 6.35 270)
+					(at -1.27 -6.35 90)
 					(length 2.54)
-					(name "8"
+					(name "2"
 						(effects
 							(font
 								(size 0 0)
 							)
 						)
 					)
-					(number "8"
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 6.35 270)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -6.35 90)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 6.35 270)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -6.35 90)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 0 0)
@@ -397,9 +397,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "-- database:Resistors/RES-SMD-0402-10K-1/16W-1%"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -585,9 +588,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "-- database:Resistors/RES-SMD-0402-1K5-1/16W-1%"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -773,12 +779,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+9VA"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -850,7 +861,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -862,7 +873,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -893,12 +904,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GNDREF"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1025,6 +1041,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
@@ -16224,7 +16241,6 @@
 	)
 	(label "LCD_DATA5"
 		(at 332.74 177.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16235,7 +16251,6 @@
 	)
 	(label "LCD_DATA4"
 		(at 332.74 175.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16246,7 +16261,6 @@
 	)
 	(label "LCD_DATA13"
 		(at 332.74 200.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16257,7 +16271,6 @@
 	)
 	(label "LCD_DATA6"
 		(at 332.74 180.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16268,7 +16281,6 @@
 	)
 	(label "LCD_DATA0"
 		(at 332.74 165.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16279,7 +16291,6 @@
 	)
 	(label "LCD_DATA15"
 		(at 332.74 205.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16290,7 +16301,6 @@
 	)
 	(label "LCD_DATA20"
 		(at 332.74 220.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16301,7 +16311,6 @@
 	)
 	(label "LCD_DATA1"
 		(at 332.74 167.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16312,7 +16321,6 @@
 	)
 	(label "LCD_DATA14"
 		(at 332.74 203.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16323,7 +16331,6 @@
 	)
 	(label "LCD_DATA2"
 		(at 332.74 170.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16334,7 +16341,6 @@
 	)
 	(label "LCD_DATA21"
 		(at 332.74 223.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16345,7 +16351,6 @@
 	)
 	(label "LCD_DATA8"
 		(at 332.74 187.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16356,7 +16361,6 @@
 	)
 	(label "LCD_DATA16"
 		(at 332.74 210.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16367,7 +16371,6 @@
 	)
 	(label "LCD_DATA19"
 		(at 332.74 218.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16378,7 +16381,6 @@
 	)
 	(label "LCD_DATA9"
 		(at 332.74 190.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16389,7 +16391,6 @@
 	)
 	(label "LCD_DATA18"
 		(at 332.74 215.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16400,7 +16401,6 @@
 	)
 	(label "LCD_DATA11"
 		(at 332.74 195.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16411,7 +16411,6 @@
 	)
 	(label "LCD_DATA3"
 		(at 332.74 172.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16422,7 +16421,6 @@
 	)
 	(label "LCD_DATA22"
 		(at 332.74 226.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16433,7 +16431,6 @@
 	)
 	(label "LCD_DATA17"
 		(at 332.74 213.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16444,7 +16441,6 @@
 	)
 	(label "LCD_DATA7"
 		(at 332.74 182.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16455,7 +16451,6 @@
 	)
 	(label "LCD_DATA10"
 		(at 332.74 193.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16466,7 +16461,6 @@
 	)
 	(label "LCD_DATA23"
 		(at 332.74 228.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16477,7 +16471,6 @@
 	)
 	(label "LCD_DATA12"
 		(at 332.74 198.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16489,7 +16482,6 @@
 	(hierarchical_label "BOOT_MODE_1"
 		(shape output)
 		(at 368.3 157.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16501,7 +16493,6 @@
 	(hierarchical_label "{LCD_DATA}"
 		(shape passive)
 		(at 368.3 160.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16513,7 +16504,6 @@
 	(hierarchical_label "BOOT_MODE_0"
 		(shape output)
 		(at 368.3 154.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

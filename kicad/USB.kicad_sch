@@ -1,18 +1,20 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "763756e3-ab31-40ec-bd1e-ac6578919933")
 	(paper "A3")
 	(title_block
 		(title "i.MX6 Demo Board")
-		(date "2024-05-26")
-		(rev "00")
+		(date "2026-02-16")
+		(rev "01")
 		(company "ts-manuel")
 	)
 	(lib_symbols
 		(symbol "-- database:Capacitors/CAP_0603-2.2u-16V-X5R-10%"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -161,7 +163,7 @@
 			(symbol "Capacitors/CAP_0603-2.2u-16V-X5R-10%_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -173,7 +175,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -222,11 +224,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "-- database:Diodes/TVS_LESD8D5.0CAT5G"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -379,10 +386,10 @@
 			(symbol "Diodes/TVS_LESD8D5.0CAT5G_0_1"
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -403,10 +410,10 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
+						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -452,9 +459,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "-- database:Generic/FB_GZ2012D101TF"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -574,7 +584,7 @@
 			(symbol "Generic/FB_GZ2012D101TF_0_1"
 				(polyline
 					(pts
-						(xy 0 -1.27) (xy 0 -1.2192)
+						(xy -2.7686 0.4064) (xy -1.7018 2.2606) (xy 2.7686 -0.3048) (xy 1.6764 -2.159) (xy -2.7686 0.4064)
 					)
 					(stroke
 						(width 0)
@@ -598,7 +608,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.7686 0.4064) (xy -1.7018 2.2606) (xy 2.7686 -0.3048) (xy 1.6764 -2.159) (xy -2.7686 0.4064)
+						(xy 0 -1.27) (xy 0 -1.2192)
 					)
 					(stroke
 						(width 0)
@@ -647,6 +657,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "-- database:Integrated/INT-MT9700"
 			(exclude_from_sim no)
@@ -756,53 +767,17 @@
 						(type background)
 					)
 				)
-				(pin power_out line
-					(at 22.86 -2.54 180)
-					(length 2.54)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_in line
-					(at 10.16 -15.24 90)
+					(at -2.54 -2.54 0)
 					(length 2.54)
-					(name "GND"
+					(name "VIN"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -10.16 180)
-					(length 2.54)
-					(name "SET"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -829,16 +804,16 @@
 					)
 				)
 				(pin power_in line
-					(at -2.54 -2.54 0)
+					(at 10.16 -15.24 90)
 					(length 2.54)
-					(name "VIN"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -846,237 +821,13 @@
 						)
 					)
 				)
-			)
-		)
-		(symbol "-- database:Mechanical/USB-A_906-762B1026D10200"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0.635 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "906-762B1026D10200"
-				(at 10.795 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "ts_Mechanical:USB-TypeA-906-762B1026D10200"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2106061905_Jing-Extension-of-the-Electronic-Co--906-762B1026D10200_C2763240.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "USB Type-A THT Female Side Insertion"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C2763240"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Jing Extension of the Electronic Co."
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "906-762B1026D10200"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Stock" "0"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "ts_Mechanical:USB-TypeA-906-762B1026D10200"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Mechanical/USB-A_906-762B1026D10200_1_0"
-				(rectangle
-					(start 0 0)
-					(end 5.08 -12.7)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 0.508 -0.508)
-					(end 4.572 -12.192)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.54 -9.652)
-					(end 1.778 -10.668)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.54 -7.112)
-					(end 1.778 -8.128)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.54 -4.572)
-					(end 1.778 -5.588)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.54 -2.032)
-					(end 1.778 -3.048)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 4.064 -1.524)
-					(end 2.54 -11.176)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "D+"
-					(at 3.302 -7.62 900)
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(text "D-"
-					(at 3.302 -5.08 900)
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(text "G"
-					(at 3.302 -10.16 900)
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(text "V"
-					(at 3.302 -2.54 900)
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -15.24 90)
+				(pin power_out line
+					(at 22.86 -2.54 180)
 					(length 2.54)
-					(name "SHEELD"
+					(name "VOUT"
 						(effects
 							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "0"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "VBUS"
-						(effects
-							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -1089,30 +840,12 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -5.08 180)
+					(at 22.86 -10.16 180)
 					(length 2.54)
-					(name "D-"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
+					(name "SET"
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -7.62 180)
-					(length 2.54)
-					(name "D+"
-						(effects
-							(font
-								(size 0 0)
 							)
 						)
 					)
@@ -1124,28 +857,13 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 7.62 -10.16 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "-- database:Resistors/RES-SMD-0402-10K-1/16W-1%"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -1331,11 +1049,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "db:Capacitors/CAP_TAJD157K010RNJ"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1516,9 +1239,9 @@
 					)
 				)
 				(arc
-					(start 2.032 -1.27)
+					(start -2.032 -1.27)
 					(mid 0 -0.5572)
-					(end -2.032 -1.27)
+					(end 2.032 -1.27)
 					(stroke
 						(width 0.508)
 						(type default)
@@ -1566,12 +1289,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+9VA"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1643,7 +1371,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1655,7 +1383,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1686,12 +1414,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GNDREF"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1818,7 +1551,397 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+		(symbol "ts_database:Mechanical/USB-A_906-762B1026D10200"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0.635 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "906-762B1026D10200"
+				(at 10.795 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "ts_Mechanical:USB-TypeA-906-762B1026D10200"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2106061905_Jing-Extension-of-the-Electronic-Co--906-762B1026D10200_C2763240.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "USB Type-A THT Female Side Insertion"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C2763240"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Jing Extension of the Electronic Co."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "906-762B1026D10200"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Stock" "0"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "ts_Mechanical:USB-TypeA-906-762B1026D10200"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Mechanical/USB-A_906-762B1026D10200_1_0"
+				(rectangle
+					(start 0 0)
+					(end 5.08 -12.7)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 0.508 -0.508)
+					(end 4.572 -12.192)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 -2.032)
+					(end 1.778 -3.048)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 -4.572)
+					(end 1.778 -5.588)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 -7.112)
+					(end 1.778 -8.128)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 -9.652)
+					(end 1.778 -10.668)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 4.064 -1.524)
+					(end 2.54 -11.176)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "V"
+					(at 3.302 -2.54 900)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(text "D-"
+					(at 3.302 -5.08 900)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(text "D+"
+					(at 3.302 -7.62 900)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(text "G"
+					(at 3.302 -10.16 900)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -15.24 90)
+					(length 2.54)
+					(name "SHEELD"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "0"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 2.54)
+					(name "D-"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -7.62 180)
+					(length 2.54)
+					(name "D+"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -10.16 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 116.84 162.56)
+		(end 294.64 238.76)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6945c82a-000e-4fbd-8492-f882d84229a7)
+	)
+	(rectangle
+		(start 116.84 55.88)
+		(end 294.64 132.08)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d278beeb-b311-4320-859d-5f6e851ebe17)
+	)
+	(text "USB1"
+		(exclude_from_sim no)
+		(at 116.84 54.61 0)
+		(effects
+			(font
+				(size 3.048 3.048)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "138694f2-0666-411f-aaa8-2a077cf7c43e")
+	)
+	(text "USB2"
+		(exclude_from_sim no)
+		(at 116.84 161.29 0)
+		(effects
+			(font
+				(size 3.048 3.048)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "73f5dcb7-69ab-43ab-bc7e-98f8b9768f1b")
+	)
+	(text_box "DESIGN NOTE:\n\nUSB Max current 680 mA"
+		(exclude_from_sim no)
+		(at 167.64 203.2 0)
+		(size 33.02 10.16)
+		(margins 1.375 1.375 1.375 1.375)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 255 229 153 1)
+		)
+		(fill
+			(type color)
+			(color 243 243 243 1)
+		)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left top)
+		)
+		(uuid "280e9bdf-069d-483d-879a-86252b33c984")
+	)
+	(text_box "DESIGN NOTE:\n\nUSB Max current 680 mA"
+		(exclude_from_sim no)
+		(at 166.37 96.52 0)
+		(size 33.02 10.16)
+		(margins 1.375 1.375 1.375 1.375)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 255 229 153 1)
+		)
+		(fill
+			(type color)
+			(color 243 243 243 1)
+		)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left top)
+		)
+		(uuid "fca8a494-3928-4ef3-96aa-eb76d94b52c8")
 	)
 	(junction
 		(at 256.54 91.44)
@@ -1967,16 +2090,6 @@
 			(type default)
 		)
 		(uuid "1a3edee6-ff93-45cf-9753-5b8200588054")
-	)
-	(wire
-		(pts
-			(xy 226.06 91.44) (xy 256.54 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1cf25ad2-927e-4d00-9fed-72859e68f279")
 	)
 	(wire
 		(pts
@@ -2250,16 +2363,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 93.98) (xy 266.7 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88a59055-8a39-46ed-8ca7-0a62db8da864")
-	)
-	(wire
-		(pts
 			(xy 127 71.12) (xy 162.56 71.12)
 		)
 		(stroke
@@ -2390,6 +2493,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 198.12) (xy 256.54 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afe55501-9dd8-4cfc-87c1-0649550c69f8")
+	)
+	(wire
+		(pts
 			(xy 218.44 71.12) (xy 228.6 71.12)
 		)
 		(stroke
@@ -2407,6 +2520,16 @@
 			(type default)
 		)
 		(uuid "b4336b92-3f3f-4fb7-9b99-9d400ee83d5a")
+	)
+	(wire
+		(pts
+			(xy 226.06 91.44) (xy 256.54 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5f9e258-8514-48d5-9b23-99045259980e")
 	)
 	(wire
 		(pts
@@ -2480,13 +2603,13 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 198.12) (xy 256.54 198.12)
+			(xy 226.06 93.98) (xy 266.7 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eac73fc2-40fb-4444-be97-35c2825cead4")
+		(uuid "eaab9376-1469-4e67-9f74-d91c6f6933db")
 	)
 	(wire
 		(pts
@@ -2528,99 +2651,8 @@
 		)
 		(uuid "ff99cb88-d23e-49fa-9a2c-d87edcefc3bf")
 	)
-	(rectangle
-		(start 116.84 162.56)
-		(end 294.64 238.76)
-		(stroke
-			(width 1)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 6945c82a-000e-4fbd-8492-f882d84229a7)
-	)
-	(rectangle
-		(start 116.84 55.88)
-		(end 294.64 132.08)
-		(stroke
-			(width 1)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid d278beeb-b311-4320-859d-5f6e851ebe17)
-	)
-	(text_box "DESIGN NOTE:\n\nUSB Max current 680 mA"
-		(exclude_from_sim no)
-		(at 167.64 203.2 0)
-		(size 33.02 10.16)
-		(stroke
-			(width 0.5)
-			(type default)
-			(color 255 229 153 1)
-		)
-		(fill
-			(type color)
-			(color 243 243 243 1)
-		)
-		(effects
-			(font
-				(size 1.5 1.5)
-			)
-			(justify left top)
-		)
-		(uuid "280e9bdf-069d-483d-879a-86252b33c984")
-	)
-	(text_box "DESIGN NOTE:\n\nUSB Max current 680 mA"
-		(exclude_from_sim no)
-		(at 166.37 96.52 0)
-		(size 33.02 10.16)
-		(stroke
-			(width 0.5)
-			(type default)
-			(color 255 229 153 1)
-		)
-		(fill
-			(type color)
-			(color 243 243 243 1)
-		)
-		(effects
-			(font
-				(size 1.5 1.5)
-			)
-			(justify left top)
-		)
-		(uuid "fca8a494-3928-4ef3-96aa-eb76d94b52c8")
-	)
-	(text "USB1"
-		(exclude_from_sim no)
-		(at 116.84 54.61 0)
-		(effects
-			(font
-				(size 3.048 3.048)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "138694f2-0666-411f-aaa8-2a077cf7c43e")
-	)
-	(text "USB2"
-		(exclude_from_sim no)
-		(at 116.84 161.29 0)
-		(effects
-			(font
-				(size 3.048 3.048)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "73f5dcb7-69ab-43ab-bc7e-98f8b9768f1b")
-	)
 	(label "USB1.DP"
-		(at 231.14 91.44 0)
-		(fields_autoplaced yes)
+		(at 231.14 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2631,7 +2663,6 @@
 	)
 	(label "USB2_VBUS"
 		(at 266.7 195.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2642,7 +2673,6 @@
 	)
 	(label "USB1_VBUS"
 		(at 261.62 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2652,8 +2682,7 @@
 		(uuid "82df1108-0137-47ac-8b18-3c2c69f673b3")
 	)
 	(label "USB1.DN"
-		(at 231.14 93.98 0)
-		(fields_autoplaced yes)
+		(at 231.14 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2663,8 +2692,7 @@
 		(uuid "87e81f55-e636-44fc-b71c-335c17ddb034")
 	)
 	(label "USB2.DN"
-		(at 231.14 200.66 0)
-		(fields_autoplaced yes)
+		(at 231.14 198.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2674,8 +2702,7 @@
 		(uuid "aaff89c5-53a6-40ba-a2a5-8ab80bc47a15")
 	)
 	(label "USB2.DP"
-		(at 231.14 198.12 0)
-		(fields_autoplaced yes)
+		(at 231.14 200.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2687,7 +2714,6 @@
 	(hierarchical_label "PMIC_POWER_GOOD"
 		(shape input)
 		(at 160.02 78.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2699,7 +2725,6 @@
 	(hierarchical_label "PMIC_POWER_GOOD"
 		(shape input)
 		(at 160.02 185.42 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2711,7 +2736,6 @@
 	(hierarchical_label "USB1{DP DN}"
 		(shape passive)
 		(at 215.9 99.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2723,7 +2747,6 @@
 	(hierarchical_label "USB2{DP DN}"
 		(shape passive)
 		(at 215.9 205.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5447,7 +5470,7 @@
 		)
 	)
 	(symbol
-		(lib_id "-- database:Mechanical/USB-A_906-762B1026D10200")
+		(lib_id "ts_database:Mechanical/USB-A_906-762B1026D10200")
 		(at 287.02 86.36 0)
 		(mirror y)
 		(unit 1)
@@ -5466,12 +5489,11 @@
 			)
 		)
 		(property "Value" "906-762B1026D10200"
-			(at 266.7 85.09 0)
+			(at 276.225 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "ts_Mechanical:USB-TypeA-906-762B1026D10200"
@@ -6143,7 +6165,7 @@
 		)
 	)
 	(symbol
-		(lib_id "-- database:Mechanical/USB-A_906-762B1026D10200")
+		(lib_id "ts_database:Mechanical/USB-A_906-762B1026D10200")
 		(at 287.02 193.04 0)
 		(mirror y)
 		(unit 1)
@@ -6162,12 +6184,11 @@
 			)
 		)
 		(property "Value" "906-762B1026D10200"
-			(at 266.7 191.77 0)
+			(at 276.225 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "ts_Mechanical:USB-TypeA-906-762B1026D10200"
