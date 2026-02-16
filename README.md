@@ -16,7 +16,8 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-This repository contains the design files and documentation for a custom-built Linux demo board based on the NXP i.MX6ULL (900 MHz ARM Cortex-A7). The purpose of this project isn't to solve a specific problem or build a commercial product. This is a dedicated learning platform designed to bridge the gap between simple micro-controllers and complex application processors. While micro-controllers (like STM32 or ESP32) are great for real-time tasks, application processors are better suited for "heavy lifting" and high-level software stacks. Checkout the full schematic [schematic](./kicad/schematic/iMX6%20Demo%20Board.pdf) and the [interactive BOM](./kicad/bom/ibom.html).
+This repository contains the design files and documentation for a custom-built Linux demo board based on the NXP i.MX6ULL (900 MHz ARM Cortex-A7). The purpose of this project isn't to solve a specific problem or build a commercial product. This is a dedicated learning platform designed to bridge the gap between simple micro-controllers and complex application processors. While micro-controllers (like STM32 or ESP32) are great for real-time tasks, application processors are better suited for "heavy lifting" and high-level software stacks. Checkout the full schematic [schematic](./kicad/schematic/iMX6%20Demo%20Board.pdf) and the <a href="https://htmlpreview.github.io/?https://github.com/ts-manuel/iMX6-Demo-Board/blob/main/kicad/bom/ibom.html" target="_blank">Interactive BOM</a>.
+
 
 ### Hardware Specifications
 - **System**
