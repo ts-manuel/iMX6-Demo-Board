@@ -38,7 +38,7 @@ This repository contains the design files and documentation for a custom-built L
 
 <!-- SOFTWARE -->
 ## Software
-The current goal is to compile a basic Linux image using the Yocto Project to exercise and validate every hardware feature on the board (Ethernet, USB, Display, and GPIO).\
+The current goal is to compile a basic Linux image using the Yocto Project to exercise and validate every hardware feature on the board (Ethernet, USB, Display, and GPIO).
 
 **Status: In Progress**. Development of the custom meta-layer and bitbake recipes is currently underway.
 
